@@ -1,0 +1,145 @@
+@charset "UTF-8";
+$color-main: #3385d6;
+$color-main02: #42c1c7;
+$color-main03: #1a2b49;
+$color-active: #f79420;
+$color-header: #094c86;
+$transform-support-threshold: .1;
+
+@mixin fz($s) {
+  font-size: $s + px;
+  font-size: ($s / 10) + rem;
+}
+
+@mixin fzsp($s) {
+  font-size: $s/1080*100vw;
+}
+
+@function calcRem($size) {
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+}
+
+@mixin display-flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin align-items($a) {
+  -webkit-box-align: $a;
+  -moz-box-align: $a;
+  -ms-flex-align: $a;
+  -webkit-align-items: $a;
+  align-items: $a;
+}
+
+@mixin flex-direction($val) {
+  -webkit-flex-direction: $val;
+  flex-direction: $val;
+}
+
+@mixin flex-wrap($val) {
+  -webkit-flex-wrap: $val;
+  flex-wrap: $val;
+}
+
+@mixin flex-flow($val) {
+  -webkit-flex-flow: $val;
+  flex-flow: $val;
+}
+
+@mixin justify-content($jc) {
+  -webkit-box-pack: $jc;
+  -moz-box-pack: $jc;
+  -ms-flex-pack: $jc;
+  -webkit-justify-content: $jc;
+  justify-content: $jc;
+}
+
+@mixin border-radius($radius) {
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin transform($transforms) {
+  -moz-transform: $transforms;
+  -o-transform: $transforms;
+  -ms-transform: $transforms;
+  -webkit-transform: $transforms;
+  transform: $transforms;
+}
+
+@mixin transition($val) {
+  -moz-transition: $val;
+  -o-transition: $val;
+  -webkit-transition: $val;
+  transition: $val;
+}
+
+@mixin transition-delay($val) {
+  -moz-transition-delay: $val;
+  -o-transition-delay: $val;
+  -webkit-transition-delay: $val;
+  transition-delay: $val;
+}
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+}
+
+@mixin box-shadow($val) {
+  -moz-box-shadow: $val;
+  -webkit-box-shadow: $val;
+  box-shadow: $val;
+}
+
+// ==============================================
+// Font Face
+// ==============================================
+
+@mixin font-face($fontname: fontFamilyName, $fontsrc: fontFileSrc) {
+  @font-face {
+    font-family: quote($fontname);
+    src: url('#{unquote($fontsrc)}.eot');
+    src: url('#{unquote($fontsrc)}.eot?#iefix') format('embedded-opentype'),
+    url('#{unquote($fontsrc)}.woff') format('woff'),
+    url('#{unquote($fontsrc)}.ttf') format('truetype'),
+    url('#{unquote($fontsrc)}.svg##{unquote($fontname)}') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+@include font-face('Ubuntu-Bold', '/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-B');
+@include font-face('Ubuntu-Medium', '/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-M');
+@include font-face('Ubuntu-Light', '/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-L');
+@include font-face("Ubuntu-Regular", "/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-R");
+@include font-face("GTEestiProDisplay-Medium", "/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Medium");
+@include font-face("GTEestiProDisplay-Regular", "/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular");
+@include font-face("GTEestiProDisplay-Bold", "/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular");
+@include font-face("Ubuntu-SemiBold", "/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-SemiBold");
+@include font-face("FontAwesome", "/Mekong-delta-tours/common/fonts/FontAwesome/fontawesome-webfont");
+
+@mixin GTEestiLight {
+  font-family: GT-Eesti-Light;
+  font-weight: 300;
+}
+
+@mixin GTEestiRegular {
+  font-family: GT-Eesti-Regular;
+  font-weight: 400;
+}
+
+@mixin GTEestiMedium {
+  font-family: GT-Eesti-Medium;
+  font-weight: 500;
+}
+
+@mixin GTEestiBold {
+  font-family: GT-Eesti-Bold;
+  font-weight: 700;
+}

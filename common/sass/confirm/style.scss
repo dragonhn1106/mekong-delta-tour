@@ -1,0 +1,254 @@
+@charset 'UTF-8';
+
+@import "../mixin";
+
+.confirm {
+  @include fz(16);
+  $color-text: #1a2b49;
+  color: $color-text;
+  .wrap-inner {
+    max-width: 1218px;
+    width: 96%;
+    margin: 0 auto;
+  }
+  .block-infomation {
+  	margin-top: 30px;
+  	@include display-flex;
+  	@include justify-content(space-between);
+	  &-left {
+	  	width: 640/1218*100%;
+	  	.btn-primary {
+	  		padding: 5px 10px;
+	  		line-height: 1;
+	  		@include border-radius(2px);
+	  	}
+	  }
+	  &-right {
+	  	width: 415/1218*100%;
+	  	padding-top: 80px;
+	  }
+  }
+  .list-check {
+  	margin-bottom: 10px;
+  	&.st01 {
+  		li {
+  			@include display-flex;
+	  		@include justify-content(space-between);
+	  		@include flex-wrap(wrap);
+	  		@include align-items(center);
+  		}
+  	}
+  	&.st02 {
+  		margin-bottom: 0;
+  		color: #999;
+  		li {
+  			margin-bottom: 5px;
+  			padding-top: 5px;
+  			padding-left: 20px;
+  			line-height: 1.25 !important;
+  			&::before {
+  				top: 8px;
+  				@include fz(11);
+  			}
+  			&:last-child {
+  				margin-bottom: 0;
+  			}
+  			span {
+  				border-bottom: 1px dashed #999;
+  			}
+  		}
+  	}
+  	li {
+  		position: relative;
+  		padding-left: 25px;
+  		line-height: 1.9;
+  		&::before {
+  			content: '\f00c';
+  			position: absolute;
+  			top: 0;
+  			left: 0;
+  			font-family: FontAwesome;
+  			color: $color-main02;
+  		}
+  	}
+  }
+  .btn-primary {
+  	@include GTEestiMedium;
+  	border-radius: 0;
+  	.fa {
+  		margin-right: 5px;
+  	}
+  	&.btn-green01 {
+  		background: #00be7f;
+  		&:hover {
+  			background: $color-main03;
+  		}
+  	}
+  }
+  .text-03 {
+  	@include fz(20);
+  }
+  .text-01 {
+  	@include fz(30);
+  }
+  .confirm-ttl-h3 {
+  	margin-bottom: 10px;
+  	@include fz(30);
+  	padding-bottom: 15px;
+  	border-bottom: 2px solid #b7b7b7;
+  	&.st02 {
+  		border-bottom: none;
+  	}
+  }
+  .detail-box {
+  	padding: 10px 0 12px;
+  	@include display-flex;
+  	@include flex-wrap(wrap);
+  	@include justify-content(space-between);
+  	border-bottom: 1px solid #b7b7b7;
+  	.detail-box-text {
+  		ul {
+  			li {
+  				line-height: 1.9;
+  			}
+  		}
+  	}
+  	.detail-txt01 {
+  		margin-bottom: 5px;
+  		@include fz(20);
+  	}
+  	.btn-box {
+  		width: 100%;
+  	}
+  }
+  .total-box {
+  	@include display-flex;
+  	@include flex-wrap(wrap);
+  	@include justify-content(space-between);
+  	@include align-items(center);
+  	padding: 15px 0;
+  	border-bottom: 1px solid #b7b7b7;
+  	.total-text {
+  		@include fz(20);
+  		@include GTEestiMedium;
+  		span {
+  			display: block;
+  			@include GTEestiRegular;
+  			@include fz(16);
+  			color: #777;
+  		}
+  	}
+  	.total-num {
+  		text-align: right;
+  		.price {
+  			@include fz(30);
+  			line-height: 1;
+  			color: #d0021b;
+  		}
+  		.total-num-text {
+  			color: $color-main02;
+  		}
+  	}
+  }
+  .text-check-box {
+  	padding-top: 20px;
+  	margin-bottom: 15px;
+  	border-bottom: 1px solid #b7b7b7;
+  	.list-check {
+  		li {
+  			margin-bottom: 10px;
+  			@include fz(20);
+  			line-height: 1.5;
+  			.sm {
+  				@include fz(16);
+  			}
+  		}
+  	}
+  }
+  .question-box {
+  	margin-bottom: 10px;
+  	dl {
+  		margin-bottom: 5px;
+  		dt {
+  			position: relative;
+  			padding: 7px 10px;
+  			cursor: pointer;
+  			@include GTEestiMedium;
+  			text-decoration: underline;
+  			border: 1px solid #b7b7b7;
+
+  			&::after {
+  				content: '\f055';
+  				position: absolute;
+  				top: 50%;
+  				right: 18px;
+  				font-family: FontAwesome;
+  				text-decoration: none;
+  				@include transform(translateY(-50%));
+  			}
+  			&.close {
+  				&::after {
+  					content: '\f056';
+  				}
+  			}
+  		}
+  		dd {
+  			display: none;
+  			padding-top: 5px;
+  		}
+  	}
+  }
+  .share-box {
+  	padding: 5px 0 10px;
+  	@include display-flex;
+  	@include flex-wrap(wrap);
+  	@include justify-content(space-between);
+  }
+  .help-box {
+  	padding-bottom: 15px;
+  	p {
+  		margin-bottom: 20px;
+  	}
+  }
+  .action-box {
+  	margin-bottom: 70px;
+  	p {
+  		margin-bottom: 15px;
+  	}
+  	.btn-primary {
+  		width: 250/415*100%;
+  	}
+  }
+  .action-more-box {
+  	padding: 15px 30px;
+  	border: 1px solid #b7b7b7;
+  	.list-link-action {
+  		padding: 0 25px;
+  		li {
+  			line-height: 1.9;
+  			a {
+  				text-decoration: underline;
+  				color: $color-main02;
+  			}
+  		}
+  	}
+  	.btn-box {
+  		margin: 10px 0 15px;
+  		text-align: center;
+  		.btn-primary {
+  			padding: 4px 37px;
+  		}
+  	}
+  	.tip-text {
+  		@include fz(14);
+  		font-style: italic;
+  	}
+  	.text-03 {
+  		line-height: 1.8;
+  	}
+  	.text-02 {
+  		line-height: 1.9;
+  	}
+  }
+}
+

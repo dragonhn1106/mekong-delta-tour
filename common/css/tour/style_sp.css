@@ -1,0 +1,170 @@
+@font-face {
+  font-family: "GT-Eesti-Light";
+  src: url("/halong-cruises/common/fonts/GTEestiLight/GT-Eesti-Pro-Display-Light.eot");
+  src: url("/halong-cruises/common/fonts/GTEestiLight/GT-Eesti-Pro-Display-Light.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/GTEestiLight/GT-Eesti-Pro-Display-Light.woff") format("woff"), url("/halong-cruises/common/fonts/GTEestiLight/GT-Eesti-Pro-Display-Light.ttf") format("truetype"), url("/halong-cruises/common/fonts/GTEestiLight/GT-Eesti-Pro-Display-Light.svg#GT-Eesti-Light") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "GT-Eesti-Regular";
+  src: url("/halong-cruises/common/fonts/GTEestiRegular/GT-Eesti-Pro-Display-Regular.eot");
+  src: url("/halong-cruises/common/fonts/GTEestiRegular/GT-Eesti-Pro-Display-Regular.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/GTEestiRegular/GT-Eesti-Pro-Display-Regular.woff") format("woff"), url("/halong-cruises/common/fonts/GTEestiRegular/GT-Eesti-Pro-Display-Regular.ttf") format("truetype"), url("/halong-cruises/common/fonts/GTEestiRegular/GT-Eesti-Pro-Display-Regular.svg#GT-Eesti-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "GT-Eesti-Medium";
+  src: url("/halong-cruises/common/fonts/GTEestiMedium/GT-Eesti-Pro-Display-Medium.eot");
+  src: url("/halong-cruises/common/fonts/GTEestiMedium/GT-Eesti-Pro-Display-Medium.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/GTEestiMedium/GT-Eesti-Pro-Display-Medium.woff") format("woff"), url("/halong-cruises/common/fonts/GTEestiMedium/GT-Eesti-Pro-Display-Medium.ttf") format("truetype"), url("/halong-cruises/common/fonts/GTEestiMedium/GT-Eesti-Pro-Display-Medium.svg#GT-Eesti-Medium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "GT-Eesti-Bold";
+  src: url("/halong-cruises/common/fonts/GTEestiBold/GT-Eesti-Pro-Display-Bold.eot");
+  src: url("/halong-cruises/common/fonts/GTEestiBold/GT-Eesti-Pro-Display-Bold.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/GTEestiBold/GT-Eesti-Pro-Display-Bold.woff") format("woff"), url("/halong-cruises/common/fonts/GTEestiBold/GT-Eesti-Pro-Display-Bold.ttf") format("truetype"), url("/halong-cruises/common/fonts/GTEestiBold/GT-Eesti-Pro-Display-Bold.svg#GT-Eesti-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "FontAwesome";
+  src: url("/halong-cruises/common/fonts/FontAwesome/fontawesome-webfont.eot");
+  src: url("/halong-cruises/common/fonts/FontAwesome/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/FontAwesome/fontawesome-webfont.woff") format("woff"), url("/halong-cruises/common/fonts/FontAwesome/fontawesome-webfont.ttf") format("truetype"), url("/halong-cruises/common/fonts/FontAwesome/fontawesome-webfont.svg#FontAwesome") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "iz";
+  src: url("/halong-cruises/common/fonts/iz/iz.eot");
+  src: url("/halong-cruises/common/fonts/iz/iz.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/iz/iz.woff") format("woff"), url("/halong-cruises/common/fonts/iz/iz.ttf") format("truetype"), url("/halong-cruises/common/fonts/iz/iz.svg#iz") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.tour {
+  color: #1a2b49; }
+  .tour .section-content {
+    padding: 4% 0;
+    background: #f5f9fb; }
+  .tour .pannel-top {
+    padding: 4% 0;
+    border-bottom: 2px solid #b7b7b7; }
+  .tour .list-pannel-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .tour .list-pannel-top li {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-right: 4%; }
+      .tour .list-pannel-top li:last-child {
+        margin-right: 0; }
+      .tour .list-pannel-top li a {
+        display: block;
+        padding: 7px 10px;
+        font-size: 16px;
+        font-size: 1.6rem;
+        color: #fff;
+        background: #1a2b49;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px; }
+        .tour .list-pannel-top li a.active {
+          background: #42c1c7; }
+  .tour .review-count {
+    font-size: 26px;
+    font-size: 2.6rem; }
+  .tour .filter-sort {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin: 15px 0; }
+    .tour .filter-sort .btn-form {
+      display: inline-block;
+      padding: 7px 15px;
+      margin-left: 10px;
+      font-size: 16px;
+      font-size: 1.6rem;
+      color: #777;
+      border: 1px solid #b7b7b7;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      cursor: pointer; }
+      .tour .filter-sort .btn-form:first {
+        margin-left: 0; }
+  .tour #filter-popup {
+    display: none; }
+    .tour #filter-popup.show {
+      display: block; }
+    .tour #filter-popup .inner-popup {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 998;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      -webkit-overflow-scrolling: touch;
+      background: #fff; }
+    .tour #filter-popup .block-filter-by {
+      padding-bottom: 0; }
+  .tour #sort-select {
+    display: none; }
+    .tour #sort-select.show {
+      display: block; }
+    .tour #sort-select .mask {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 997;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5); }
+    .tour #sort-select .inner-popup {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      z-index: 998;
+      width: 96%;
+      display: none;
+      max-width: 300px;
+      padding: 4% 5%;
+      background: #fff;
+      -moz-border-radius: 2px;
+      -webkit-border-radius: 2px;
+      border-radius: 2px;
+      -moz-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+      .tour #sort-select .inner-popup .text {
+        margin-bottom: 4%;
+        font-size: 18px;
+        font-size: 1.8rem;
+        text-align: center; }
+      .tour #sort-select .inner-popup .list-radio {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; }
+        .tour #sort-select .inner-popup .list-radio .item {
+          margin: 0 0 4%;
+          font-size: 16px;
+          font-size: 1.6rem; }
+          .tour #sort-select .inner-popup .list-radio .item label::before {
+            border-color: #42c1c7; }
+          .tour #sort-select .inner-popup .list-radio .item label::after {
+            background: #42c1c7; }
+  @media (max-width: 400px) {
+    .tour .list-pannel-top li a {
+      font-size: 14px;
+      font-size: 1.4rem; } }

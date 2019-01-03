@@ -1,0 +1,179 @@
+@charset 'UTF-8';
+
+@import "../mixin";
+
+$color01: #1a2b49;
+
+.blog {
+
+	.wrap {
+		width: 1014/1080*100%;
+  }
+
+	a {
+		color: $color01;
+	}
+  
+  .widget-hot-deals {
+		.widget-hot-deals-ttl {
+			padding: 6px 20px 5px 7%;
+      @include fz(25);
+      @include GTEestiMedium;
+      font-weight: normal;
+		}
+		.widget-content {
+			margin: 0 auto;
+			padding: 0;
+			background: none;
+			border-bottom: 1px solid #b7b7b7;
+			.widget-hot-deals-list {
+				@include display-flex;
+				@include justify-content(space-between);
+				width: 1014/1080*100%;
+				margin: 0 auto;
+				li {
+					display: block;
+					width: 491/1014*100%;
+					padding: 20px 0;
+					border: none;
+					.thumb {
+						width: 100%;
+					}
+					.meta {
+						width: 100%;
+						.meta-bottom {
+							display: block;
+						}
+					}
+					.meta-ttl {
+            margin-top: 10px;
+            @include GTEestiMedium;
+            font-weight: normal;
+						text-align: center;
+						a {
+							@include fz(17);
+							line-height: 1.2;
+						}
+					}
+					.meta-duration {
+						margin-bottom: 8px;
+						@include fz(13);
+						text-align: center;
+					}
+					.deal-price {
+						text-align: center;
+						.us {
+							@include fz(11);
+							span {
+								display: inline-block;
+							}
+							.clr {
+								@include fz(17);
+								color: #d0021b;
+							}
+							.line {
+								@include fz(11);
+								color: $color01;
+								text-decoration: line-through;
+							}
+						}
+					}
+				}
+			}
+		}
+		.widget-hot-deals-viewmore {
+			margin: 25px 0;
+			text-align: center;
+			.btn-primary {
+				padding: 6px 35px 6px 40px;
+				@include fz(17);
+				color: #fff;
+				@include border-radius(5px);
+				.fa {
+					position: relative;
+			    top: 2px;
+			    display: inline-block;
+			    margin-left: 15px;
+			    @include fz(18);
+				}
+			}
+		}
+  }
+  
+  .cont-post {
+		padding: 15px 0 30px;
+		background: #f5f9fb;
+		.post-col-full {
+			.post-item {
+				@include display-flex;
+				@include justify-content(space-between);
+				padding: 0 0 12px;
+				margin-top: 12px;
+				border-bottom: 1px solid #b7b7b7;
+				.photo {
+					width: 330/1014*100%;
+					margin-top: 4px;
+				}
+				.box-info {
+					width: 660/1014*100%;
+					.box-head {
+						.post-ttl {
+							margin-bottom: 2px;
+              @include fz(18);
+              @include GTEestiMedium;
+              font-weight: normal;
+							a {
+								text-decoration: underline;
+							}
+						}
+						.box-view {
+							@include display-flex;
+							@include justify-content(space-between);
+							margin-bottom: 10px;
+							.time {
+								@include fz(15);
+								color: #777;
+							}
+							.view {
+								@include display-flex;
+    						align-items: center;
+    						padding: 0 8px 0 10px;
+								@include fz(13);
+								color: #777;
+								.fa {
+									margin-right: 6px;
+								}
+							}
+						}
+						.txt {
+              @include fz(15);
+              @include GTEestiLight;
+              color: $color-main03;
+						}
+					}
+				}
+			}
+			.more-block {
+				display: none;
+			}
+		}
+		.btn-view {
+			width: 100%;
+			margin-top: 25px;
+			text-align: center;
+			a {
+				display: inline-block;
+				padding: 4px 20px 4px 30px;
+				@include fz(17);
+				color: #fff;
+				background: #42c1c7;
+				@include border-radius(5px);
+				.fa {
+					margin-left: 10px;
+				}
+			}
+		}
+	}
+}
+
+@import 'list-sp', 'detail-sp';

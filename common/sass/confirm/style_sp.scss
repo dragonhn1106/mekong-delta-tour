@@ -1,0 +1,280 @@
+@charset 'UTF-8';
+
+@import "../mixin";
+
+.container {
+  padding-top: 80px;
+}
+.search-global {
+  display: none!important;
+}
+.confirm {
+  color: $color_main03;
+  @include fzsp(39);
+  .direction-checkout {
+    .check-box {
+      width: 94%;
+      justify-content: space-around;
+      .item {
+        display: inline-block;
+        width: auto;
+        @include fzsp(42);
+        text-align: center;
+      }
+      .icon-cart {
+        width: 48px;
+        height: 48px;
+        margin: 0 auto 5px;
+      }
+    }
+  }
+
+  .block-infomation {
+    margin-top: 30px;
+    .block-infomation-left {
+      .text-03 {
+        margin-bottom: 5px;
+        @include fzsp(42);
+      }
+      .text-01 {
+        @include fzsp(55);
+      }
+      .list-check {
+        margin-top: 5px;
+        li {
+          position: relative;
+          padding-left: 7%;
+          margin-bottom: 5px;
+          @include fzsp(42);
+          line-height: 1.8;
+          &::before {
+            top: 4px;
+            @include fzsp(44);
+          }
+          .btn-primary {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            padding: 2px 2.5% 0 1%;
+            @include fzsp(42);
+            @include border-radius(0);
+            i {
+              top: 0;
+              margin-right: 8px;
+              @include fzsp(42);
+            }
+          }
+        }
+        &.st02 {
+          li {
+            color: #999;
+            border-bottom: 2px dotted #b7b7b7;
+            &::before {
+              color: #00be83;
+            }
+          }
+        }
+      }
+      .list-btns {
+        @include display-flex;
+        @include flex-wrap(wrap);
+        @include justify-content(space-between);
+        padding-left: 7%;
+        margin-bottom: 6%;
+        li {
+          width: 445/926*100%;
+          a {
+            display: block;
+            padding: 8px 3%;
+            color: #fff;
+            @include fzsp(42);
+            text-align: center;
+            background: $color_main02;
+            i {
+              margin-right: 3%;
+            }
+          }
+        }
+      }
+      .confirm-ttl-h3 {
+        padding-bottom: 1.5%;
+        margin-bottom: 3%;
+        @include fzsp(55);
+        border-bottom: 1px solid #b7b7b7;
+        &.st02 {
+          border-bottom: none;
+          padding-bottom: 0;
+        }
+      }
+      .detail-box {
+        position: relative;
+        @include fzsp(42);
+        line-height: 1.7;
+        .detail-box-text {
+          .detail-txt01 {
+            @include GTEestiMedium;
+          }
+        }
+        .detail-box-img {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 340/926*100%;
+          img {
+            width: 100%;
+          }
+        }
+        .btn-box {
+          margin-top: 6%;
+          font-size: 0;
+          text-align: center;
+          a {
+            display: inline-block;
+            padding: 6px 4%;
+            color: #fff;
+            @include fzsp(42);
+            @include border-radius(0);
+            &.btn-green01 {
+              margin-right: 3%;
+              background: #00be7f;
+            }
+          }
+        }
+      }
+      .total-box {
+        @include display-flex;
+        @include flex-wrap(wrap);
+        @include justify-content(space-between);
+        padding: 4% 0 3%;
+        margin: 8% 0 6%;
+        border-top: 1px solid #b7b7b7;
+        border-bottom: 1px solid #b7b7b7;
+        > div {
+          display: inline-block;
+          &.total-text {
+            @include GTEestiMedium;
+            @include fzsp(45);
+            span {
+              display: block;
+              @include GTEestiRegular;
+              color: #777;
+              @include fzsp(35);
+            }
+          }
+          &.total-num {
+            text-align: right;
+            p {
+              @include fzsp(44);
+              span {
+                @include GTEestiMedium;
+                color: #d0021b;
+                font-size: 50/42*100%;
+              }
+              &.total-num-text {
+                color: $color_main02;
+                @include fzsp(35);
+              }
+            }
+          }
+        }
+      }
+      .text-check-box {
+        .list-check {
+          li {
+            @include GTEestiMedium;
+            .sm {
+              @include GTEestiRegular;
+            }
+          }
+        }
+      }
+      .action-more-box {
+        padding: 3% 4%;
+        margin: 5% 0;
+        border: 1px solid #b7b7b7;
+        .text-03 {
+          @include GTEestiMedium;
+          @include fzsp(50);
+        }
+        .list-link-action {
+          padding-left: 7%;
+          margin: 3% 0 5%;
+          li {
+            a {
+              color: $color_main02;
+              text-decoration: underline;
+            }
+          }
+        }
+        .btn-box {
+          margin-bottom: 4%;
+          text-align: center;
+          a {
+            padding: 5px 6%;
+            @include border-radius(0);
+            @include fzsp(42);
+          }
+        }
+      }
+      .question-box {
+        margin-bottom: 7%;
+        dl {
+            margin-bottom: 10px;
+            dt {
+              position: relative;
+              padding: 0 0 5px 1.2em;
+              margin-bottom: 10px;
+              border-bottom: 1px solid #b7b7b7;
+              cursor: pointer;
+              &.close {
+                &::before {
+                  top: 35%;
+                  border-top: 6px solid transparent;
+                  border-bottom: 5px solid $color_main03;
+                }
+              }
+              &::before {
+                position: absolute;
+                top: 50%;
+                left: 0;
+                content: '';
+                border: 6px solid transparent;
+                border-top: 5px solid $color_main03;
+                @include transform(translateY(-50%));
+              }
+            }
+            dd {
+              display: none;
+            }
+          }
+      }
+      .share-box {
+        width: 100vw;
+        margin-left: calc(50% - 50vw);
+        padding: 4% 0;
+        margin-bottom: 6%;
+        text-align: center;
+        background: #f7f7f7;
+        .confirm-ttl-h3 {
+          text-align: left;
+        }
+        .share-box-text {
+          margin-bottom: 3%;
+          text-align: left;
+        }
+        .btn-primary {
+          padding: 5px 6%;
+          @include fzsp(42);
+          @include border-radius(0);
+        }
+      }
+      .help-box {
+        margin-bottom: 5%;
+        p {
+          margin-bottom: 4%;
+        }
+      }
+    }
+  }
+}
+

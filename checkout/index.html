@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>ASIA PACKER TRAVEL</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="/common/css/ress.min.css">
+	<link rel="stylesheet" href="/common/css/fontawesome.min.css">
+	<link rel="stylesheet" href="/common/css/main.css">
+	<link rel="stylesheet" href="/common/css/checkout/style.css">
+</head>
+<body>
+	<div class="container">
+		<?php include $_SERVER['DOCUMENT_ROOT']."/common/inc/header.php"; ?>
+		<?php include $_SERVER['DOCUMENT_ROOT']."/common/inc/menu-mobile.php"; ?>
+		<div class="contents checkout">
+			<div class="wrap-inner">
+				<section class="direction-checkout">
+					<div class="check-box">
+						<div class="item cart status-done">
+							<span class="icon-cart fa fa-shopping-cart"></span>
+							Your cart
+						</div>
+						<div class="item pay status-current">
+							<span class="icon-cart icon-windows"></span>
+							Submit &amp; Payment
+						</div>
+						<div class="item confirm">
+							<span class="icon-cart fa fa-check"></span>
+							Confirm your booking
+						</div>
+					</div>
+				</section>
+				<section class="block-infomation">
+					<div class="form-group">
+						<form>
+							<div class="box-billing">
+								<p class="form-stt"><span>1</span>Billing details</p>
+								<div class="row-input">
+									<label>First name</label><input type="text" name="" class="full-w">
+								</div>
+								<div class="row-input">
+									<label>Last name</label><input type="text" name="" class="full-w">
+								</div>
+								<div class="row-input">
+									<label>Email</label><input type="text" name="" class="full-w">
+								</div>
+								<div class="row-input">
+									<label>Confirm email</label><input type="text" name="" class="full-w">
+								</div>
+								<div class="row-input country">
+									<label>Country</label>
+									<div class="custom-select">
+										<select>
+											<option value="vietnam">Vietnam</option>
+											<option value="thailand">Thailand</option>
+											<option value="singapo">Singapo</option>
+										</select>
+									</div>
+								</div>
+								<div class="row-input phone">
+									<label>Mobile phone</label>
+									<div class="phone-row-control">
+										<div id="phone-input-wrap" class="phone-input-wrap"> 
+											<div id="phone-select"> 
+												<span class="icon"><img src="../common/images/checkout/flag/vietnam.jpg" alt=""></span> 
+												<span id="current-phone-code">84</span> 
+											</div> 
+											<input type="tel" name="billing_phone_nr" id="billing_phone_nr" value="" maxlength="20"> 
+											
+											<div class="input-dropdown-mask"></div>
+											<div id="country-list" class="country-list">
+												<div id="country-search-wrap"> 
+													<input autocomplete="nope" placeholder="Enter country code" id="country-search-input" type="text"> 
+												</div>
+												<div id="country-list-scroll">
+													<div class="list-cnt">
+														<div class="item">
+															<div class="country-flag"> 
+																<span class="icon"><img src="../common/images/checkout/flag/france.jpg" alt=""></span>
+															</div>
+															<div class="country-row-description">    
+																<span class="country-name">France</span>      
+																<span class="phone-code">33</span> 
+															</div>
+														</div>
+														<div class="item">
+															<div class="country-flag"> 
+																<span class="icon"><img src="../common/images/checkout/flag/germany.jpg" alt=""></span>
+															</div>
+															<div class="country-row-description">    
+																<span class="country-name">Germany</span>      
+																<span class="phone-code">49</span> 
+															</div>
+														</div>
+														<div class="item">
+															<div class="country-flag"> 
+																<span class="icon"><img src="../common/images/checkout/flag/italy.jpg" alt=""></span>
+															</div>
+															<div class="country-row-description">    
+																<span class="country-name">Italy</span>      
+																<span class="phone-code">39</span> 
+															</div>
+														</div>
+														<div class="item">
+															<div class="country-flag"> 
+																<span class="icon"><img src="../common/images/checkout/flag/netherlands.jpg" alt=""></span>
+															</div>
+															<div class="country-row-description">    
+																<span class="country-name">Netherlands</span>      
+																<span class="phone-code">31</span> 
+															</div>
+														</div>
+														<div class="item">
+															<div class="country-flag"> 
+																<span class="icon"><img src="../common/images/checkout/flag/spain.jpg" alt=""></span>
+															</div>
+															<div class="country-row-description">    
+																<span class="country-name">Spain</span>      
+																<span class="phone-code">34</span> 
+															</div>
+														</div>
+													</div>
+													<div class="list-cnt">
+														<div class="item">
+															<div class="country-flag"> 
+																<span class="icon"><img src="../common/images/checkout/flag/cuba.jpg" alt=""></span>
+															</div>
+															<div class="country-row-description">    
+																<span class="country-name">Cuba</span>      
+																<span class="phone-code">55</span> 
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- <input type="text" name="" class="half-w"> -->
+										<p class="notifi">We will contact you in case of important notifications or changes.</p>
+									</div>
+								</div>
+								<div class="row-detail">
+									<p class="travel-txt">Traveller details</p>
+									<label class="cus-lb"><input type="checkbox" id="#ipt-details" name="iptDetails" checked><span class="checkmark"></span>Same as billing details</label>
+									<div class="b_hidden">
+										<div class="row-input">
+											<label>First name</label><input type="text" name="" class="full-w">
+										</div>
+										<div class="row-input">
+											<label>Last name</label><input type="text" name="" class="full-w">
+										</div>
+										<div class="row-input">
+											<label>Email</label><input type="text" name="" class="full-w">
+										</div>
+										<div class="row-input">
+											<label>Confirm email</label><input type="text" name="" class="full-w">
+										</div>
+										<div class="row-input country">
+											<label>Country</label>
+											<div class="custom-select">
+												<select>
+													<option value="vietnam">Vietnam</option>
+													<option value="thailand">Thailand</option>
+													<option value="singapo">Singapo</option>
+												</select>
+											</div>
+										</div>
+										<div class="row-input phone">
+											<label>Mobile phone</label><input type="tel" name="" id="" class="full-w" placeholder="e.g. +43 (0)288 234 534" maxlength="20">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="box-ticket">
+								<p class="form-stt"><span>2</span>Where should we send your tickets?</p>
+								<div class="row-input">
+									<label>Email *</label><input type="text" name="" class="full-w">
+								</div>
+							</div>
+							<div class="box-request">
+								<p class="form-stt"><span>3</span>Other request</p>
+								<div class="row-input">
+									<label>Special request</label><textarea cols="30" rows="4" class="full-w "></textarea>
+								</div>
+							</div>
+							<div class="box-select">
+								<p class="form-stt"><span>4</span>Select payment method</p>
+								<p class="secure"><span class="fa fa-lock"></span>Payments are secure and encrypted</p>
+								<div class="box-flag">
+									<div class="row-input item-center">
+										<label class="cus-lb02">
+											<input type="radio" name="pay" checked><span class="checkmark02"></span>
+										</label>
+										<ul class="list-pay">
+											<li><img src="/common/images/checkout/icon-pay01.png" alt=""></li>
+										</ul>
+										<p>PayPal</p>
+									</div>
+									<div class="row-input item-center">
+										<label class="cus-lb02">
+											<input type="radio" name="pay"><span class="checkmark02"></span>
+										</label>
+										<ul class="list-pay">
+											<li><img src="/common/images/checkout/icon-pay02.png" alt=""></li>
+											<li><img src="/common/images/checkout/icon-pay03.png" alt=""></li>
+											<li><img src="/common/images/checkout/icon-pay04.png" alt=""></li>
+											<li><img src="/common/images/checkout/icon-pay05.png" alt=""></li>
+										</ul>
+										<p>OnePay Credit</p>
+									</div>
+									<div class="row-input item-center last">
+										<label class="cus-lb02">
+											<input type="radio" name="pay" id="with-credid-card" value=""><span class="checkmark02"></span>
+										</label>
+										<ul class="list-pay">
+											<li><img src="/common/images/checkout/icon-pay06.png" alt=""></li>
+										</ul>
+										<p>Credit card</p>
+									</div>
+								</div>
+								<div id="form-credit-card">
+									<div class="row-input">
+										<label>Name on card *</label><input type="text" name="" class="full-w">
+									</div>
+									<div class="row-input">
+										<label>Credit card number *</label><input type="text" name="" class="full-w">
+									</div>
+									<div class="row-input date">
+										<label>Expiration date*</label>
+										<div class="custom-select">
+											<select>
+												<option>Month</option>
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+											</select>
+										</div>
+										<div class="custom-select">
+											<select>
+												<option>Year</option>
+												<option>1990</option>
+												<option>1991</option>
+												<option>1992</option>
+												<option>1993</option>
+											</select>
+										</div>
+									</div>
+									<div class="row-input item-center02">
+										<label>Security code*</label><input type="text" name="" class="ipt-w01">
+										<span class="img-check"><img src="/common/images/checkout/icon-pay07.png" alt=""></span>
+										<a href="#" class="link-color">Find your code</a>
+									</div>
+								</div>
+							</div>
+							<div class="box-summary">
+								<p class="summary-ttl">Order summary</p>
+								<div class="notifi-war">This experience sells out fast. Book now and relax later.</div>
+								<div class="box-sell">
+									<p class="photo">
+										<img src="/common/images/checkout/check-img01.jpg" alt="">
+									</p>
+									<div class="info">
+										<div class="box-head">
+											<div class="box-txt">
+												<p class="title"><a href="#">Paradise Cruise 3 days 2 Nights</a></p>
+												<p class="txt-c dur"><i class="fa fa-clock-o"></i>Duration: 3 days</p>
+												<p class="txt-c time"><i class="fa fa-check"></i>August 29, 2018 8:00 AM</p>
+												<p class="txt-c adult"><i class="fa fa-user"></i>1 Adult</p>
+											</div>
+											<div class="price">US $979<span>$969</span></div>
+										</div>
+										<div class="box-option">
+											<p class="option">Optional Services</p>
+											<ul class="list-service">
+												<li>
+													<p><span class="name-sv">Luxury Limousine Bus Round Trip HN-HL-HN</span></p>
+													<p><span class="price-sv">$35</span></p>
+												</li>
+												<li>
+													<p><span class="name-sv">Hanoi Street Food Tour</span></p>
+													<p><span class="price-sv">$35</span></p>
+												</li>
+											</ul>
+											<ul class="list-lb">
+												<li class="label sell-out">LIKELY TO SELL OUT</li>
+												<li class="label cancel">FREE CANCELLATION</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="notifi-suc">
+									<i class="fa fa-credit-card"></i>Cancel before 8:00 AM on August 22 for a full refund.
+								</div>
+								<div class="row-input sign">
+									<label class="cus-lb"><input type="checkbox" name=""><span class="checkmark"></span>Sign up to our weekly inspirational newsletter.</label>
+								</div>
+								<p class="form-text">By ticking the box, you also agree to receive the occasional promotional email. You can unsubscribe at any time. For more information, read <a href="#">our privacy statement.</a></p>
+								<p class="form-text txt01">By proceeding, you confirm that you accept our <a href="#">General Terms and Conditions.</a></p>
+								<div class="box-total">
+									<p class="total-txt">Total price</p>
+									<div class="total-num">US <span>$1029</span><p>No additional fees</p></div>
+								</div>
+								<button type="submit" class="btn-pay">Proceed to payment</button>
+							</div>
+						</form>
+					</div>
+					<div class="tour-intro">
+						<div class="tour-inner">
+							<div class="box-head">
+								<p class="photo">
+									<img src="/common/images/checkout/check-img02.jpg" alt="">
+								</p>
+								<div class="tour-info">
+									<p class="tour-ttl">Paradise Cruise 3 days 2 Nights</p>
+									<p class="txt-c dur"><i class="fa fa-clock-o"></i>Duration: 3 days</p>
+									<p class="txt-c time"><i class="fa fa-check"></i>August 29, 2018 8:00 AM</p>
+									<p class="txt-c adult"><i class="fa fa-user"></i>1 Adult</p>
+									<div class="box-option">
+										<p class="option">Optional Services</p>
+										<ul class="list-service">
+											<li>
+												<p><span class="name-sv">Luxury Limousine Bus Round Trip HN-HL-HN</span></p>
+											</li>
+											<li>
+												<p><span class="name-sv">Hanoi Street Food Tour</span></p>
+											</li>
+										</ul>
+										<ul class="list-lb">
+											<li class="label sell-out">LIKELY TO SELL OUT</li>
+											<li class="label cancel">FREE CANCELLATION</li>
+										</ul>
+									</div>
+									<p class="price">US <span>$969</span></p>
+									<p class="notify-suc">
+										<i class="fa fa-credit-card"></i>
+										Cancel before 8:00 AM on August 22 for a full refund.
+									</p>
+								</div>
+							</div>
+							<p class="can">You can pay with :</p>
+							<ul class="list-pay">
+								<li><img src="/common/images/checkout/icon-pay01.png" alt=""></li>
+								<li><img src="/common/images/checkout/icon-pay02.png" alt=""></li>
+								<li><img src="/common/images/checkout/icon-pay03.png" alt=""></li>
+								<li><img src="/common/images/checkout/icon-pay04.png" alt=""></li>
+								<li><img src="/common/images/checkout/icon-pay05.png" alt=""></li>
+								<li><img src="/common/images/checkout/icon-pay06.png" alt=""></li>
+							</ul>
+							<p class="data">Data Security</p>
+							<div class="data-txt">
+								<i class="fa fa-lock"></i>
+								<p>Your info's safe with us. All data is encrypted and transmitted securely with an SSL protocol.</p>
+								<p>Asia Package Travel respects your privacy. We do not sell your personal information to anyone. <a href="#">Privacy Statement »</a></p>
+							</div>
+							<p class="book">Book with confidence</p>
+							<ul class="list-book ">
+								<li><i class="fa fa-check"></i>Best price guarantee. Found your activity for less? We'll refund the difference.</li>
+								<li><i class="fa fa-check"></i>Peace of mind. Book ahead to skip the lines and reserve your spot.</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+		<!-- /contents -->
+		<?php include $_SERVER['DOCUMENT_ROOT']."/common/inc/footer.php"; ?>
+	</div>
+	<?php include $_SERVER['DOCUMENT_ROOT']."/common/inc/common-js.php"; ?>
+	<script src="/common/js/checkout/index.js"></script>
+</body>
+</html>

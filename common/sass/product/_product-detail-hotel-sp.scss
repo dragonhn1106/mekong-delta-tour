@@ -1,0 +1,47 @@
+@charset 'UTF-8';
+
+.product-detail-hotel {
+	.product {
+		.product-entry-deltail {
+			.list-check {
+				li {
+					@include fz(18);
+				}
+			}
+			.number-box {
+				.number-btn {
+					border: 1px solid #b7b7b7;
+					color: $color-main03;
+				}
+				input {
+					width: 90px !important;
+					border-color: #b7b7b7;
+				}
+			}
+			.booking-box {
+				.list-btns {
+					li {
+						width: 100%;
+						.bg-01 {
+							background: $color-main02;
+						}
+					}
+				}
+			}
+			.service-hotel {
+				.rs-search {
+					.info-hotel {
+						.info-book {
+							.quantity-lb {
+								display: flex;
+								justify-content: space-between;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+

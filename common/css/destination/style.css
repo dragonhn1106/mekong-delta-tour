@@ -1,0 +1,397 @@
+@font-face {
+  font-family: "GT-Eesti-Light";
+  src: url("/halong-cruises/common/fonts/GTEestiLight/GT-Eesti-Pro-Display-Light.eot");
+  src: url("/halong-cruises/common/fonts/GTEestiLight/GT-Eesti-Pro-Display-Light.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/GTEestiLight/GT-Eesti-Pro-Display-Light.woff") format("woff"), url("/halong-cruises/common/fonts/GTEestiLight/GT-Eesti-Pro-Display-Light.ttf") format("truetype"), url("/halong-cruises/common/fonts/GTEestiLight/GT-Eesti-Pro-Display-Light.svg#GT-Eesti-Light") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "GT-Eesti-Regular";
+  src: url("/halong-cruises/common/fonts/GTEestiRegular/GT-Eesti-Pro-Display-Regular.eot");
+  src: url("/halong-cruises/common/fonts/GTEestiRegular/GT-Eesti-Pro-Display-Regular.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/GTEestiRegular/GT-Eesti-Pro-Display-Regular.woff") format("woff"), url("/halong-cruises/common/fonts/GTEestiRegular/GT-Eesti-Pro-Display-Regular.ttf") format("truetype"), url("/halong-cruises/common/fonts/GTEestiRegular/GT-Eesti-Pro-Display-Regular.svg#GT-Eesti-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "GT-Eesti-Medium";
+  src: url("/halong-cruises/common/fonts/GTEestiMedium/GT-Eesti-Pro-Display-Medium.eot");
+  src: url("/halong-cruises/common/fonts/GTEestiMedium/GT-Eesti-Pro-Display-Medium.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/GTEestiMedium/GT-Eesti-Pro-Display-Medium.woff") format("woff"), url("/halong-cruises/common/fonts/GTEestiMedium/GT-Eesti-Pro-Display-Medium.ttf") format("truetype"), url("/halong-cruises/common/fonts/GTEestiMedium/GT-Eesti-Pro-Display-Medium.svg#GT-Eesti-Medium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "GT-Eesti-Bold";
+  src: url("/halong-cruises/common/fonts/GTEestiBold/GT-Eesti-Pro-Display-Bold.eot");
+  src: url("/halong-cruises/common/fonts/GTEestiBold/GT-Eesti-Pro-Display-Bold.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/GTEestiBold/GT-Eesti-Pro-Display-Bold.woff") format("woff"), url("/halong-cruises/common/fonts/GTEestiBold/GT-Eesti-Pro-Display-Bold.ttf") format("truetype"), url("/halong-cruises/common/fonts/GTEestiBold/GT-Eesti-Pro-Display-Bold.svg#GT-Eesti-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "FontAwesome";
+  src: url("/halong-cruises/common/fonts/FontAwesome/fontawesome-webfont.eot");
+  src: url("/halong-cruises/common/fonts/FontAwesome/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/FontAwesome/fontawesome-webfont.woff") format("woff"), url("/halong-cruises/common/fonts/FontAwesome/fontawesome-webfont.ttf") format("truetype"), url("/halong-cruises/common/fonts/FontAwesome/fontawesome-webfont.svg#FontAwesome") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "iz";
+  src: url("/halong-cruises/common/fonts/iz/iz.eot");
+  src: url("/halong-cruises/common/fonts/iz/iz.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/iz/iz.woff") format("woff"), url("/halong-cruises/common/fonts/iz/iz.ttf") format("truetype"), url("/halong-cruises/common/fonts/iz/iz.svg#iz") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.destination {
+  padding-bottom: 38px; }
+  .destination .wrap {
+    max-width: 1200px; }
+  .destination .section-banner .banner-quality .list-quality .item {
+    width: 30%; }
+  .destination .section-top-deal {
+    padding-top: 36px; }
+    .destination .section-top-deal .btn-box {
+      margin-top: 38px; }
+    .destination .section-top-deal.recommend {
+      margin-top: 25px; }
+  .destination .section-discover {
+    padding: 48px 0 22px; }
+    .destination .section-discover .ttl-h2 {
+      margin-bottom: 5px; }
+    .destination .section-discover .sec-catch {
+      margin-bottom: 20px;
+      font-size: 16px;
+      font-size: 1.6rem;
+      text-align: center;
+      color: #2c3e50; }
+    .destination .section-discover .box-place .item {
+      position: relative;
+      float: left;
+      width: 32.33333%;
+      margin-bottom: 15px;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      overflow: hidden; }
+      .destination .section-discover .box-place .item:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: -webkit-radial-gradient(center, circle 1646px, #000000 0%, rgba(0, 0, 0, 0) 100%);
+        background-image: -o-radial-gradient(center, circle 1646px, #000000 0%, rgba(0, 0, 0, 0) 100%);
+        background-image: radial-gradient(circle 1646px at center, #000000 0%, rgba(0, 0, 0, 0) 100%);
+        opacity: 0.5;
+        z-index: 1; }
+      .destination .section-discover .box-place .item a {
+        display: block; }
+        .destination .section-discover .box-place .item a img {
+          -moz-transition: all 300ms;
+          -o-transition: all 300ms;
+          -webkit-transition: all 300ms;
+          transition: all 300ms; }
+        .destination .section-discover .box-place .item a:hover img {
+          -moz-transform: scale(1.1);
+          -o-transform: scale(1.1);
+          -ms-transform: scale(1.1);
+          -webkit-transform: scale(1.1);
+          transform: scale(1.1); }
+      .destination .section-discover .box-place .item .txt {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        z-index: 2;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        color: #fff;
+        -moz-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%); }
+        .destination .section-discover .box-place .item .txt .ttl {
+          font-size: 35px;
+          font-size: 3.5rem;
+          font-family: GT-Eesti-Medium;
+          font-weight: 500;
+          line-height: 1.2; }
+        .destination .section-discover .box-place .item .txt .ttl02 {
+          font-size: 20px;
+          font-size: 2rem;
+          font-family: GT-Eesti-Bold;
+          font-weight: 700; }
+      .destination .section-discover .box-place .item.big-img {
+        width: 66.33333%; }
+      .destination .section-discover .box-place .item.fRight {
+        float: right; }
+      .destination .section-discover .box-place .item:nth-child(3n) {
+        margin-bottom: 0; }
+  .destination .section-top-place {
+    padding: 14px 0 26px;
+    background: #f7f7f7; }
+    .destination .section-top-place .ttl-h2 {
+      margin-bottom: 25px; }
+    .destination .section-top-place .text {
+      margin-top: 28px;
+      font-size: 15px;
+      font-size: 1.5rem;
+      color: #00425f; }
+      .destination .section-top-place .text a {
+        color: #42c1c7;
+        border-bottom: 1px solid transparent;
+        -moz-transition: all 300ms;
+        -o-transition: all 300ms;
+        -webkit-transition: all 300ms;
+        transition: all 300ms; }
+        .destination .section-top-place .text a:hover {
+          color: #3385d6;
+          border-bottom-color: #3385d6; }
+  .destination .links-wrap {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: space-between;
+    -moz-box-pack: space-between;
+    -ms-flex-pack: space-between;
+    -webkit-justify-content: space-between;
+    justify-content: space-between; }
+    .destination .links-wrap .link-cols {
+      width: 16.87764%; }
+    .destination .links-wrap .list-links li {
+      position: relative;
+      padding-left: 10px;
+      margin-bottom: 3px; }
+      .destination .links-wrap .list-links li:last-child {
+        margin-bottom: 0; }
+      .destination .links-wrap .list-links li .fa {
+        position: absolute;
+        top: 4px;
+        left: 0;
+        font-size: 12px;
+        font-size: 1.2rem; }
+      .destination .links-wrap .list-links li a {
+        display: inline-block;
+        font-size: 16px;
+        font-size: 1.6rem;
+        color: #3385d6;
+        border-bottom: 1px solid transparent;
+        -moz-transition: all 300ms;
+        -o-transition: all 300ms;
+        -webkit-transition: all 300ms;
+        transition: all 300ms; }
+        .destination .links-wrap .list-links li a:hover {
+          color: #42c1c7;
+          border-bottom-color: #42c1c7; }
+          .destination .links-wrap .list-links li a:hover span {
+            color: #42c1c7; }
+        .destination .links-wrap .list-links li a span {
+          display: block;
+          font-size: 12px;
+          font-size: 1.2rem;
+          color: #777;
+          -moz-transition: all 300ms;
+          -o-transition: all 300ms;
+          -webkit-transition: all 300ms;
+          transition: all 300ms; }
+  .destination .section-you-can {
+    padding: 35px 0 0; }
+    .destination .section-you-can .list-articles {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: space-between;
+      -moz-box-pack: space-between;
+      -ms-flex-pack: space-between;
+      -webkit-justify-content: space-between;
+      justify-content: space-between; }
+      .destination .section-you-can .list-articles .item {
+        width: 23.66667%; }
+        .destination .section-you-can .list-articles .item a {
+          display: block;
+          -moz-transition: all 300ms;
+          -o-transition: all 300ms;
+          -webkit-transition: all 300ms;
+          transition: all 300ms; }
+          .destination .section-you-can .list-articles .item a figure {
+            overflow: hidden; }
+          .destination .section-you-can .list-articles .item a:hover {
+            -moz-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
+            -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
+            box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3); }
+            .destination .section-you-can .list-articles .item a:hover img {
+              -moz-transform: scale(1.1);
+              -o-transform: scale(1.1);
+              -ms-transform: scale(1.1);
+              -webkit-transform: scale(1.1);
+              transform: scale(1.1); }
+          .destination .section-you-can .list-articles .item a .des {
+            padding: 14px 0px;
+            font-size: 16px;
+            font-size: 1.6rem;
+            text-align: center;
+            color: #1a2b49;
+            border: 1px solid #b7b7b7;
+            border-top: 5px solid #42c1c7; }
+  .destination .section-travel-blog {
+    padding: 32px 0 0; }
+    .destination .section-travel-blog .list-travel {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: space-between;
+      -moz-box-pack: space-between;
+      -ms-flex-pack: space-between;
+      -webkit-justify-content: space-between;
+      justify-content: space-between;
+      color: #1a2b49; }
+      .destination .section-travel-blog .list-travel .item {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: space-between;
+        -moz-box-pack: space-between;
+        -ms-flex-pack: space-between;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+        width: 49.83333%; }
+        .destination .section-travel-blog .list-travel .item .thumb {
+          width: 40.80268%;
+          -moz-border-radius: 3px;
+          -webkit-border-radius: 3px;
+          border-radius: 3px;
+          overflow: hidden; }
+        .destination .section-travel-blog .list-travel .item .box-meta {
+          width: 55.18395%;
+          padding-right: 6.68896%; }
+          .destination .section-travel-blog .list-travel .item .box-meta .tl {
+            margin-bottom: 4px;
+            font-size: 16px;
+            font-size: 1.6rem;
+            font-family: GT-Eesti-Medium;
+            font-weight: 500; }
+            .destination .section-travel-blog .list-travel .item .box-meta .tl a {
+              color: #1a2b49; }
+          .destination .section-travel-blog .list-travel .item .box-meta .time {
+            margin-bottom: 4px;
+            font-size: 13px;
+            font-size: 1.3rem;
+            color: #777; }
+          .destination .section-travel-blog .list-travel .item .box-meta .txt {
+            margin-bottom: 12px;
+            font-size: 13px;
+            font-size: 1.3rem; }
+          .destination .section-travel-blog .list-travel .item .box-meta .social {
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex; }
+            .destination .section-travel-blog .list-travel .item .box-meta .social span {
+              display: inline-block;
+              margin-right: 5px; }
+              .destination .section-travel-blog .list-travel .item .box-meta .social span a {
+                display: inline-block;
+                padding: 3px 7px 2px 5px;
+                font-size: 12px;
+                font-size: 1.2rem;
+                color: #fff;
+                background-color: #4267b2;
+                -moz-border-radius: 3px;
+                -webkit-border-radius: 3px;
+                border-radius: 3px; }
+                .destination .section-travel-blog .list-travel .item .box-meta .social span a:hover {
+                  background-color: #365899; }
+              .destination .section-travel-blog .list-travel .item .box-meta .social span .fa {
+                margin-right: 5px; }
+              .destination .section-travel-blog .list-travel .item .box-meta .social span:last-child {
+                margin-right: 0; }
+              .destination .section-travel-blog .list-travel .item .box-meta .social span.twi a {
+                background-color: #1b95e0; }
+                .destination .section-travel-blog .list-travel .item .box-meta .social span.twi a:hover {
+                  background-color: #0c7abf; }
+              .destination .section-travel-blog .list-travel .item .box-meta .social span.view {
+                display: inline-block;
+                padding: 2px 5px;
+                background: #1a2b49; }
+                .destination .section-travel-blog .list-travel .item .box-meta .social span.view .fa {
+                  margin-right: 5px; }
+  .destination .section-faqs {
+    padding: 35px 0 0; }
+    .destination .section-faqs .block-toggle .item-toggle {
+      margin-bottom: 5px;
+      color: #1a2b49;
+      border: 1px solid #b7b7b7; }
+      .destination .section-faqs .block-toggle .item-toggle .tl {
+        position: relative;
+        padding: 9px 10px;
+        font-weight: bold;
+        text-decoration: underline;
+        cursor: pointer; }
+        .destination .section-faqs .block-toggle .item-toggle .tl .plus {
+          position: absolute;
+          top: 7px;
+          right: 7px;
+          width: 22px;
+          height: 22px;
+          background: #1a2b49;
+          -moz-border-radius: 50%;
+          -webkit-border-radius: 50%;
+          border-radius: 50%; }
+          .destination .section-faqs .block-toggle .item-toggle .tl .plus:before, .destination .section-faqs .block-toggle .item-toggle .tl .plus:after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            background: #fff;
+            -moz-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            -moz-transition: all 300ms;
+            -o-transition: all 300ms;
+            -webkit-transition: all 300ms;
+            transition: all 300ms; }
+          .destination .section-faqs .block-toggle .item-toggle .tl .plus:before {
+            width: 4px;
+            height: 12px; }
+          .destination .section-faqs .block-toggle .item-toggle .tl .plus:after {
+            width: 12px;
+            height: 4px; }
+        .destination .section-faqs .block-toggle .item-toggle .tl.hide .plus:before {
+          -moz-transform: translate(-50%, -50%) rotate(90deg);
+          -o-transform: translate(-50%, -50%) rotate(90deg);
+          -ms-transform: translate(-50%, -50%) rotate(90deg);
+          -webkit-transform: translate(-50%, -50%) rotate(90deg);
+          transform: translate(-50%, -50%) rotate(90deg); }
+      .destination .section-faqs .block-toggle .item-toggle .cont-toggle {
+        display: none;
+        padding: 0 35px 10px 10px; }

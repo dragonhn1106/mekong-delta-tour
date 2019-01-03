@@ -1,0 +1,393 @@
+@font-face {
+  font-family: "GT-Eesti-Light";
+  src: url("/halong-cruises/common/fonts/GTEestiLight/GT-Eesti-Pro-Display-Light.eot");
+  src: url("/halong-cruises/common/fonts/GTEestiLight/GT-Eesti-Pro-Display-Light.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/GTEestiLight/GT-Eesti-Pro-Display-Light.woff") format("woff"), url("/halong-cruises/common/fonts/GTEestiLight/GT-Eesti-Pro-Display-Light.ttf") format("truetype"), url("/halong-cruises/common/fonts/GTEestiLight/GT-Eesti-Pro-Display-Light.svg#GT-Eesti-Light") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "GT-Eesti-Regular";
+  src: url("/halong-cruises/common/fonts/GTEestiRegular/GT-Eesti-Pro-Display-Regular.eot");
+  src: url("/halong-cruises/common/fonts/GTEestiRegular/GT-Eesti-Pro-Display-Regular.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/GTEestiRegular/GT-Eesti-Pro-Display-Regular.woff") format("woff"), url("/halong-cruises/common/fonts/GTEestiRegular/GT-Eesti-Pro-Display-Regular.ttf") format("truetype"), url("/halong-cruises/common/fonts/GTEestiRegular/GT-Eesti-Pro-Display-Regular.svg#GT-Eesti-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "GT-Eesti-Medium";
+  src: url("/halong-cruises/common/fonts/GTEestiMedium/GT-Eesti-Pro-Display-Medium.eot");
+  src: url("/halong-cruises/common/fonts/GTEestiMedium/GT-Eesti-Pro-Display-Medium.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/GTEestiMedium/GT-Eesti-Pro-Display-Medium.woff") format("woff"), url("/halong-cruises/common/fonts/GTEestiMedium/GT-Eesti-Pro-Display-Medium.ttf") format("truetype"), url("/halong-cruises/common/fonts/GTEestiMedium/GT-Eesti-Pro-Display-Medium.svg#GT-Eesti-Medium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "GT-Eesti-Bold";
+  src: url("/halong-cruises/common/fonts/GTEestiBold/GT-Eesti-Pro-Display-Bold.eot");
+  src: url("/halong-cruises/common/fonts/GTEestiBold/GT-Eesti-Pro-Display-Bold.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/GTEestiBold/GT-Eesti-Pro-Display-Bold.woff") format("woff"), url("/halong-cruises/common/fonts/GTEestiBold/GT-Eesti-Pro-Display-Bold.ttf") format("truetype"), url("/halong-cruises/common/fonts/GTEestiBold/GT-Eesti-Pro-Display-Bold.svg#GT-Eesti-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "FontAwesome";
+  src: url("/halong-cruises/common/fonts/FontAwesome/fontawesome-webfont.eot");
+  src: url("/halong-cruises/common/fonts/FontAwesome/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/FontAwesome/fontawesome-webfont.woff") format("woff"), url("/halong-cruises/common/fonts/FontAwesome/fontawesome-webfont.ttf") format("truetype"), url("/halong-cruises/common/fonts/FontAwesome/fontawesome-webfont.svg#FontAwesome") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "iz";
+  src: url("/halong-cruises/common/fonts/iz/iz.eot");
+  src: url("/halong-cruises/common/fonts/iz/iz.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/iz/iz.woff") format("woff"), url("/halong-cruises/common/fonts/iz/iz.ttf") format("truetype"), url("/halong-cruises/common/fonts/iz/iz.svg#iz") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.blog .wrap {
+  width: 93.88889%; }
+
+.blog a {
+  color: #1a2b49; }
+
+.blog .widget-hot-deals .widget-hot-deals-ttl {
+  padding: 6px 20px 5px 7%;
+  font-size: 25px;
+  font-size: 2.5rem;
+  font-family: GT-Eesti-Medium;
+  font-weight: 500;
+  font-weight: normal; }
+
+.blog .widget-hot-deals .widget-content {
+  margin: 0 auto;
+  padding: 0;
+  background: none;
+  border-bottom: 1px solid #b7b7b7; }
+  .blog .widget-hot-deals .widget-content .widget-hot-deals-list {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: space-between;
+    -moz-box-pack: space-between;
+    -ms-flex-pack: space-between;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    width: 93.88889%;
+    margin: 0 auto; }
+    .blog .widget-hot-deals .widget-content .widget-hot-deals-list li {
+      display: block;
+      width: 48.42209%;
+      padding: 20px 0;
+      border: none; }
+      .blog .widget-hot-deals .widget-content .widget-hot-deals-list li .thumb {
+        width: 100%; }
+      .blog .widget-hot-deals .widget-content .widget-hot-deals-list li .meta {
+        width: 100%; }
+        .blog .widget-hot-deals .widget-content .widget-hot-deals-list li .meta .meta-bottom {
+          display: block; }
+      .blog .widget-hot-deals .widget-content .widget-hot-deals-list li .meta-ttl {
+        margin-top: 10px;
+        font-family: GT-Eesti-Medium;
+        font-weight: 500;
+        font-weight: normal;
+        text-align: center; }
+        .blog .widget-hot-deals .widget-content .widget-hot-deals-list li .meta-ttl a {
+          font-size: 17px;
+          font-size: 1.7rem;
+          line-height: 1.2; }
+      .blog .widget-hot-deals .widget-content .widget-hot-deals-list li .meta-duration {
+        margin-bottom: 8px;
+        font-size: 13px;
+        font-size: 1.3rem;
+        text-align: center; }
+      .blog .widget-hot-deals .widget-content .widget-hot-deals-list li .deal-price {
+        text-align: center; }
+        .blog .widget-hot-deals .widget-content .widget-hot-deals-list li .deal-price .us {
+          font-size: 11px;
+          font-size: 1.1rem; }
+          .blog .widget-hot-deals .widget-content .widget-hot-deals-list li .deal-price .us span {
+            display: inline-block; }
+          .blog .widget-hot-deals .widget-content .widget-hot-deals-list li .deal-price .us .clr {
+            font-size: 17px;
+            font-size: 1.7rem;
+            color: #d0021b; }
+          .blog .widget-hot-deals .widget-content .widget-hot-deals-list li .deal-price .us .line {
+            font-size: 11px;
+            font-size: 1.1rem;
+            color: #1a2b49;
+            text-decoration: line-through; }
+
+.blog .widget-hot-deals .widget-hot-deals-viewmore {
+  margin: 25px 0;
+  text-align: center; }
+  .blog .widget-hot-deals .widget-hot-deals-viewmore .btn-primary {
+    padding: 6px 35px 6px 40px;
+    font-size: 17px;
+    font-size: 1.7rem;
+    color: #fff;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; }
+    .blog .widget-hot-deals .widget-hot-deals-viewmore .btn-primary .fa {
+      position: relative;
+      top: 2px;
+      display: inline-block;
+      margin-left: 15px;
+      font-size: 18px;
+      font-size: 1.8rem; }
+
+.blog .cont-post {
+  padding: 15px 0 30px;
+  background: #f5f9fb; }
+  .blog .cont-post .post-col-full .post-item {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: space-between;
+    -moz-box-pack: space-between;
+    -ms-flex-pack: space-between;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    padding: 0 0 12px;
+    margin-top: 12px;
+    border-bottom: 1px solid #b7b7b7; }
+    .blog .cont-post .post-col-full .post-item .photo {
+      width: 32.54438%;
+      margin-top: 4px; }
+    .blog .cont-post .post-col-full .post-item .box-info {
+      width: 65.08876%; }
+      .blog .cont-post .post-col-full .post-item .box-info .box-head .post-ttl {
+        margin-bottom: 2px;
+        font-size: 18px;
+        font-size: 1.8rem;
+        font-family: GT-Eesti-Medium;
+        font-weight: 500;
+        font-weight: normal; }
+        .blog .cont-post .post-col-full .post-item .box-info .box-head .post-ttl a {
+          text-decoration: underline; }
+      .blog .cont-post .post-col-full .post-item .box-info .box-head .box-view {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: space-between;
+        -moz-box-pack: space-between;
+        -ms-flex-pack: space-between;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+        margin-bottom: 10px; }
+        .blog .cont-post .post-col-full .post-item .box-info .box-head .box-view .time {
+          font-size: 15px;
+          font-size: 1.5rem;
+          color: #777; }
+        .blog .cont-post .post-col-full .post-item .box-info .box-head .box-view .view {
+          display: -webkit-box;
+          display: -moz-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          padding: 0 8px 0 10px;
+          font-size: 13px;
+          font-size: 1.3rem;
+          color: #777; }
+          .blog .cont-post .post-col-full .post-item .box-info .box-head .box-view .view .fa {
+            margin-right: 6px; }
+      .blog .cont-post .post-col-full .post-item .box-info .box-head .txt {
+        font-size: 15px;
+        font-size: 1.5rem;
+        font-family: GT-Eesti-Light;
+        font-weight: 300;
+        color: #1a2b49; }
+  .blog .cont-post .post-col-full .more-block {
+    display: none; }
+  .blog .cont-post .btn-view {
+    width: 100%;
+    margin-top: 25px;
+    text-align: center; }
+    .blog .cont-post .btn-view a {
+      display: inline-block;
+      padding: 4px 20px 4px 30px;
+      font-size: 17px;
+      font-size: 1.7rem;
+      color: #fff;
+      background: #42c1c7;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px; }
+      .blog .cont-post .btn-view a .fa {
+        margin-left: 10px; }
+
+.blog-list {
+  overflow: hidden;
+  color: #1a2b49; }
+  .blog-list .block-head {
+    margin-bottom: 13px; }
+    .blog-list .block-head .cont-sld .item .link-post {
+      width: 93.88889%;
+      margin: 10px auto 0; }
+      .blog-list .block-head .cont-sld .item .link-post .ttl {
+        font-size: 25px;
+        font-size: 2.5rem;
+        border-bottom: 1px solid #1a2b49; }
+      .blog-list .block-head .cont-sld .item .link-post .time {
+        margin-top: 5px;
+        font-size: 15px;
+        font-size: 1.5rem;
+        color: #777; }
+  .blog-list .slick-arrow {
+    text-indent: -9999px; }
+  .blog-list .slick-prev {
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    width: 10px;
+    height: 10px;
+    margin-top: 25px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    z-index: 10;
+    -webkit-transform: rotate(225deg);
+    -ms-transform: rotate(225deg);
+    transform: rotate(225deg); }
+  .blog-list .slick-next {
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    width: 10px;
+    height: 10px;
+    margin-top: 25px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    z-index: 10;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg); }
+
+.blog-detail .list-share-socials li a.views-count {
+  text-transform: uppercase;
+  color: #777;
+  background: none; }
+
+.blog-detail .post .post-entry-thumbnail {
+  margin-bottom: 15px; }
+  .blog-detail .post .post-entry-thumbnail img {
+    width: 100%; }
+
+.blog-detail .post .inner-pd {
+  padding: 0 3.05556%; }
+
+.blog-detail .post .post-entry-header .post-title {
+  font-size: 25px;
+  font-size: 2.5rem;
+  font-family: GT-Eesti-Medium;
+  font-weight: 500;
+  font-weight: normal;
+  color: #1a2b49; }
+
+.blog-detail .post .post-entry-content {
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-size: 1.6rem;
+  color: #1a2b49; }
+  .blog-detail .post .post-entry-content .list-01 {
+    margin: 30px 0 30px 18px; }
+    .blog-detail .post .post-entry-content .list-01 li {
+      list-style-type: square;
+      color: #777; }
+      .blog-detail .post .post-entry-content .list-01 li span {
+        display: inline-block;
+        line-height: 1;
+        border-bottom: 1px solid #777; }
+  .blog-detail .post .post-entry-content h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-size: 2rem;
+    font-family: GT-Eesti-Medium;
+    font-weight: 500;
+    font-weight: normal; }
+  .blog-detail .post .post-entry-content img {
+    width: auto; }
+  .blog-detail .post .post-entry-content .img-center {
+    text-align: center; }
+  .blog-detail .post .post-entry-content p {
+    margin-bottom: 20px; }
+  .blog-detail .post .post-entry-content figure {
+    margin: 30px 0 20px; }
+    .blog-detail .post .post-entry-content figure img {
+      width: 100%;
+      margin-bottom: 10px; }
+    .blog-detail .post .post-entry-content figure figcaption {
+      font-size: 15px;
+      font-size: 1.5rem;
+      color: #777;
+      font-style: italic; }
+  .blog-detail .post .post-entry-content b {
+    font-family: GT-Eesti-Medium;
+    font-weight: 500;
+    font-weight: normal; }
+
+.blog-detail .post .post-entry-footer .list-share-socials {
+  margin-bottom: 30px; }
+
+.blog-detail .post .list-related-post {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: flex-start;
+  -moz-box-pack: flex-start;
+  -ms-flex-pack: flex-start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .blog-detail .post .list-related-post .item {
+    width: 31.44654%;
+    margin: 0 2.83019% 30px 0;
+    text-align: center; }
+    .blog-detail .post .list-related-post .item:nth-child(3n) {
+      margin-right: 0; }
+    .blog-detail .post .list-related-post .item:hover .thumb img {
+      -moz-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1); }
+    .blog-detail .post .list-related-post .item:hover a {
+      color: #42c1c7; }
+    .blog-detail .post .list-related-post .item .thumb {
+      overflow: hidden; }
+    .blog-detail .post .list-related-post .item a {
+      font-size: 16px;
+      font-size: 1.6rem;
+      color: #1a2b49; }
+    .blog-detail .post .list-related-post .item .item-ttl {
+      margin-top: 15px; }
+
+.blog.blog-detail .widget-hot-deals .widget-hot-deals-viewmore {
+  margin: 20px 0 35px; }
+  .blog.blog-detail .widget-hot-deals .widget-hot-deals-viewmore .btn-primary {
+    padding: 6px 40px; }
+    .blog.blog-detail .widget-hot-deals .widget-hot-deals-viewmore .btn-primary.btn-green:hover {
+      background: #42c1c7; }
+
+.blog.blog-detail .cont-post {
+  padding-top: 10px;
+  border-top: 8px solid #f5f9fb;
+  background: #fff; }
+  .blog.blog-detail .cont-post .ttl-h3 {
+    margin-bottom: 10px;
+    padding-left: 3%;
+    font-weight: normal;
+    text-transform: uppercase; }
+  .blog.blog-detail .cont-post .post-col-full .post-item:last-child {
+    border-bottom: none; }
+  .blog.blog-detail .cont-post .post-col-full .post-item .box-info .box-head .box-view .view {
+    color: #777;
+    background: none; }

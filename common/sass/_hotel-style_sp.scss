@@ -1,0 +1,356 @@
+@charset "UTF-8";
+
+.list-dot {
+	li {
+		position: relative;
+		padding-left: 15px;
+		@include fz(16);
+		&::before {
+			content: '';
+			position: absolute;
+			top: 8px;
+			left: 0;
+			width: 5px;
+			height: 5px;
+			border-radius: 100%;
+			background: $color-main03;
+		}
+	}
+}
+.list-check {
+	li {
+		position: relative;
+		padding-left: 25px;
+
+		&::before {
+			content: '\f00c';
+			position: absolute;
+			top: 0;
+			left: 0;
+			@include fz(20);
+			line-height: 1;
+			font-family: FontAwesome;
+			color: $color-main02;
+		}
+	}
+}
+.list-hotels,
+.list-tours {
+	.hotel,
+	.tour {
+		margin-bottom: 30px;
+		background: #fff;
+		@include box-shadow(0px 2px 10px 0 rgba(0, 0, 0, .15));
+		.thumbnail {
+			position: relative;
+			img {
+				width: 100%;
+			}
+			.btn-favorite {
+				position: absolute;
+				top: 10px;
+				right: 10px;
+				width: 37px;
+				height: 35px;
+				background: url(/common/images/hotel/icon_heart.svg) no-repeat;
+				background-size: contain;
+				cursor: pointer;
+				@include transition(all .3s ease-out);
+				&.favorited,
+				&:hover {
+					background: url(/common/images/hotel/icon_heart_on.svg) no-repeat;
+					background-size: contain;
+				}
+			}
+		}
+		.map {
+			position: relative;
+			display: none;
+			margin-top: 10px;
+			padding-bottom: 130/244*100%;
+			iframe {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
+		}
+		.info {
+			padding: 0 5px;
+			border: 1px solid #b7b7b7;
+			border-top-width: 0;
+			.info-text {
+				padding: 4% 3%;
+				border-bottom: 1px solid #b7b7b7;
+			}
+			.toggle-btn {
+				display: block;
+				padding: 2% 4%;
+				text-align: center;
+				&::before {
+					content: '\f078';
+					font-family: FontAwesome;
+					display: inline-block;
+					@include fz(20);
+				}
+				&.close {
+					&::before {
+						content: '\f077';
+					}
+				}
+			}
+		}
+		.meta-title {
+			margin-bottom: 5px;
+			@include fz(24);
+		}
+		.meta-01 {
+			margin-bottom: 5px;
+			.point {
+				display: inline-block;
+				margin: 0 5px 0 30px;
+				padding: 0 5px;
+				color: #fff;
+				background: $color-main02;
+			}
+			.review-text {
+				color: #777;
+			}
+		}
+		.meta-02 {
+			display: none;
+			margin-bottom: 3%;
+			@include fz(20);
+			font-style: italic;
+		}
+		.meta-03 {
+			display: none;
+			margin-bottom: 3%;
+			li {
+				display: flex;
+				justify-content: space-between;
+				align-items: flex-start;
+				@include fz(16);
+				span,
+				p {
+					width: 50%;
+				}
+				.link-more {
+					color: $color-main02;
+					text-decoration: underline;
+				}
+				p {
+
+				}
+				.more {
+					position: relative;
+					padding-right: 33px;
+					text-overflow: ellipsis;
+					overflow: hidden;
+					white-space: nowrap;
+					.link-more {
+						position: absolute;
+						top: 0;
+						right: 0;
+					}
+				}
+			}
+		}
+		.meta-04 {
+			display: flex;
+			justify-content: space-between;
+			text-align: center;
+			margin-bottom: 3%;
+			li {
+				// width: 33%;
+				@include fz(16);
+				.lead {
+					margin-bottom: 5px;
+				}
+				.val {
+					span {
+						@include fz(20);
+					}
+				}
+			}
+			.red {
+				color: #d0021b;
+			}
+		}
+		.meta-05 {
+			display: none;
+			li {
+				display: flex;
+				justify-content: space-between;
+				line-height: 2;
+			}
+		}
+		.meta-06 {
+			display: flex;
+			justify-content: space-between;
+			.notes {
+				color: #d0021b;
+			}
+			.price {
+				text-align: right;
+				.p-02 {
+					span {
+						@include fz(20);
+					}
+					.red {
+						color: #d0021b;
+					}
+				}
+			}
+		}
+		.position-text {
+			position: relative;
+			margin: 1% 0 2%;
+			padding-left: 20px;
+			color: #777;
+			.fa {
+				position: absolute;
+				top: 0;
+				left: 0;
+				@include fz(18);
+			}
+		}
+		.meta-toggle {
+			display: none;
+			margin-bottom: 3%;
+		}
+		.action {
+			display: flex;
+			justify-content: space-between;
+			margin-top: 3%;
+			.btn-sp {
+				display: flex;
+				flex-grow: 1;
+				justify-content: center;
+				align-items: center;
+				width: 48%;
+				padding: 8px 5px;
+				@include fz(15);
+				box-shadow: inset 0px -3px 3px 0 rgba(0, 0, 0, .15);
+				&:not(:first-child) {
+					margin-left: 4%;
+				}
+			}
+		}
+	}
+}
+
+.paging-block {
+	margin: 30px 0;
+	.list-pagings {
+		font-size: 0;
+		text-align: center;
+		.item {
+			display: inline-block;
+			margin: 0 2% 3% 0;
+			@include fz(16);
+			&:last-child {
+				margin-right: 0;
+			}
+			a,
+			span {
+				display: block;
+				padding: 10px 16px 8px;
+				color: $color_main03;
+				line-height: 1;
+				background: #fff;
+				border: 1px solid #b7b7b7;
+				border-radius: 2px;
+				@include transition(all .3s ease-out);
+			}
+			.current {
+				color: #fff;
+				background: $color_main02;
+			}
+			.prev {
+				&::before {
+					content: '';
+					display: inline-block;
+					width: 19.5px;
+					height: 11px;
+					background: url(../images/share/icon-prev.png) no-repeat center;
+					background-size: contain;
+				}
+			}
+			.next {
+				&::before {
+					content: '';
+					display: inline-block;
+					width: 19.5px;
+					height: 11px;
+					background: url(../images/share/icon-next.png) no-repeat center;
+					background-size: contain;
+				}
+			}
+		}
+	}
+}
+
+.box-section-content {
+	.widget-faq {
+		margin-bottom: 20px;
+		background: #fff;
+	}
+	.box {
+		padding: 4% 5%;
+		margin-bottom: 20px;
+		background: #fff;
+		border: 1px solid #b7b7b7;
+		h3 {
+			margin-bottom: 3%;
+			text-align: center;
+			@include fz(20);
+		}
+		p {
+			margin-bottom: 3%;
+			a {
+				text-decoration: underline;
+				color: $color-main03;
+			}
+		}
+	}
+}
+
+.range {
+	width: calc(100% - 9px);
+	margin: 15px 0 10px;
+	&.ui-widget-content {
+		position: relative;
+		border: none;
+		height: 5px;
+		background: $color_main03;
+		@include border-radius(0);
+		.ui-slider-range {
+			background: none;
+		}
+		.ui-slider-handle {
+			position: absolute;
+			top: 50%;
+			z-index: 0;
+			width: 18px;
+			height: 18px;
+			@include border-radius(50%);
+			@include transform(translateY(-50%));
+			border: none;
+			outline: none;
+			background: $color_main02;
+			cursor: pointer;
+			span {
+				position: absolute;
+				bottom: -28px;
+				left: 50%;
+				display: block;
+				width: 50px;
+				color: #777;
+				text-align: center;
+				@include transform(translateX(-50%));
+			}
+		}
+	}
+}

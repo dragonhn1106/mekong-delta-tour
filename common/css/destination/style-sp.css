@@ -1,0 +1,326 @@
+@font-face {
+  font-family: "GT-Eesti-Light";
+  src: url("/halong-cruises/common/fonts/GTEestiLight/GT-Eesti-Pro-Display-Light.eot");
+  src: url("/halong-cruises/common/fonts/GTEestiLight/GT-Eesti-Pro-Display-Light.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/GTEestiLight/GT-Eesti-Pro-Display-Light.woff") format("woff"), url("/halong-cruises/common/fonts/GTEestiLight/GT-Eesti-Pro-Display-Light.ttf") format("truetype"), url("/halong-cruises/common/fonts/GTEestiLight/GT-Eesti-Pro-Display-Light.svg#GT-Eesti-Light") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "GT-Eesti-Regular";
+  src: url("/halong-cruises/common/fonts/GTEestiRegular/GT-Eesti-Pro-Display-Regular.eot");
+  src: url("/halong-cruises/common/fonts/GTEestiRegular/GT-Eesti-Pro-Display-Regular.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/GTEestiRegular/GT-Eesti-Pro-Display-Regular.woff") format("woff"), url("/halong-cruises/common/fonts/GTEestiRegular/GT-Eesti-Pro-Display-Regular.ttf") format("truetype"), url("/halong-cruises/common/fonts/GTEestiRegular/GT-Eesti-Pro-Display-Regular.svg#GT-Eesti-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "GT-Eesti-Medium";
+  src: url("/halong-cruises/common/fonts/GTEestiMedium/GT-Eesti-Pro-Display-Medium.eot");
+  src: url("/halong-cruises/common/fonts/GTEestiMedium/GT-Eesti-Pro-Display-Medium.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/GTEestiMedium/GT-Eesti-Pro-Display-Medium.woff") format("woff"), url("/halong-cruises/common/fonts/GTEestiMedium/GT-Eesti-Pro-Display-Medium.ttf") format("truetype"), url("/halong-cruises/common/fonts/GTEestiMedium/GT-Eesti-Pro-Display-Medium.svg#GT-Eesti-Medium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "GT-Eesti-Bold";
+  src: url("/halong-cruises/common/fonts/GTEestiBold/GT-Eesti-Pro-Display-Bold.eot");
+  src: url("/halong-cruises/common/fonts/GTEestiBold/GT-Eesti-Pro-Display-Bold.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/GTEestiBold/GT-Eesti-Pro-Display-Bold.woff") format("woff"), url("/halong-cruises/common/fonts/GTEestiBold/GT-Eesti-Pro-Display-Bold.ttf") format("truetype"), url("/halong-cruises/common/fonts/GTEestiBold/GT-Eesti-Pro-Display-Bold.svg#GT-Eesti-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "FontAwesome";
+  src: url("/halong-cruises/common/fonts/FontAwesome/fontawesome-webfont.eot");
+  src: url("/halong-cruises/common/fonts/FontAwesome/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/FontAwesome/fontawesome-webfont.woff") format("woff"), url("/halong-cruises/common/fonts/FontAwesome/fontawesome-webfont.ttf") format("truetype"), url("/halong-cruises/common/fonts/FontAwesome/fontawesome-webfont.svg#FontAwesome") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "iz";
+  src: url("/halong-cruises/common/fonts/iz/iz.eot");
+  src: url("/halong-cruises/common/fonts/iz/iz.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/iz/iz.woff") format("woff"), url("/halong-cruises/common/fonts/iz/iz.ttf") format("truetype"), url("/halong-cruises/common/fonts/iz/iz.svg#iz") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.destination {
+  color: #1a2b49; }
+  .destination .wrap {
+    width: 93.7037%; }
+  .destination .ttl-h2 {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-size: 2.5rem; }
+  .destination .section-top-deal {
+    padding: 20px 0 0;
+    background: #f5f9fb; }
+    .destination .section-top-deal.recommend {
+      padding-bottom: 25px; }
+  .destination .section-discover {
+    padding-top: 20px; }
+    .destination .section-discover .box-place {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: space-between;
+      -moz-box-pack: space-between;
+      -ms-flex-pack: space-between;
+      -webkit-justify-content: space-between;
+      justify-content: space-between;
+      -webkit-flex-flow: wrap row;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-flow: wrap row;
+      flex-flow: wrap row; }
+      .destination .section-discover .box-place .item {
+        width: 48.41897%;
+        margin-bottom: 3.5%;
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+        border-radius: 2px;
+        overflow: hidden; }
+        .destination .section-discover .box-place .item a {
+          position: relative;
+          display: block; }
+          .destination .section-discover .box-place .item a .txt {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -moz-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-flex-flow: wrap column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-flow: wrap column;
+            flex-flow: wrap column;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            padding: 0 8.16327%;
+            font-size: 13px;
+            font-size: 1.3rem;
+            color: #fff; }
+            .destination .section-discover .box-place .item a .txt .ttl {
+              font-size: 21px;
+              font-size: 2.1rem;
+              font-family: GT-Eesti-Medium;
+              font-weight: 500; }
+  .destination .list-top-deals .item:last-child {
+    margin-bottom: 0; }
+  .destination .section-top-place {
+    padding: 20px 0; }
+    .destination .section-top-place .links-wrap {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: space-between;
+      -moz-box-pack: space-between;
+      -ms-flex-pack: space-between;
+      -webkit-justify-content: space-between;
+      justify-content: space-between;
+      -webkit-flex-flow: wrap row;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-flow: wrap row;
+      flex-flow: wrap row; }
+      .destination .section-top-place .links-wrap .link-cols {
+        width: 50%;
+        padding-left: 6%; }
+        .destination .section-top-place .links-wrap .link-cols .list-links li {
+          margin-bottom: 15px; }
+          .destination .section-top-place .links-wrap .link-cols .list-links li a {
+            position: relative;
+            display: inline-block;
+            padding-left: 10px;
+            font-size: 17px;
+            font-size: 1.7rem;
+            line-height: 1.4;
+            color: #1a2b49; }
+            .destination .section-top-place .links-wrap .link-cols .list-links li a .fa {
+              position: absolute;
+              top: 6px;
+              left: 0;
+              font-size: 12px; }
+            .destination .section-top-place .links-wrap .link-cols .list-links li a span {
+              display: block;
+              font-size: 15px;
+              font-size: 1.5rem;
+              color: #777; }
+    .destination .section-top-place .text {
+      padding: 0 5% 0 6%;
+      font-size: 15px;
+      font-size: 1.5rem; }
+      .destination .section-top-place .text a {
+        color: #42c1c7; }
+  .destination .section-you-can {
+    padding: 20px 0 10px;
+    background: #f5f9fb; }
+    .destination .section-you-can .list-articles {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: space-between;
+      -moz-box-pack: space-between;
+      -ms-flex-pack: space-between;
+      -webkit-justify-content: space-between;
+      justify-content: space-between;
+      -webkit-flex-flow: wrap row;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-flow: wrap row;
+      flex-flow: wrap row; }
+      .destination .section-you-can .list-articles .item {
+        width: 48.22134%;
+        margin-bottom: 4%; }
+        .destination .section-you-can .list-articles .item a {
+          display: block;
+          font-size: 15px;
+          font-size: 1.5rem;
+          text-align: center;
+          color: #1a2b49; }
+          .destination .section-you-can .list-articles .item a .des {
+            padding: 12px 5px;
+            text-transform: uppercase;
+            background-color: #ffffff;
+            border: 1px solid #b7b7b7;
+            border-top: 4px solid #42c1c7; }
+  .destination .section-latest-art {
+    padding: 25px 0 30px;
+    border-bottom: 7px solid #f5f9fb; }
+    .destination .section-latest-art .list-latest .item {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: space-between;
+      -moz-box-pack: space-between;
+      -ms-flex-pack: space-between;
+      -webkit-justify-content: space-between;
+      justify-content: space-between;
+      padding: 2.47525% 3.36634%;
+      margin-bottom: 3.5%;
+      border: 1px solid #b7b7b7; }
+      .destination .section-latest-art .list-latest .item .thumb {
+        width: 39.32347%; }
+      .destination .section-latest-art .list-latest .item .meta {
+        width: 57.08245%; }
+        .destination .section-latest-art .list-latest .item .meta .by {
+          margin-bottom: 10px;
+          font-size: 13px;
+          font-size: 1.3rem;
+          font-family: GT-Eesti-Medium;
+          font-weight: 500;
+          line-height: 1;
+          color: #aab2bd; }
+          .destination .section-latest-art .list-latest .item .meta .by .date {
+            margin-right: 40px; }
+          .destination .section-latest-art .list-latest .item .meta .by .name {
+            color: #42c1c7; }
+        .destination .section-latest-art .list-latest .item .meta .link-ttl {
+          display: inline-block;
+          margin-bottom: 5px;
+          font-size: 19px;
+          font-size: 1.9rem;
+          font-family: GT-Eesti-Medium;
+          font-weight: 500;
+          line-height: 1;
+          color: #1a2b49; }
+        .destination .section-latest-art .list-latest .item .meta .txt {
+          padding-right: 15px;
+          font-size: 15px;
+          font-size: 1.5rem;
+          line-height: 1.2;
+          color: #777; }
+        .destination .section-latest-art .list-latest .item .meta .read-more {
+          text-align: right; }
+          .destination .section-latest-art .list-latest .item .meta .read-more a {
+            position: relative;
+            display: inline-block;
+            padding-right: 20px;
+            font-size: 13px;
+            font-size: 1.3rem;
+            font-family: GT-Eesti-Medium;
+            font-weight: 500;
+            color: #42c1c7; }
+            .destination .section-latest-art .list-latest .item .meta .read-more a:after {
+              content: "";
+              position: absolute;
+              top: 3px;
+              right: 0;
+              width: 13px;
+              height: 10px;
+              background: url(../../images/destination/arrow-right.png) no-repeat;
+              background-size: cover; }
+    .destination .section-latest-art .btn-primary {
+      margin-top: 10px;
+      padding: 15px 25px 15px 35px;
+      font-size: 17px;
+      font-size: 1.7rem; }
+  .destination .section-faqs {
+    padding: 20px 0 22px; }
+    .destination .section-faqs .block-toggle .item-toggle {
+      margin-bottom: 8px;
+      color: #1a2b49;
+      border: 1px solid #b7b7b7; }
+      .destination .section-faqs .block-toggle .item-toggle .tl {
+        position: relative;
+        padding: 6px 10px 6px 15px;
+        font-size: 15px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-decoration: underline;
+        cursor: pointer; }
+        .destination .section-faqs .block-toggle .item-toggle .tl .plus {
+          position: absolute;
+          top: 7px;
+          right: 12px;
+          width: 18px;
+          height: 18px;
+          background: #1a2b49;
+          -moz-border-radius: 50%;
+          -webkit-border-radius: 50%;
+          border-radius: 50%; }
+          .destination .section-faqs .block-toggle .item-toggle .tl .plus:before, .destination .section-faqs .block-toggle .item-toggle .tl .plus:after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            background: #fff;
+            -moz-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            -moz-transition: all 300ms;
+            -o-transition: all 300ms;
+            -webkit-transition: all 300ms;
+            transition: all 300ms; }
+          .destination .section-faqs .block-toggle .item-toggle .tl .plus:before {
+            width: 3px;
+            height: 10px; }
+          .destination .section-faqs .block-toggle .item-toggle .tl .plus:after {
+            width: 10px;
+            height: 3px; }
+        .destination .section-faqs .block-toggle .item-toggle .tl.hide .plus:before {
+          -moz-transform: translate(-50%, -50%) rotate(90deg);
+          -o-transform: translate(-50%, -50%) rotate(90deg);
+          -ms-transform: translate(-50%, -50%) rotate(90deg);
+          -webkit-transform: translate(-50%, -50%) rotate(90deg);
+          transform: translate(-50%, -50%) rotate(90deg); }
+      .destination .section-faqs .block-toggle .item-toggle .cont-toggle {
+        display: none;
+        padding: 0 35px 10px 15px; }

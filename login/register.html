@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>ASIA PACKER TRAVEL</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="/common/css/ress.min.css">
+	<link rel="stylesheet" href="/common/css/jquery-datepicker-ui.min.css">
+	<link rel="stylesheet" href="/common/css/fontawesome.min.css">
+  <link rel="stylesheet" href="/common/css/slick.css">
+  <link rel="stylesheet" href="/common/css/main.css">
+	<link rel="stylesheet" href="/common/css/login/style.css">
+</head>
+<body>
+	<div class="container">
+		<?php include $_SERVER['DOCUMENT_ROOT']."/common/inc/header.php"; ?>
+		<div class="register">
+      <div class="wrap">
+        <div class="register-box">
+          <p class="btn log-face"><a href=""><i class="fa fa-facebook" aria-hidden="true"></i>Log in with Facebook</a></p>
+          <p class="btn log-google"><a href=""><i><img src="/common/images/share/google-identity-icon.png" alt=""></i>Log in with Google</a></p>
+          <p class="log-or"><span>Or</span></p>
+          <div class="main-log-in">
+            <form action="" method="POST" name="frmRegister">
+              <p class="txtInput reg">
+                <input type="text" name="txtFirst" placeholder="First name" class="in">
+              </p>
+              <p class="txtInput reg">
+                <input type="text" name="txtLast" placeholder="Last name" class="in">
+              </p>
+              <p class="txtInput reg">
+                <input type="text" name="txtEmail" placeholder="Email address" class="in">
+              </p>
+              <p class="txtInput reg">
+                <input type="password" name="txtPass" placeholder="Password" class="in">
+              </p>
+              <div class="act">
+                <p class="agree"><input type="checkbox" id="agree"><label for="agree">Sign up to our weekly inspirational newsletter.</label></p>
+                <p class="txt-privacy">By ticking the box, you also agree to receive the occasional promotional email. You can unsubscribe at any time. For more information, read our <a href="#">privacy statement</a>.</p>
+              </div>
+              <p class="btn handle-log"><a href="" id="sm-login">Login</a></p>
+            </form>
+          </div>
+          <p class="new-here">Already a member? <a href="/login">Log in</a></p>
+        </div>
+      </div>
+    </div>
+		<?php include $_SERVER['DOCUMENT_ROOT']."/common/inc/footer.php"; ?>
+  </div>
+  <?php include $_SERVER['DOCUMENT_ROOT']."/common/inc/common-js.php"; ?>
+</body>
+</html>
