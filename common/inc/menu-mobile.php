@@ -8,7 +8,7 @@
 				<li><a href="">Wishlist<span>2</span></a></li>
 			</ul>
 			<div class="user-cont">
-				<p class="avatar"><img src="/common/images/share/avt-user.png" alt="" width="145" height="145"></p>
+				<p class="avatar"><img src="/Mekong-delta-tours/common/images/share/avt-user.png" alt="" width="145" height="145"></p>
 				<p class="hi-txt">Hello, Sign in</p>
 				<div class="frmsearch-menu">
 					<form action="" method="get" name="frmSearch">

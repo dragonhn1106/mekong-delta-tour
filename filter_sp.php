@@ -8,17 +8,17 @@
 	<meta name="keywords" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="format-detection" content="telephone=no">
-  <link rel="stylesheet" href="/common/css/ress.min.css">
-	<link rel="stylesheet" href="/common/css/jquery-datepicker-ui.min.css">
+  <link rel="stylesheet" href="/Mekong-delta-tours/css/ress.min.css">
+	<link rel="stylesheet" href="/Mekong-delta-tours/css/jquery-datepicker-ui.min.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
-	<link rel="stylesheet" href="/common/css/fontawesome.min.css">
-  <link rel="stylesheet" href="/common/css/slick.css">
-  <link rel="stylesheet" href="/common/css/main_sp.css">
+	<link rel="stylesheet" href="/Mekong-delta-tours/css/fontawesome.min.css">
+  <link rel="stylesheet" href="/Mekong-delta-tours/css/slick.css">
+  <link rel="stylesheet" href="/Mekong-delta-tours/css/main_sp.css">
 </head>
 <body>
 	<div class="container">
-		<?php include $_SERVER['DOCUMENT_ROOT']."/common/inc/header_sp.php"; ?>
-    <?php include $_SERVER['DOCUMENT_ROOT']."/common/inc/menu-mobile.php"; ?>
+		<?php include $_SERVER['DOCUMENT_ROOT']."/Mekong-delta-tours/inc/header_sp.php"; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT']."/Mekong-delta-tours/inc/menu-mobile.php"; ?>
 
     <div class="top">
       <div class="block-filter-by">
@@ -232,10 +232,10 @@
       </div>
     </div>
 		
-		<?php include $_SERVER['DOCUMENT_ROOT']."/common/inc/footer_sp.php"; ?>
+		<?php include $_SERVER['DOCUMENT_ROOT']."/Mekong-delta-tours/common/inc/footer_sp.php"; ?>
   </div>
   <?php include $_SERVER['DOCUMENT_ROOT']."/common/inc/common-js-sp.php"; ?>
-  <script src="/common/js/top/index.js"></script>
-  <script src="/common/js/filter.js"></script>
+  <script src="/Mekong-delta-tours/common/js/top/index.js"></script>
+  <script src="/Mekong-delta-tours/common/js/filter.js"></script>
 </body>
 </html>

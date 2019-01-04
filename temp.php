@@ -9,12 +9,12 @@
   <meta name="keywords" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="format-detection" content="telephone=no">
-  <link rel="stylesheet" href="/halong-cruises/common/css/ress.min.css">
-  <link rel="stylesheet" href="/halong-cruises/common/css/jquery-datepicker-ui.min.css">
-  <link rel="stylesheet" href="/halong-cruises/common/css/fontawesome.min.css">
-  <link rel="stylesheet" href="/halong-cruises/common/css/slick.css">
-  <link rel="stylesheet" href="/halong-cruises/common/css/main.css">
-  <link rel="stylesheet" href="/halong-cruises/common/css/top/style.css">
+  <link rel="stylesheet" href="/Mekong-delta-tours/common/css/ress.min.css">
+  <link rel="stylesheet" href="/Mekong-delta-tours/common/css/jquery-datepicker-ui.min.css">
+  <link rel="stylesheet" href="/Mekong-delta-tours/common/css/fontawesome.min.css">
+  <link rel="stylesheet" href="/Mekong-delta-tours/common/css/slick.css">
+  <link rel="stylesheet" href="/Mekong-delta-tours/common/css/main.css">
+  <link rel="stylesheet" href="/Mekong-delta-tours/common/css/top/style.css">
   <style>
     header .main-head .wrap .btn-menu-hamburger {
       display: block;
@@ -28,8 +28,8 @@
 
 <body>
   <div class="container">
-    <?php include $_SERVER['DOCUMENT_ROOT']."/halong-cruises/common/inc/header.php"; ?>
-    <?php include $_SERVER['DOCUMENT_ROOT']."/halong-cruises/common/inc/menu-mobile.php"; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT']."/Mekong-delta-tours/common/inc/header.php"; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT']."/Mekong-delta-tours/common/inc/menu-mobile.php"; ?>
     <!-- <section class="section-breadcrumb">
         <div class="wrap">
           <ul class="breadcrumb">
@@ -45,11 +45,11 @@
           </ul>
         </div>
       </section> -->
-    <?php include $_SERVER['DOCUMENT_ROOT']."/halong-cruises/common/inc/footer.php"; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT']."/Mekong-delta-tours/common/inc/footer.php"; ?>
   </div>
-  <?php include $_SERVER['DOCUMENT_ROOT']."/halong-cruises/common/inc/common-js.php"; ?>
-  <script src="/halong-cruises/common/js/vendor/slick.min.js"></script>
-  <script src="/halong-cruises/common/js/top/index.js"></script>
+  <?php include $_SERVER['DOCUMENT_ROOT']."/Mekong-delta-tours/common/inc/common-js.php"; ?>
+  <script src="/Mekong-delta-tours/common/js/vendor/slick.min.js"></script>
+  <script src="/Mekong-delta-tours/common/js/top/index.js"></script>
 </body>
 
 </html>

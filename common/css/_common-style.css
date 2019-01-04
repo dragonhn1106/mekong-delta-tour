@@ -196,7 +196,7 @@ button, input, select, textarea { outline: none !important; }
 
 .sec-banner-quality .banner-quality .list-quality .item .meta { width: 75.06849%; }
 
-.sec-banner-quality .banner-quality .list-quality .item .meta-name { font-size: 15px; font-size: 1.5rem; line-height: 1.6; letter-spacing: -0.5px; text-align: left; color: #1a2b49; font-family: 'Encode-SansExpanded-Bold'; }
+.sec-banner-quality .banner-quality .list-quality .item .meta-name { font-size: 15px; font-size: 1.5rem; line-height: 1.6; letter-spacing: -0.5px; text-align: left; color: #337ab7; font-family: 'Encode-SansExpanded-Bold'; }
 
 .sec-banner-quality .banner-quality .list-quality .item .meta-text { font-size: 12px; font-size: 1.2rem; color: #333333; font-family: 'Encode-SansExpanded-Regular'; }
 
@@ -292,13 +292,13 @@ button, input, select, textarea { outline: none !important; }
 
 .list-top-deals .item .deal-star { margin: 5px 0px; font-size: 18px !important; width: 35%; }
 
-.ttl-h2 { margin-bottom: 30px; font-size: 30px; font-size: 3rem; letter-spacing: .6px; text-align: left; color: #1a2b49; text-transform: uppercase; color: #337ab7; font-size: 35px; font-family: 'Ubuntu-Bold' !important; }
+.ttl-h2 { margin-bottom: 30px; font-size: 30px; font-size: 3rem; letter-spacing: .6px; text-align: left; color: #337ab7; text-transform: uppercase; color: #337ab7; font-size: 35px; font-family: 'Ubuntu-Bold' !important; }
 
 .ttl-p { margin-bottom: 24px; font-size: 16px; border-left: 3px solid #fa8401; padding: 0 13px; }
 
-.ttl-h3 { margin-bottom: 15px; font-size: 25px; font-size: 2.5rem; color: #1a2b49; }
+.ttl-h3 { margin-bottom: 15px; font-size: 25px; font-size: 2.5rem; color: #337ab7; }
 
-.btn-primary { display: inline-block; vertical-align: top; padding: 15px 25px; font-family: GT-Eesti-Bold; font-weight: 700; font-size: 16px; font-size: 1.6rem; color: #fff; text-align: center; -moz-transition: all 300ms; -o-transition: all 300ms; -webkit-transition: all 300ms; transition: all 300ms; }
+.btn-primary { display: inline-block; vertical-align: top; padding: 15px 25px; font-family: Ubuntu-Bold; font-weight: 700; font-size: 16px; font-size: 1.6rem; color: #fff; text-align: center; -moz-transition: all 300ms; -o-transition: all 300ms; -webkit-transition: all 300ms; transition: all 300ms; }
 
 .btn-primary .fa { position: relative; top: 2px; display: inline-block; margin-left: 5px; font-size: 18px; font-size: 1.8rem; }
 
@@ -306,9 +306,9 @@ button, input, select, textarea { outline: none !important; }
 
 .btn-green:hover { background: #c1272d; opacity: 0.9; }
 
-.btn-transparent { display: inline-block; vertical-align: top; padding: 8px 42px 8px 32px; font-size: 16px; font-size: 1.6rem; line-height: 1.7; overflow: hidden; border: 2px solid #1a2b49; -moz-border-radius: 48px; -webkit-border-radius: 48px; border-radius: 48px; -moz-transition: all 300ms; -o-transition: all 300ms; -webkit-transition: all 300ms; transition: all 300ms; }
+.btn-transparent { display: inline-block; vertical-align: top; padding: 8px 42px 8px 32px; font-size: 16px; font-size: 1.6rem; line-height: 1.7; overflow: hidden; border: 2px solid #337ab7; -moz-border-radius: 48px; -webkit-border-radius: 48px; border-radius: 48px; -moz-transition: all 300ms; -o-transition: all 300ms; -webkit-transition: all 300ms; transition: all 300ms; }
 
-.btn-transparent:hover { color: #fff; background: #1a2b49; }
+.btn-transparent:hover { color: #fff; background: #337ab7; }
 
 .btn-transparent.green { color: #42c1c7; border-color: #42c1c7; }
 
@@ -334,7 +334,7 @@ button, input, select, textarea { outline: none !important; }
 
 .section-breadcrumb .breadcrumb li a { line-height: 1.1; font-size: 16px; font-size: 1.6rem; color: #42c1c7; border-bottom: 1px solid #42c1c7; }
 
-.section-breadcrumb .breadcrumb li span { color: #1a2b49; }
+.section-breadcrumb .breadcrumb li span { color: #337ab7; }
 
 .section-content .wrap { display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-flex-direction: row; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: space-between; -moz-box-pack: space-between; -ms-flex-pack: space-between; -webkit-justify-content: space-between; justify-content: space-between; }
 
@@ -352,7 +352,7 @@ button, input, select, textarea { outline: none !important; }
 
 .list-share-socials li a:hover { background-color: #365899; }
 
-.list-share-socials li a.views-count { background: #1a2b49; }
+.list-share-socials li a.views-count { background: #337ab7; }
 
 .list-share-socials li a.twi { background-color: #1b95e0; }
 
@@ -372,7 +372,7 @@ button, input, select, textarea { outline: none !important; }
 
 .widget-post-tab .post-tab-control li { -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; text-align: center; }
 
-.widget-post-tab .post-tab-control li a { display: block; font-size: 20px; font-size: 2rem; line-height: 1.5; color: #1a2b49; border: 1px solid #b7b7b7; }
+.widget-post-tab .post-tab-control li a { display: block; font-size: 20px; font-size: 2rem; line-height: 1.5; color: #337ab7; border: 1px solid #b7b7b7; }
 
 .widget-post-tab .post-tab-control li a:hover, .widget-post-tab .post-tab-control li a.active { color: #fff; background: #42c1c7; border-color: #42c1c7; }
 
@@ -390,9 +390,9 @@ button, input, select, textarea { outline: none !important; }
 
 .widget-post-tab .post-tab-content .list-post-tab li .meta { display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-flex-flow: wrap; -ms-flex-flow: wrap; flex-flow: wrap; width: 59.25926%; }
 
-.widget-post-tab .post-tab-content .list-post-tab li .meta .meta-tl { font-size: 16px; font-size: 1.6rem; font-family: GT-Eesti-Medium; font-weight: 500; }
+.widget-post-tab .post-tab-content .list-post-tab li .meta .meta-tl { font-size: 16px; font-size: 1.6rem; font-family: Ubuntu-Medium; font-weight: 500; }
 
-.widget-post-tab .post-tab-content .list-post-tab li .meta .meta-tl a { color: #1a2b49; }
+.widget-post-tab .post-tab-content .list-post-tab li .meta .meta-tl a { color: #337ab7; }
 
 .widget-post-tab .post-tab-content .list-post-tab li .meta .meta-info { display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-box-pack: space-between; -moz-box-pack: space-between; -ms-flex-pack: space-between; -webkit-justify-content: space-between; justify-content: space-between; width: 100%; -webkit-box-align: flex-end; -moz-box-align: flex-end; -ms-flex-align: flex-end; -webkit-align-items: flex-end; align-items: flex-end; font-size: 13px; font-size: 1.3rem; line-height: 1.2; color: #777; }
 
@@ -404,7 +404,7 @@ button, input, select, textarea { outline: none !important; }
 
 .widget-search { margin-bottom: 20px; }
 
-.widget-search .widget-search-ttl { margin-bottom: 15px; font-size: 30px; font-size: 3rem; font-family: GT-Eesti-Medium; font-weight: 500; color: #1a2b49; border-bottom: 3px solid #42c1c7; }
+.widget-search .widget-search-ttl { margin-bottom: 15px; font-size: 30px; font-size: 3rem; font-family: Ubuntu-Medium; font-weight: 500; color: #337ab7; border-bottom: 3px solid #42c1c7; }
 
 .widget-search .search-group { position: relative; }
 
@@ -412,7 +412,7 @@ button, input, select, textarea { outline: none !important; }
 
 .widget-search .search-group button { position: absolute; top: 0; height: 100%; right: 0; color: #42c1c7; background: rgba(0, 0, 0, 0); border: none; }
 
-.widget-hot-deals .widget-hot-deals-ttl { padding: 6px 20px 5px; font-size: 30px; font-size: 3rem; font-family: GT-Eesti-Medium; font-weight: 500; color: #fff; background: #42c1c7; }
+.widget-hot-deals .widget-hot-deals-ttl { padding: 6px 20px 5px; font-size: 30px; font-size: 3rem; font-family: Ubuntu-Medium; font-weight: 500; color: #fff; background: #42c1c7; }
 
 .widget-hot-deals .widget-content { padding: 0 20px 15px; background: #f7f7f7; }
 
@@ -426,7 +426,7 @@ button, input, select, textarea { outline: none !important; }
 
 .widget-hot-deals .widget-hot-deals-list li .meta-ttl { margin-bottom: 5px; }
 
-.widget-hot-deals .widget-hot-deals-list li .meta-ttl a { font-size: 12px; font-size: 1.2rem; font-family: GT-Eesti-Medium; font-weight: 500; color: #2c3e50; }
+.widget-hot-deals .widget-hot-deals-list li .meta-ttl a { font-size: 12px; font-size: 1.2rem; font-family: Ubuntu-Medium; font-weight: 500; color: #2c3e50; }
 
 .widget-hot-deals .widget-hot-deals-list li .meta-duration { font-size: 12px; font-size: 1.2rem; color: #999; }
 
@@ -440,11 +440,11 @@ button, input, select, textarea { outline: none !important; }
 
 .widget-hot-deals .widget-hot-deals-list li .deal-price .us { font-size: 10px; font-size: 1rem; color: #2c3e50; }
 
-.widget-hot-deals .widget-hot-deals-list li .deal-price .us b { font-size: 16px; font-size: 1.6rem; font-family: GT-Eesti-Medium; font-weight: 500; color: #d0021b; }
+.widget-hot-deals .widget-hot-deals-list li .deal-price .us b { font-size: 16px; font-size: 1.6rem; font-family: Ubuntu-Medium; font-weight: 500; color: #d0021b; }
 
 .widget-hot-deals .widget-hot-deals-viewmore { margin-top: 15px; text-align: right; }
 
-.widget-hot-deals .widget-hot-deals-viewmore .btn-primary { padding: 7px 12px; font-size: 14px; font-size: 1.4rem; font-family: GT-Eesti-Regular; font-weight: 400; border-radius: 0; }
+.widget-hot-deals .widget-hot-deals-viewmore .btn-primary { padding: 7px 12px; font-size: 14px; font-size: 1.4rem; font-family: Ubuntu-Regular; font-weight: 400; border-radius: 0; }
 
 .widget-index .widget-content { padding: 20px; }
 
@@ -452,7 +452,7 @@ button, input, select, textarea { outline: none !important; }
 
 .widget-index .list-hd-index li .fa { position: absolute; top: 3px; left: 0; }
 
-.widget-index .list-hd-index li a { display: inline-block; color: #1a2b49; font-size: 16px; font-size: 1.6rem; border-bottom: 1px solid #1a2b49; }
+.widget-index .list-hd-index li a { display: inline-block; color: #337ab7; font-size: 16px; font-size: 1.6rem; border-bottom: 1px solid #337ab7; }
 
 .widget-index .list-hd-index li a:hover { color: #42c1c7; border-bottom-color: #42c1c7; }
 
@@ -470,7 +470,7 @@ button, input, select, textarea { outline: none !important; }
 
 .widget-faq .viewmore a { color: #42c1c7; text-decoration: underline; }
 
-.widget-faq .viewmore a:hover { color: #1a2b49; }
+.widget-faq .viewmore a:hover { color: #337ab7; }
 
 .widget-list { padding: 10px 15px 9px; border: 1px solid #b7b7b7; }
 
@@ -478,13 +478,13 @@ button, input, select, textarea { outline: none !important; }
 
 .widget-detail .pricedetail { padding: 25px 15px; border-bottom: 1px solid #b7b7b7; }
 
-.widget-detail .pricedetail b { text-decoration: line-through; font-family: GT-Eesti-Regular; font-weight: 400; font-weight: normal; }
+.widget-detail .pricedetail b { text-decoration: line-through; font-family: Ubuntu-Regular; font-weight: 400; font-weight: normal; }
 
 .widget-detail .pricedetail span { font-size: 30px; font-size: 3rem; color: #d0021b; }
 
 .widget-detail .pricedetail .btn-box { margin-top: 10px; }
 
-.widget-detail .btn-primary { padding: 11px 31px; font-family: GT-Eesti-Regular; font-weight: 400; font-size: 14px; font-size: 1.4rem; }
+.widget-detail .btn-primary { padding: 11px 31px; font-family: Ubuntu-Regular; font-weight: 400; font-size: 14px; font-size: 1.4rem; }
 
 .widget-detail .list-05 { padding: 20px 30px 10px; }
 
@@ -496,7 +496,7 @@ button, input, select, textarea { outline: none !important; }
 
 .might-like-box .might-like-box-head .find-more .fa { margin-left: 10px; color: #42c1c7; }
 
-.form-booking { margin: 25px 0 12px; padding: 15px; color: #fff; background: #1a2b49; }
+.form-booking { margin: 25px 0 12px; padding: 15px; color: #fff; background: #337ab7; }
 
 .form-booking .form-booking-text01 { margin-bottom: 10px; font-size: 30px; font-size: 3rem; }
 
@@ -504,9 +504,9 @@ button, input, select, textarea { outline: none !important; }
 
 .form-booking .form-box .form-row { margin-bottom: 0 !important; }
 
-.form-booking .form-box .form-control { font-family: GT-Eesti-Medium; font-weight: 500; color: #1a2b49; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; }
+.form-booking .form-box .form-control { font-family: Ubuntu-Medium; font-weight: 500; color: #337ab7; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; }
 
-.form-booking .form-box .select-calendar::before, .form-booking .form-box .select-calendar::after, .form-booking .form-box .select-passenger::before, .form-booking .form-box .select-passenger::after { color: #1a2b49; }
+.form-booking .form-box .select-calendar::before, .form-booking .form-box .select-calendar::after, .form-booking .form-box .select-passenger::before, .form-booking .form-box .select-passenger::after { color: #337ab7; }
 
 .form-booking .form-box .form-group { max-width: inherit; }
 
@@ -516,17 +516,17 @@ button, input, select, textarea { outline: none !important; }
 
 .form-booking .form-box .form-group.w-03 { width: 26.50602%; }
 
-.form-booking .form-box .input-group .input-dropdown { top: 100%; width: 100%; color: #1a2b49; border: 1px solid #b7b7b7; border-top: transparent; -webkit-box-shadow: none; box-shadow: none; }
+.form-booking .form-box .input-group .input-dropdown { top: 100%; width: 100%; color: #337ab7; border: 1px solid #b7b7b7; border-top: transparent; -webkit-box-shadow: none; box-shadow: none; }
 
 .form-booking .form-box .input-group .input-dropdown::before { content: ''; position: absolute; top: 0; left: 50%; width: calc(100% - 30px); height: 1px; background: #b7b7b7; -moz-transform: translateX(-50%); -o-transform: translateX(-50%); -ms-transform: translateX(-50%); -webkit-transform: translateX(-50%); transform: translateX(-50%); }
 
 .form-booking .form-box .input-group .input-dropdown .input-dropdown-name { text-align: left; }
 
-.form-booking .form-box .input-group .input-dropdown .input-dropdown-name label { font-family: GT-Eesti-Medium; font-weight: 500; }
+.form-booking .form-box .input-group .input-dropdown .input-dropdown-name label { font-family: Ubuntu-Medium; font-weight: 500; }
 
 .form-booking .form-box .input-group .input-dropdown .form-control { width: 35px !important; padding: 5px !important; }
 
-.form-booking .form-btn .btn { font-family: GT-Eesti-Medium; font-weight: 500; color: #1a2b49; background: #fff; }
+.form-booking .form-btn .btn { font-family: Ubuntu-Medium; font-weight: 500; color: #337ab7; background: #fff; }
 
 .direction-checkout { margin-top: 37px; }
 

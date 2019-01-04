@@ -526,7 +526,7 @@ footer .need-help {
     footer .need-help .help-info .help-txt .txt {
       display: inline-block;
       width: calc(100% - 146px);
-      color: #1a2b49;
+      color: #337ab7;
       font-size: 20px;
       font-size: 2rem;
       position: relative;
@@ -592,7 +592,7 @@ footer .user-function {
         margin-right: 0; }
       footer .user-function .list-user-function li a {
         display: block;
-        color: #1a2b49;
+        color: #337ab7;
         font-size: 16px;
         font-size: 1.6rem;
         text-align: center;
@@ -635,7 +635,7 @@ footer .foot-info {
         display: inline-block;
         width: 42px;
         height: 29px;
-        background: url(/halong-cruises/common/images/share/paypay.png) no-repeat;
+        background: url(/Mekong-delta-tours/common/images/share/paypay.png) no-repeat;
         background-size: auto; }
       footer .foot-info .foot-bottom .wrap .list-icon-pay .item.icon-1 {
         background-position: 0 0; }
@@ -775,7 +775,7 @@ footer .foot-info {
           -webkit-transform: translateY(-50%);
           transform: translateY(-50%); }
         footer .foot-info .list-social li a:hover {
-          color: #1a2b49;
+          color: #337ab7;
           background: #42c1c7; }
   footer .foot-info .flogo a {
     -moz-transition: all 0.3s ease-out;
@@ -880,7 +880,7 @@ footer .foot-info {
             width: 83.76289%;
             height: 100%;
             padding-left: 7.69231%;
-            color: #1a2b49;
+            color: #337ab7;
             font-size: 22px;
             font-size: 2.2rem;
             border: none;
@@ -903,7 +903,7 @@ footer .foot-info {
             right: 0;
             width: 16.23711%;
             height: 100%;
-            color: #1a2b49;
+            color: #337ab7;
             font-size: 26px;
             font-size: 2.6rem;
             outline: none; }
@@ -953,7 +953,7 @@ footer .foot-info {
       position: relative;
       display: block;
       padding: 4% 5%;
-      color: #1a2b49;
+      color: #337ab7;
       font-size: 22px;
       font-size: 2.2rem;
       border-bottom: 1px solid #1d1d26; }
@@ -964,8 +964,8 @@ footer .foot-info {
         content: '';
         width: 10px;
         height: 10px;
-        border-top: 2px solid #1a2b49;
-        border-right: 2px solid #1a2b49;
+        border-top: 2px solid #337ab7;
+        border-right: 2px solid #337ab7;
         -moz-transform: translateY(-50%) rotate(45deg);
         -o-transform: translateY(-50%) rotate(45deg);
         -ms-transform: translateY(-50%) rotate(45deg);
@@ -987,7 +987,7 @@ footer .foot-info {
         position: relative;
         top: -8px;
         display: inline-block;
-        color: #1a2b49;
+        color: #337ab7;
         font-family: GT-Eesti-Medium;
         font-weight: 500;
         font-size: 22px;
@@ -1142,7 +1142,7 @@ footer .foot-info {
           line-height: 1.4; }
           .search-global .wrap .suggest ul li span.txt {
             width: 68%;
-            color: #1a2b49; }
+            color: #337ab7; }
           .search-global .wrap .suggest ul li span.cat {
             width: 30%;
             color: #b7b7b7;
@@ -1239,7 +1239,7 @@ footer .foot-info {
       -webkit-transition: all 300ms ease-out;
       transition: all 300ms ease-out; }
       .modal-login .modal-login-dialog .close:hover {
-        color: #1a2b49; }
+        color: #337ab7; }
       .modal-login .modal-login-dialog .close::before {
         content: '\f057';
         position: absolute;
@@ -1262,7 +1262,7 @@ footer .foot-info {
   margin: 0 auto;
   padding: 50px 20px 30px;
   text-align: center;
-  color: #1a2b49;
+  color: #337ab7;
   font-size: 16px;
   font-size: 1.6rem; }
   .login-box .lead-login,
@@ -1317,9 +1317,9 @@ footer .foot-info {
     margin-top: 10px; }
     .login-box .btn.log-google a,
     .register-box .btn.log-google a {
-      color: #1a2b49;
+      color: #337ab7;
       background: #fff;
-      border: 2px solid #1a2b49; }
+      border: 2px solid #337ab7; }
   .login-box .btn.handle-log a,
   .register-box .btn.handle-log a {
     max-width: 345px;
@@ -1363,7 +1363,7 @@ footer .foot-info {
       display: inline-block;
       width: 100%;
       padding: 7px 10px;
-      color: #1a2b49;
+      color: #337ab7;
       outline: none;
       font-size: 16px;
       font-size: 1.6rem;
@@ -1372,7 +1372,7 @@ footer .foot-info {
       border: 2px solid #c6c8d0; }
       .login-box .main-log-in .txtInput .in:focus,
       .register-box .main-log-in .txtInput .in:focus {
-        border-color: #1a2b49; }
+        border-color: #337ab7; }
   .login-box .main-log-in .act,
   .register-box .main-log-in .act {
     display: -webkit-box;
@@ -1472,7 +1472,7 @@ footer .foot-info {
         color: #42c1c7; }
         .login-box .main-log-in .act .forgot a:hover,
         .register-box .main-log-in .act .forgot a:hover {
-          color: #1a2b49; }
+          color: #337ab7; }
   .login-box .main-log-in .txt-privacy,
   .register-box .main-log-in .txt-privacy {
     margin-top: 10px; }
@@ -1490,7 +1490,7 @@ footer .foot-info {
       transition: all 0.3s ease-out; }
       .login-box .new-here a:hover,
       .register-box .new-here a:hover {
-        color: #1a2b49;
+        color: #337ab7;
         text-decoration: underline; }
 
 .ui-widget button,
@@ -1519,7 +1519,7 @@ footer .foot-info {
     font-size: 24px;
     font-size: 2.4rem;
     line-height: 1;
-    color: #1a2b49;
+    color: #337ab7;
     text-indent: 0;
     -moz-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
@@ -1537,7 +1537,7 @@ footer .foot-info {
     font-size: 24px;
     font-size: 2.4rem;
     line-height: 1;
-    color: #1a2b49;
+    color: #337ab7;
     text-indent: 0;
     -moz-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
@@ -1638,7 +1638,7 @@ footer .foot-info {
             header .top-head .wrap ul > li:nth-child(4), header .top-head .wrap ul > li:nth-child(6) {
               display: inline-block; }
               header .top-head .wrap ul > li:nth-child(4) a, header .top-head .wrap ul > li:nth-child(6) a {
-                color: #1a2b49;
+                color: #337ab7;
                 padding: 0;
                 font-size: 0; }
                 header .top-head .wrap ul > li:nth-child(4) a i, header .top-head .wrap ul > li:nth-child(6) a i {
@@ -1710,7 +1710,7 @@ footer .foot-info {
     content: 'More';
     display: block;
     margin-bottom: 10px;
-    color: #1a2b49;
+    color: #337ab7;
     font-size: 28px;
     font-size: 2.8rem; }
   footer .user-function .list-user-function li {
@@ -1729,8 +1729,8 @@ footer .foot-info {
         content: '';
         width: 8px;
         height: 8px;
-        border-top: 2px solid #1a2b49;
-        border-right: 2px solid #1a2b49;
+        border-top: 2px solid #337ab7;
+        border-right: 2px solid #337ab7;
         -moz-transform: rotate(45deg);
         -o-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
@@ -2380,7 +2380,7 @@ textarea {
           line-height: 1.6;
           letter-spacing: -0.5px;
           text-align: left;
-          color: #1a2b49;
+          color: #337ab7;
           font-family: 'Encode-SansExpanded-Bold'; }
         .sec-banner-quality .banner-quality .list-quality .item .meta-text {
           font-size: 12px;
@@ -2738,7 +2738,7 @@ textarea {
   font-size: 3rem;
   letter-spacing: .6px;
   text-align: left;
-  color: #1a2b49;
+  color: #337ab7;
   text-transform: uppercase;
   color: #337ab7;
   font-size: 35px;
@@ -2754,13 +2754,13 @@ textarea {
   margin-bottom: 15px;
   font-size: 25px;
   font-size: 2.5rem;
-  color: #1a2b49; }
+  color: #337ab7; }
 
 .btn-primary {
   display: inline-block;
   vertical-align: top;
   padding: 15px 25px;
-  font-family: GT-Eesti-Bold;
+  font-family: Ubuntu-Bold;
   font-weight: 700;
   font-size: 16px;
   font-size: 1.6rem;
@@ -2796,7 +2796,7 @@ textarea {
   font-size: 1.6rem;
   line-height: 1.7;
   overflow: hidden;
-  border: 2px solid #1a2b49;
+  border: 2px solid #337ab7;
   -moz-border-radius: 48px;
   -webkit-border-radius: 48px;
   border-radius: 48px;
@@ -2806,7 +2806,7 @@ textarea {
   transition: all 300ms; }
   .btn-transparent:hover {
     color: #fff;
-    background: #1a2b49; }
+    background: #337ab7; }
   .btn-transparent.green {
     color: #42c1c7;
     border-color: #42c1c7; }
@@ -2871,7 +2871,7 @@ figure {
         color: #42c1c7;
         border-bottom: 1px solid #42c1c7; }
       .section-breadcrumb .breadcrumb li span {
-        color: #1a2b49; }
+        color: #337ab7; }
 
 .section-content .wrap {
   display: -webkit-box;
@@ -2918,7 +2918,7 @@ figure {
       .list-share-socials li a:hover {
         background-color: #365899; }
       .list-share-socials li a.views-count {
-        background: #1a2b49; }
+        background: #337ab7; }
       .list-share-socials li a.twi {
         background-color: #1b95e0; }
         .list-share-socials li a.twi:hover {
@@ -2957,7 +2957,7 @@ figure {
         font-size: 20px;
         font-size: 2rem;
         line-height: 1.5;
-        color: #1a2b49;
+        color: #337ab7;
         border: 1px solid #b7b7b7; }
         .widget-post-tab .post-tab-control li a:hover, .widget-post-tab .post-tab-control li a.active {
           color: #fff;
@@ -3001,10 +3001,10 @@ figure {
           .widget-post-tab .post-tab-content .list-post-tab li .meta .meta-tl {
             font-size: 16px;
             font-size: 1.6rem;
-            font-family: GT-Eesti-Medium;
+            font-family: Ubuntu-Medium;
             font-weight: 500; }
             .widget-post-tab .post-tab-content .list-post-tab li .meta .meta-tl a {
-              color: #1a2b49; }
+              color: #337ab7; }
           .widget-post-tab .post-tab-content .list-post-tab li .meta .meta-info {
             display: -webkit-box;
             display: -moz-box;
@@ -3042,9 +3042,9 @@ figure {
     margin-bottom: 15px;
     font-size: 30px;
     font-size: 3rem;
-    font-family: GT-Eesti-Medium;
+    font-family: Ubuntu-Medium;
     font-weight: 500;
-    color: #1a2b49;
+    color: #337ab7;
     border-bottom: 3px solid #42c1c7; }
   .widget-search .search-group {
     position: relative; }
@@ -3065,7 +3065,7 @@ figure {
   padding: 6px 20px 5px;
   font-size: 30px;
   font-size: 3rem;
-  font-family: GT-Eesti-Medium;
+  font-family: Ubuntu-Medium;
   font-weight: 500;
   color: #fff;
   background: #42c1c7; }
@@ -3137,7 +3137,7 @@ figure {
     .widget-hot-deals .widget-hot-deals-list li .meta-ttl a {
       font-size: 12px;
       font-size: 1.2rem;
-      font-family: GT-Eesti-Medium;
+      font-family: Ubuntu-Medium;
       font-weight: 500;
       color: #2c3e50; }
   .widget-hot-deals .widget-hot-deals-list li .meta-duration {
@@ -3162,7 +3162,7 @@ figure {
     .widget-hot-deals .widget-hot-deals-list li .deal-price .us b {
       font-size: 16px;
       font-size: 1.6rem;
-      font-family: GT-Eesti-Medium;
+      font-family: Ubuntu-Medium;
       font-weight: 500;
       color: #d0021b; }
 
@@ -3173,7 +3173,7 @@ figure {
     padding: 7px 12px;
     font-size: 14px;
     font-size: 1.4rem;
-    font-family: GT-Eesti-Regular;
+    font-family: Ubuntu-Regular;
     font-weight: 400;
     border-radius: 0; }
 
@@ -3190,10 +3190,10 @@ figure {
     left: 0; }
   .widget-index .list-hd-index li a {
     display: inline-block;
-    color: #1a2b49;
+    color: #337ab7;
     font-size: 16px;
     font-size: 1.6rem;
-    border-bottom: 1px solid #1a2b49; }
+    border-bottom: 1px solid #337ab7; }
     .widget-index .list-hd-index li a:hover {
       color: #42c1c7;
       border-bottom-color: #42c1c7; }
@@ -3224,7 +3224,7 @@ figure {
       color: #42c1c7;
       text-decoration: underline; }
       .widget-faq .viewmore a:hover {
-        color: #1a2b49; }
+        color: #337ab7; }
 
 .widget-list {
   padding: 10px 15px 9px;
@@ -3238,7 +3238,7 @@ figure {
     border-bottom: 1px solid #b7b7b7; }
     .widget-detail .pricedetail b {
       text-decoration: line-through;
-      font-family: GT-Eesti-Regular;
+      font-family: Ubuntu-Regular;
       font-weight: 400;
       font-weight: normal; }
     .widget-detail .pricedetail span {
@@ -3249,7 +3249,7 @@ figure {
       margin-top: 10px; }
   .widget-detail .btn-primary {
     padding: 11px 31px;
-    font-family: GT-Eesti-Regular;
+    font-family: Ubuntu-Regular;
     font-weight: 400;
     font-size: 14px;
     font-size: 1.4rem; }
@@ -3281,7 +3281,7 @@ figure {
   margin: 25px 0 12px;
   padding: 15px;
   color: #fff;
-  background: #1a2b49; }
+  background: #337ab7; }
   .form-booking .form-booking-text01 {
     margin-bottom: 10px;
     font-size: 30px;
@@ -3291,16 +3291,16 @@ figure {
     .form-booking .form-box .form-row {
       margin-bottom: 0 !important; }
     .form-booking .form-box .form-control {
-      font-family: GT-Eesti-Medium;
+      font-family: Ubuntu-Medium;
       font-weight: 500;
-      color: #1a2b49;
+      color: #337ab7;
       -moz-border-radius: 2px;
       -webkit-border-radius: 2px;
       border-radius: 2px; }
     .form-booking .form-box .select-calendar::before, .form-booking .form-box .select-calendar::after,
     .form-booking .form-box .select-passenger::before,
     .form-booking .form-box .select-passenger::after {
-      color: #1a2b49; }
+      color: #337ab7; }
     .form-booking .form-box .form-group {
       max-width: inherit; }
       .form-booking .form-box .form-group.w-01 {
@@ -3312,7 +3312,7 @@ figure {
     .form-booking .form-box .input-group .input-dropdown {
       top: 100%;
       width: 100%;
-      color: #1a2b49;
+      color: #337ab7;
       border: 1px solid #b7b7b7;
       border-top: transparent;
       -webkit-box-shadow: none;
@@ -3333,15 +3333,15 @@ figure {
       .form-booking .form-box .input-group .input-dropdown .input-dropdown-name {
         text-align: left; }
         .form-booking .form-box .input-group .input-dropdown .input-dropdown-name label {
-          font-family: GT-Eesti-Medium;
+          font-family: Ubuntu-Medium;
           font-weight: 500; }
       .form-booking .form-box .input-group .input-dropdown .form-control {
         width: 35px !important;
         padding: 5px !important; }
   .form-booking .form-btn .btn {
-    font-family: GT-Eesti-Medium;
+    font-family: Ubuntu-Medium;
     font-weight: 500;
-    color: #1a2b49;
+    color: #337ab7;
     background: #fff; }
 
 .direction-checkout {
@@ -3752,7 +3752,7 @@ figure {
               width: calc(100% - 176px);
               max-width: 290px;
               padding-left: 13px;
-              color: #1a2b49; }
+              color: #337ab7; }
               .list-hotels .hotel .inner-tour .info-hotel .top-info .name-hotel .addr i,
               .list-hotels .hotel .inner-hotel .info-hotel .top-info .name-hotel .addr i,
               .list-hotels .tour .inner-tour .info-hotel .top-info .name-hotel .addr i,
@@ -4009,7 +4009,7 @@ figure {
                 color: #fff;
                 text-align: center;
                 line-height: 35px;
-                background: #1a2b49;
+                background: #337ab7;
                 outline: none;
                 border: none;
                 -moz-transition: all 0.3s ease-out;
@@ -4062,7 +4062,7 @@ figure {
                 .list-tours .hotel .inner-hotel .info-hotel .detail-info .price-book .book button:hover,
                 .list-tours .tour .inner-tour .info-hotel .detail-info .price-book .book button:hover,
                 .list-tours .tour .inner-hotel .info-hotel .detail-info .price-book .book button:hover {
-                  background: #1a2b49; }
+                  background: #337ab7; }
       .list-hotels .hotel .inner-tour .info-tour,
       .list-hotels .hotel .inner-hotel .info-tour,
       .list-hotels .tour .inner-tour .info-tour,
@@ -4104,7 +4104,7 @@ figure {
           .list-tours .tour .inner-tour .info-tour .info-txt .tl,
           .list-tours .tour .inner-hotel .info-tour .info-txt .tl {
             margin-bottom: 10px;
-            color: #1a2b49;
+            color: #337ab7;
             font-size: 20px;
             font-size: 2rem;
             line-height: 0.93; }
@@ -4116,7 +4116,7 @@ figure {
             .list-tours .hotel .inner-hotel .info-tour .info-txt .tl a,
             .list-tours .tour .inner-tour .info-tour .info-txt .tl a,
             .list-tours .tour .inner-hotel .info-tour .info-txt .tl a {
-              color: #1a2b49; }
+              color: #337ab7; }
           .list-hotels .hotel .inner-tour .info-tour .info-txt .rate .star-rate,
           .list-hotels .hotel .inner-hotel .info-tour .info-txt .rate .star-rate,
           .list-hotels .tour .inner-tour .info-tour .info-txt .rate .star-rate,
@@ -4172,7 +4172,7 @@ figure {
           .list-tours .tour .inner-tour .info-tour .info-txt .txt-cus,
           .list-tours .tour .inner-hotel .info-tour .info-txt .txt-cus {
             margin: 10px 0 15px;
-            color: #1a2b49;
+            color: #337ab7;
             font-size: 16px;
             font-size: 1.6rem;
             line-height: 1.3;
@@ -4278,7 +4278,7 @@ figure {
               z-index: 11;
               width: 150%;
               padding: 0 8px;
-              color: #1a2b49;
+              color: #337ab7;
               background: #fff;
               border: 1px solid #b7b7b7;
               -moz-transform: translateX(-50%);
@@ -4561,7 +4561,7 @@ figure {
                 .list-tours .hotel .inner-hotel .info-tour .info-schedule-price .btns ul li a.more-tour:hover,
                 .list-tours .tour .inner-tour .info-tour .info-schedule-price .btns ul li a.more-tour:hover,
                 .list-tours .tour .inner-hotel .info-tour .info-schedule-price .btns ul li a.more-tour:hover {
-                  background: #1a2b49; }
+                  background: #337ab7; }
               .list-hotels .hotel .inner-tour .info-tour .info-schedule-price .btns ul li a.download,
               .list-hotels .hotel .inner-hotel .info-tour .info-schedule-price .btns ul li a.download,
               .list-hotels .tour .inner-tour .info-tour .info-schedule-price .btns ul li a.download,
@@ -4570,7 +4570,7 @@ figure {
               .list-tours .hotel .inner-hotel .info-tour .info-schedule-price .btns ul li a.download,
               .list-tours .tour .inner-tour .info-tour .info-schedule-price .btns ul li a.download,
               .list-tours .tour .inner-hotel .info-tour .info-schedule-price .btns ul li a.download {
-                color: #1a2b49;
+                color: #337ab7;
                 border: 1px solid #777; }
                 .list-hotels .hotel .inner-tour .info-tour .info-schedule-price .btns ul li a.download:hover,
                 .list-hotels .hotel .inner-hotel .info-tour .info-schedule-price .btns ul li a.download:hover,
@@ -4581,8 +4581,8 @@ figure {
                 .list-tours .tour .inner-tour .info-tour .info-schedule-price .btns ul li a.download:hover,
                 .list-tours .tour .inner-hotel .info-tour .info-schedule-price .btns ul li a.download:hover {
                   color: #fff;
-                  border-color: #1a2b49;
-                  background: #1a2b49; }
+                  border-color: #337ab7;
+                  background: #337ab7; }
     .list-hotels .hotel a.inner-hotel:hover,
     .list-hotels .tour a.inner-hotel:hover,
     .list-tours .hotel a.inner-hotel:hover,
@@ -4670,7 +4670,7 @@ figure {
             .list-tours .hotel .inner-hotel .info-hotel .top-info .review .review-desc .rv-txt .big-txt::after {
               content: '-';
               color: #777;
-              font-family: GT-Eesti-Regular;
+              font-family: GTEestiProDisplay-Regular;
               font-weight: 400;
               display: inline-block;
               margin-left: 5px; }
@@ -5022,7 +5022,7 @@ figure {
       .paging-block .list-pagings .item a {
         display: block;
         padding: 10px 16px 8px;
-        color: #1a2b49;
+        color: #337ab7;
         font-size: 16px;
         font-size: 1.6rem;
         line-height: 1;
@@ -5062,7 +5062,7 @@ figure {
       top: 0;
       right: 0;
       height: 100%;
-      background: #1a2b49; }
+      background: #337ab7; }
     .range.ui-widget-content .ui-slider-handle {
       position: absolute;
       top: 50%;
@@ -5079,7 +5079,7 @@ figure {
       transform: translate(-50%, -50%);
       border: none;
       outline: none;
-      background: #1a2b49;
+      background: #337ab7;
       cursor: pointer; }
       .range.ui-widget-content .ui-slider-handle span {
         position: absolute;

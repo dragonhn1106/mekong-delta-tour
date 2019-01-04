@@ -1,9 +1,10 @@
 @charset "UTF-8";
 $color-main: #3385d6;
 $color-main02: #42c1c7;
-$color-main03: #1a2b49;
+$color-main03: #337ab7;
 $color-active: #f79420;
 $color-header: #094c86;
+$color-main04: #1070a9;
 $transform-support-threshold: .1;
 
 @mixin fz($s) {
@@ -124,13 +125,33 @@ $transform-support-threshold: .1;
 @include font-face("Ubuntu-SemiBold", "/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-SemiBold");
 @include font-face("FontAwesome", "/Mekong-delta-tours/common/fonts/FontAwesome/fontawesome-webfont");
 
+@mixin UbuntuLight {
+  font-family: Ubuntu-Light;
+  font-weight: 300;
+}
+
+@mixin UbuntuRegular {
+  font-family: Ubuntu-Regular;
+  font-weight: 400;
+}
+
+@mixin UbuntuMedium {
+  font-family: Ubuntu-Medium;
+  font-weight: 500;
+}
+
+@mixin UbuntuBold {
+  font-family: Ubuntu-Bold;
+  font-weight: 700;
+}
+
 @mixin GTEestiLight {
   font-family: GT-Eesti-Light;
   font-weight: 300;
 }
 
 @mixin GTEestiRegular {
-  font-family: GT-Eesti-Regular;
+  font-family: GTEestiProDisplay-Regular;
   font-weight: 400;
 }
 

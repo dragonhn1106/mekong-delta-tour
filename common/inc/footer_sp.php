@@ -2,7 +2,7 @@
 	<div class="need-help">
 		<div class="wrap">
 			<figure class="avatar-help">
-				<img src="/common/images/share/icon_user.png" alt="" width="185" height="185">
+				<img src="/Mekong-delta-tours/common/images/share/icon_user.png" alt="" width="185" height="185">
 			</figure>
 			<div class="help-info">
 				<h2>NEED HELP?</h2>
@@ -14,33 +14,32 @@
 			<p class="help-btn"><a href="">Contact us <i class="fa fa-chevron-circle-right"></i></a></p>
 		</div>
 	</div>
-	<div class="user-function">
-		<div class="wrap">
-			<p class="more-text">More</p>
-			<ul class="list-user-function">
-				<li>
-					<a href="">Manage <span>Your Booking</span></a>
-				</li>
-				<li>
-					<a href="">Provide <span>Trip Feedback</span></a>
-				</li>
-				<li>
-					<a href="">Login to <span>the Agent Portal</span></a>
-				</li>
-			</ul>
-		</div>
-	</div>
 	<div class="foot-info">
 		<div class="wrap">
-			<ul class="list-social">
-				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-        </li><li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-        </li><li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-        </li><li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-        </li><li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-        </li><li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+			<ul class='sub-menu'>
+				<li><a href="#">About us</a></li>
+				<li>
+					<a href="#">Why choose us</a>
+				</li>
+				<li>
+					<a href="#">How to book and pay</a>
+				</li>
+				<li><a href="#">Terms & Conditinos</a></li>
+				<li><a href="#">FAQ Travel News</a></li>
 			</ul>
-			<div class="flogo"><a href=""><img src="/common/images/share/flogo.png" alt="ASIA PACKER TRAVEL"></a></div>
+			<ul class="list-social">
+				<li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+        </li><li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+				</li>
+				<li>
+					<a href='#'>
+				<i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+				</li>
+				<li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+				</li><li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a></li>
+			</ul>
+			<div class="flogo"><a href=""><img src="/Mekong-delta-tours/common/images/share/flogo.png" alt="ASIA PACKER TRAVEL"></a></div>
 			<p class="copy-txt">Copyright &copy; Asia Package Travel. All rights reserved. Legal notice. <a href="">Find out more</a></p>
 			<ul class="list-icon-pay">
 				<li class="item icon-1">&nbsp;</li>

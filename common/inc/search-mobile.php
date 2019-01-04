@@ -6,7 +6,7 @@
 				<span>&nbsp;</span>
 			</div>
 		<div class="logo">
-			<a href="/"><img src="/common/images/share/logo2.png" alt="" width="85" height="85"></a>
+			<a href="/"><img src="/Mekong-delta-tours/common/images/share/logo2.png" alt="" width="85" height="85"></a>
 		</div>
 		<div class="cont-form">
 			<form action="search-mobile_submit" method="get" accept-charset="utf-8">

@@ -1,48 +1,76 @@
 @font-face {
-  font-family: "GT-Eesti-Light";
-  src: url("/halong-cruises/common/fonts/GTEestiLight/GT-Eesti-Pro-Display-Light.eot");
-  src: url("/halong-cruises/common/fonts/GTEestiLight/GT-Eesti-Pro-Display-Light.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/GTEestiLight/GT-Eesti-Pro-Display-Light.woff") format("woff"), url("/halong-cruises/common/fonts/GTEestiLight/GT-Eesti-Pro-Display-Light.ttf") format("truetype"), url("/halong-cruises/common/fonts/GTEestiLight/GT-Eesti-Pro-Display-Light.svg#GT-Eesti-Light") format("svg");
+  font-family: "Ubuntu-Bold";
+  src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-B.eot");
+  src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-B.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-B.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-B.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-B.svg#Ubuntu-Bold") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: "GT-Eesti-Regular";
-  src: url("/halong-cruises/common/fonts/GTEestiRegular/GT-Eesti-Pro-Display-Regular.eot");
-  src: url("/halong-cruises/common/fonts/GTEestiRegular/GT-Eesti-Pro-Display-Regular.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/GTEestiRegular/GT-Eesti-Pro-Display-Regular.woff") format("woff"), url("/halong-cruises/common/fonts/GTEestiRegular/GT-Eesti-Pro-Display-Regular.ttf") format("truetype"), url("/halong-cruises/common/fonts/GTEestiRegular/GT-Eesti-Pro-Display-Regular.svg#GT-Eesti-Regular") format("svg");
+  font-family: "Ubuntu-Medium";
+  src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-M.eot");
+  src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-M.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-M.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-M.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-M.svg#Ubuntu-Medium") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: "GT-Eesti-Medium";
-  src: url("/halong-cruises/common/fonts/GTEestiMedium/GT-Eesti-Pro-Display-Medium.eot");
-  src: url("/halong-cruises/common/fonts/GTEestiMedium/GT-Eesti-Pro-Display-Medium.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/GTEestiMedium/GT-Eesti-Pro-Display-Medium.woff") format("woff"), url("/halong-cruises/common/fonts/GTEestiMedium/GT-Eesti-Pro-Display-Medium.ttf") format("truetype"), url("/halong-cruises/common/fonts/GTEestiMedium/GT-Eesti-Pro-Display-Medium.svg#GT-Eesti-Medium") format("svg");
+  font-family: "Ubuntu-Light";
+  src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-L.eot");
+  src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-L.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-L.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-L.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-L.svg#Ubuntu-Light") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: "GT-Eesti-Bold";
-  src: url("/halong-cruises/common/fonts/GTEestiBold/GT-Eesti-Pro-Display-Bold.eot");
-  src: url("/halong-cruises/common/fonts/GTEestiBold/GT-Eesti-Pro-Display-Bold.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/GTEestiBold/GT-Eesti-Pro-Display-Bold.woff") format("woff"), url("/halong-cruises/common/fonts/GTEestiBold/GT-Eesti-Pro-Display-Bold.ttf") format("truetype"), url("/halong-cruises/common/fonts/GTEestiBold/GT-Eesti-Pro-Display-Bold.svg#GT-Eesti-Bold") format("svg");
+  font-family: "Ubuntu-Regular";
+  src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-R.eot");
+  src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-R.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-R.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-R.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-R.svg#Ubuntu-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "GTEestiProDisplay-Medium";
+  src: url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Medium.eot");
+  src: url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Medium.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Medium.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Medium.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Medium.svg#GTEestiProDisplay-Medium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "GTEestiProDisplay-Regular";
+  src: url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.eot");
+  src: url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.svg#GTEestiProDisplay-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "GTEestiProDisplay-Bold";
+  src: url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.eot");
+  src: url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.svg#GTEestiProDisplay-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Ubuntu-SemiBold";
+  src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-SemiBold.eot");
+  src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-SemiBold.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-SemiBold.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-SemiBold.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-SemiBold.svg#Ubuntu-SemiBold") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: "FontAwesome";
-  src: url("/halong-cruises/common/fonts/FontAwesome/fontawesome-webfont.eot");
-  src: url("/halong-cruises/common/fonts/FontAwesome/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/FontAwesome/fontawesome-webfont.woff") format("woff"), url("/halong-cruises/common/fonts/FontAwesome/fontawesome-webfont.ttf") format("truetype"), url("/halong-cruises/common/fonts/FontAwesome/fontawesome-webfont.svg#FontAwesome") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: "iz";
-  src: url("/halong-cruises/common/fonts/iz/iz.eot");
-  src: url("/halong-cruises/common/fonts/iz/iz.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/iz/iz.woff") format("woff"), url("/halong-cruises/common/fonts/iz/iz.ttf") format("truetype"), url("/halong-cruises/common/fonts/iz/iz.svg#iz") format("svg");
+  src: url("/Mekong-delta-tours/common/fonts/FontAwesome/fontawesome-webfont.eot");
+  src: url("/Mekong-delta-tours/common/fonts/FontAwesome/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/FontAwesome/fontawesome-webfont.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/FontAwesome/fontawesome-webfont.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/FontAwesome/fontawesome-webfont.svg#FontAwesome") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 .top .section-top-deal {
   padding: 25px 0 20px;
   background: #f5f9fb; }
+  .top .section-top-deal .content {
+    padding: 0px 0px 40px 0; }
+    .top .section-top-deal .content p {
+      font-size: 16px;
+      font-size: 1.6rem;
+      font-family: 'Ubuntu-Regular';
+      text-align: justify; }
 
 .top .section-banner-text {
   padding: 15px 0;
@@ -53,17 +81,19 @@
     background: #025b61; }
   .top .section-banner-text.bg02 {
     padding: 42px 0 20px;
-    background: url(/common/images/share/bg_subscribe.jpg) no-repeat center center/cover; }
+    background: url(/Mekong-delta-tours/common/images/share/bg_subscribe.jpg) no-repeat center center/cover; }
   .top .section-banner-text .text01 {
     margin-bottom: 5px;
     font-size: 16px;
     font-size: 1.6rem;
     line-height: 1.4;
     text-transform: uppercase;
-    color: #1a2b49; }
+    color: #333333;
+    font-family: Ubuntu-Regular;
+    font-weight: 400; }
   .top .section-banner-text .text02 {
-    font-size: 36px;
-    font-size: 3.6rem;
+    font-size: 2px;
+    font-size: 0.2rem;
     line-height: 1.3;
     color: #42c1c7;
     text-transform: uppercase; }
@@ -72,13 +102,13 @@
     font-size: 15px;
     font-size: 1.5rem;
     line-height: 2.4;
-    color: #1a2b49; }
+    color: #337ab7; }
   .top .section-banner-text .text04 {
     margin-bottom: 20px;
     font-size: 30px;
     font-size: 3rem;
-    font-family: GT-Eesti-Medium;
-    font-weight: 500;
+    font-family: GTEestiProDisplay-Regular;
+    font-weight: 400;
     line-height: 1.3; }
   .top .section-banner-text .text05 {
     font-size: 16px;
@@ -86,12 +116,12 @@
     line-height: 1.6; }
   .top .section-banner-text .text06 {
     margin-bottom: 20px;
-    font-size: 30px;
-    font-size: 3rem;
-    font-family: GT-Eesti-Bold;
+    font-size: 22px;
+    font-size: 2.2rem;
+    font-family: Ubuntu-Bold;
     font-weight: 700;
     line-height: 1.3;
-    color: #42c1c7;
+    color: #1070a9;
     text-transform: uppercase; }
   .top .section-banner-text .text07 {
     font-size: 14px;
@@ -102,8 +132,13 @@
 .top .section-travel-deal {
   padding-top: 35px; }
 
+.top .section-on-sale {
+  padding: 0px 0 15px; }
+  .top .section-on-sale .ttl-h2 {
+    margin: 20px 0px 0px; }
+
 .top .section-last-deal {
-  padding: 35px 0 15px; }
+  padding: 15px 0 15px; }
   .top .section-last-deal .ttl-h2 {
     margin-bottom: 20px; }
 
@@ -165,7 +200,7 @@
       left: 50.37975%;
       width: 10.88608%;
       padding-bottom: 17.46835%;
-      background: url(/common/images/top/bg_01.png) no-repeat center;
+      background: url(/Mekong-delta-tours/common/images/top/bg_01.png) no-repeat center;
       background-size: contain;
       -moz-transform: translateY(27.53623%);
       -o-transform: translateY(27.53623%);
@@ -188,7 +223,7 @@
       left: 45.40084%;
       width: 9.45148%;
       padding-bottom: 17.8903%;
-      background: url(/common/images/top/bg_02.png) no-repeat center;
+      background: url(/Mekong-delta-tours/common/images/top/bg_02.png) no-repeat center;
       background-size: contain;
       -moz-transform: translateY(21.22642%);
       -o-transform: translateY(21.22642%);
@@ -237,16 +272,16 @@
     .top .country-box .country-box-all .meta {
       padding: 25px 20px 40px;
       text-align: center;
-      color: #1a2b49; }
+      color: #337ab7; }
     .top .country-box .country-box-all .country-box-name {
       margin-bottom: 10px;
       font-size: 52px;
       font-size: 5.2rem;
       line-height: 1.1;
-      font-family: GT-Eesti-Medium;
+      font-family: Ubuntu-Medium;
       font-weight: 500; }
       .top .country-box .country-box-all .country-box-name a {
-        color: #1a2b49; }
+        color: #337ab7; }
     .top .country-box .country-box-all .country-box-description {
       font-size: 21px;
       font-size: 2.1rem;
@@ -305,12 +340,11 @@
         margin-bottom: 8px;
         overflow: hidden; }
       .top .country-box .country-box-ul .item .item-title a {
-        font-size: 19px;
-        font-size: 1.9rem;
-        font-family: GT-Eesti-Medium;
-        font-weight: 500;
+        font-size: 18px;
+        font-size: 1.8rem;
+        font-family: 'Ubuntu-Medium';
         line-height: 1.5;
-        color: #1a2b49; }
+        color: #337ab7; }
       .top .country-box .country-box-ul .item .deal-star {
         font-size: 12px;
         font-size: 1.2rem; }
@@ -342,7 +376,7 @@
 .top .table-box {
   padding: 0 15px;
   margin-bottom: 42px;
-  color: #1a2b49;
+  color: #337ab7;
   line-height: 1.5; }
   .top .table-box .days,
   .top .table-box .price {
@@ -360,7 +394,7 @@
     font-size: 25px;
     font-size: 2.5rem;
     color: #d0021b;
-    font-family: GT-Eesti-Medium;
+    font-family: Ubuntu-Medium;
     font-weight: 500; }
   .top .table-box .end-in {
     font-size: 18px;
@@ -382,7 +416,7 @@
     .top .table-box table th,
     .top .table-box table td {
       padding: 5px 10px;
-      font-family: GT-Eesti-Regular;
+      font-family: Ubuntu-Regular;
       font-weight: 400; }
       .top .table-box table th:last-child,
       .top .table-box table td:last-child {
@@ -393,7 +427,7 @@
       text-align: left; }
       .top .table-box table thead th {
         padding: 7px;
-        font-family: GT-Eesti-Regular;
+        font-family: Ubuntu-Regular;
         font-weight: 400; }
     .top .table-box table tbody tr {
       border-top: 2px solid #e5e5e5; }
@@ -489,7 +523,7 @@
         color: #42c1c7; }
     .top .list-last-articles .item .item-meta .meta-02 {
       margin: 5px 0;
-      font-family: GT-Eesti-Medium;
+      font-family: Ubuntu-Medium;
       font-weight: 500;
       font-size: 20px;
       font-size: 2rem;
@@ -504,7 +538,7 @@
       color: #b3b8c1; }
     .top .list-last-articles .item .item-meta .read-more {
       display: inline-block;
-      font-family: GT-Eesti-Medium;
+      font-family: Ubuntu-Medium;
       font-weight: 500;
       color: #42c1c7;
       border-bottom: 1px solid transparent; }
@@ -514,11 +548,11 @@
         border-bottom-color: #42c1c7; }
 
 .top .list-top-deals .item .item-title {
-  font-family: GT-Eesti-Medium;
+  font-family: Ubuntu-Medium;
   font-weight: 500; }
   .top .list-top-deals .item .item-title a {
-    font-size: 19px;
-    font-size: 1.9rem; }
+    font-size: 16px;
+    font-size: 1.6rem; }
 
 .top .list-top-deals .item .item-meta {
   font-size: 15px;
@@ -527,8 +561,105 @@
 .top .list-top-deals .item .deal-reviews {
   font-size: 13px;
   font-size: 1.3rem;
-  font-family: GT-Eesti-Regular;
+  font-family: Ubuntu-Regular;
   font-weight: 400; }
+
+.top .list-on-sale .item .item-thumb {
+  width: 34%; }
+  .top .list-on-sale .item .item-thumb img {
+    height: 96px; }
+
+.top .list-on-sale .item .item-entry {
+  width: 65% !important; }
+  .top .list-on-sale .item .item-entry .item-entry-top .item-title {
+    font-family: Ubuntu-Medium;
+    font-weight: 500; }
+    .top .list-on-sale .item .item-entry .item-entry-top .item-title a {
+      font-size: 18px;
+      font-size: 1.8rem; }
+
+.top .list-on-sale .item .sale-reviews {
+  margin: 0 !important;
+  color: #9e9e9e;
+  font-size: 15px;
+  font-size: 1.5rem; }
+
+.top .list-on-sale .item .item-entry-col {
+  width: 100%; }
+  .top .list-on-sale .item .item-entry-col .old-price span {
+    margin-right: 2%;
+    color: #999; }
+
+.top .list-on-sale .item .item-meta {
+  font-size: 15px;
+  font-size: 1.5rem; }
+
+.top .list-on-sale .item .deal-reviews {
+  font-size: 13px;
+  font-size: 1.3rem;
+  font-family: Ubuntu-Regular;
+  font-weight: 400; }
+
+.top .list-top-tour .item {
+  margin-bottom: 10px;
+  background: #fff; }
+  .top .list-top-tour .item .item-title {
+    font-family: Ubuntu-Medium;
+    font-weight: 500;
+    line-height: 2; }
+    .top .list-top-tour .item .item-title a {
+      font-size: 16px;
+      font-size: 1.6rem;
+      line-height: 1.5;
+      color: #337ab7; }
+  .top .list-top-tour .item .item-entry {
+    padding: 5px 10px; }
+    .top .list-top-tour .item .item-entry .item-entry-top {
+      padding-bottom: 10px;
+      border-bottom: 2px dotted #9e9e9e; }
+      .top .list-top-tour .item .item-entry .item-entry-top .deal-star i {
+        font-size: 14px;
+        font-size: 1.4rem; }
+      .top .list-top-tour .item .item-entry .item-entry-top .deal-reviews {
+        font-family: GTEestiProDisplay-Regular;
+        font-weight: 400; }
+    .top .list-top-tour .item .item-entry .item-entry-bottom .item-entry-col {
+      padding: 10px 0;
+      border-bottom: 2px dotted #9e9e9e; }
+      .top .list-top-tour .item .item-entry .item-entry-bottom .item-entry-col .content-tour {
+        font-size: 16px;
+        font-size: 1.6rem;
+        font-family: Ubuntu-Regular;
+        font-weight: 400;
+        color: #337ab7; }
+        .top .list-top-tour .item .item-entry .item-entry-bottom .item-entry-col .content-tour .title p a {
+          font-size: 16px;
+          font-size: 1.6rem;
+          color: #337ab7; }
+        .top .list-top-tour .item .item-entry .item-entry-bottom .item-entry-col .content-tour .price {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex; }
+          .top .list-top-tour .item .item-entry .item-entry-bottom .item-entry-col .content-tour .price .tour-day {
+            width: 70%; }
+            .top .list-top-tour .item .item-entry .item-entry-bottom .item-entry-col .content-tour .price .tour-day a {
+              font-size: 16px;
+              font-size: 1.6rem;
+              color: #337ab7; }
+          .top .list-top-tour .item .item-entry .item-entry-bottom .item-entry-col .content-tour .price .price-tour {
+            text-align: right;
+            width: 30%;
+            color: #9e9e9e; }
+            .top .list-top-tour .item .item-entry .item-entry-bottom .item-entry-col .content-tour .price .price-tour .gia-cu {
+              text-decoration: line-through !important; }
+            .top .list-top-tour .item .item-entry .item-entry-bottom .item-entry-col .content-tour .price .price-tour .gia-moi {
+              color: #c1272d;
+              font-family: Ubuntu-Medium;
+              font-weight: 500; }
+
+.top .list-top-tour .item-meta-01 .deal-star i {
+  font-size: 14px;
+  font-size: 1.4rem; }
 
 .top .form-subscribe {
   margin-bottom: 10px; }
@@ -572,6 +703,10 @@
   justify-content: space-between; }
   .top .links-wrap .link-cols {
     width: 48%; }
+  .top .links-wrap .list-links .title {
+    font-family: Ubuntu-Bold;
+    font-weight: 700;
+    padding-left: 0 !important; }
   .top .links-wrap .list-links li {
     position: relative;
     padding-left: 10px;
@@ -582,13 +717,13 @@
       position: absolute;
       top: 4px;
       left: 0;
-      font-size: 12px;
-      font-size: 1.2rem; }
+      font-size: 8px;
+      font-size: 0.8rem; }
     .top .links-wrap .list-links li a {
       display: inline-block;
       font-size: 16px;
       font-size: 1.6rem;
-      color: #3385d6;
+      color: #333333;
       border-bottom: 1px solid transparent;
       -moz-transition: all 300ms;
       -o-transition: all 300ms;
@@ -630,7 +765,7 @@
       font-size: 1.7rem;
       font-family: GT-Eesti-Light;
       font-weight: 300;
-      color: #1a2b49; }
+      color: #337ab7; }
       .top .list-pannel-top .item a.active {
         color: #42c1c7; }
         .top .list-pannel-top .item a.active .icon {
@@ -644,7 +779,7 @@
         text-align: center;
         font-size: 28px;
         font-size: 2.8rem;
-        border: 4px solid #1a2b49;
+        border: 4px solid #337ab7;
         border-radius: 100%; }
 
 @media (max-width: 400px) {

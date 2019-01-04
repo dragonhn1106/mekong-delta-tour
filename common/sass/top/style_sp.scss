@@ -6,6 +6,16 @@
 	.section-top-deal {
 		padding: 25px 0 20px;
 		background: #f5f9fb;
+
+		.content {
+			padding: 0px 0px 40px 0;
+
+			p {
+				@include fz(16);
+				font-family: 'Ubuntu-Regular';
+				text-align: justify;
+			}
+		}
 	}
 
 	.section-banner-text {
@@ -17,47 +27,56 @@
 			color: #d7ffdc;
 			background: #025b61;
 		}
+
 		&.bg02 {
 			padding: 42px 0 20px;
-			background: url(/common/images/share/bg_subscribe.jpg) no-repeat center center / cover;
+			background: url(/Mekong-delta-tours/common/images/share/bg_subscribe.jpg) no-repeat center center / cover;
 		}
+
 		.text01 {
 			margin-bottom: 5px;
 			@include fz(16);
-		  line-height: 1.4;
-		  text-transform: uppercase;
-		  color: $color-main03;
+			line-height: 1.4;
+			text-transform: uppercase;
+			color: #333333;
+			@include UbuntuRegular
 		}
+
 		.text02 {
-			@include fz(36);
+			@include fz(2);
 			line-height: 1.3;
 			color: $color-main02;
 			text-transform: uppercase;
 		}
+
 		.text03 {
 			margin-bottom: 15px;
 			@include fz(15);
 			line-height: 2.4;
 			color: $color-main03;
 		}
+
 		.text04 {
 			margin-bottom: 20px;
 			@include fz(30);
-			@include GTEestiMedium;
+			@include GTEestiRegular;
 			line-height: 1.3;
 		}
+
 		.text05 {
 			@include fz(16);
 			line-height: 1.6;
 		}
+
 		.text06 {
 			margin-bottom: 20px;
-			@include fz(30);
-			@include GTEestiBold;
+			@include fz(22);
+			@include UbuntuBold;
 			line-height: 1.3;
-			color: $color-main02;
+			color: $color-main04;
 			text-transform: uppercase;
 		}
+
 		.text07 {
 			@include fz(14);
 			line-height: 1.3;
@@ -69,27 +88,43 @@
 		padding-top: 35px;
 	}
 
+	.section-on-sale {
+		padding: 0px 0 15px;
+
+		.ttl-h2 {
+			margin: 20px 0px 0px;
+		}
+	}
+
 	.section-last-deal {
-		padding: 35px 0 15px;
+		padding: 15px 0 15px;
+
 		.ttl-h2 {
 			margin-bottom: 20px;
 		}
 	}
+
 	.section-last-articles {
 		padding: 20px 0 43px;
 	}
+
 	.section-top-tour-destinations {
 		padding: 45px 0;
+
 		.wrap {
 			padding: 0 20px;
 		}
+
 		.ttl-h2 {
 			margin-bottom: 25px;
 			text-align: left;
+
 		}
+
 		.text {
 			margin-top: 40px;
 			@include fz(15);
+
 			a {
 				color: $color-main02;
 				border-bottom: 1px solid transparent;
@@ -115,6 +150,7 @@
 			top: 100%;
 			z-index: 2;
 		}
+
 		svg {
 			position: absolute;
 			top: 100%;
@@ -129,19 +165,22 @@
 				left: 597/1185*100%;
 				width: 129/1185*100%;
 				padding-bottom: 207/1185*100%;
-				background: url(/common/images/top/bg_01.png) no-repeat center;
+				background: url(/Mekong-delta-tours/common/images/top/bg_01.png) no-repeat center;
 				background-size: contain;
 				@include transform(translateY(57/207*100%));
 			}
+
 			svg {
 				left: 597/1185*100%;
 				width: 135/1185*100%;
 				@include transform(translateY(57px));
 			}
+
 			.country-box-all {
 				background: #fc0;
 			}
 		}
+
 		&.country-02 {
 			margin-bottom: 211/1400*100%;
 
@@ -149,19 +188,22 @@
 				left: 538/1185*100%;
 				width: 112/1185*100%;
 				padding-bottom: 212/1185*100%;
-				background: url(/common/images/top/bg_02.png) no-repeat center;
+				background: url(/Mekong-delta-tours/common/images/top/bg_02.png) no-repeat center;
 				background-size: contain;
 				@include transform(translateY(45/212*100%));
 			}
+
 			svg {
 				left: 538/1185*100%;
 				width: 131/1185*100%;
 				@include transform(translateY(45px));
 			}
+
 			.country-box-all {
 				background: #ffcbcb;
 			}
 		}
+
 		&.country-03 {
 			margin-bottom: 232/1400*100%;
 
@@ -173,11 +215,13 @@
 				background-size: contain;
 				@include transform(translateY(38/224*100%));
 			}
+
 			svg {
 				left: 543/1185*100%;
 				width: 132/1185*100%;
 				@include transform(translateY(45px));
 			}
+
 			.country-box-all {
 				background: #c3fcff;
 			}
@@ -193,25 +237,30 @@
 					width: 100%;
 				}
 			}
+
 			.meta {
 				padding: 25px 20px 40px;
 				text-align: center;
 				color: $color-main03;
 			}
+
 			.country-box-name {
 				margin-bottom: 10px;
 				@include fz(52);
 				line-height: 1.1;
-				@include GTEestiMedium;
+				@include UbuntuMedium;
+
 				a {
 					color: $color-main03;
 				}
 			}
+
 			.country-box-description {
 				@include fz(21);
 				line-height: 1.3;
 			}
 		}
+
 		.country-box-tour {
 			@include display-flex;
 			@include flex-direction(row);
@@ -219,6 +268,7 @@
 			-webkit-overflow: auto;
 			-webkit-overflow-scrolling: auto;
 		}
+
 		.country-box-ul {
 			@include display-flex;
 			@include flex-direction(row);
@@ -240,15 +290,17 @@
 
 				.item-title {
 					a {
-						@include fz(19);
-						@include GTEestiMedium;
+						@include fz(18);
+						font-family: 'Ubuntu-Medium';
 						line-height: 1.5;
 						color: $color-main03;
 					}
 				}
+
 				.deal-star {
 					@include fz(12);
 				}
+
 				.item-entry-bottom {
 					@include display-flex;
 					@include flex-direction(row);
@@ -257,6 +309,7 @@
 				}
 			}
 		}
+
 		.country-box-btn {
 			margin-top: 30px;
 			text-align: center;
@@ -271,85 +324,105 @@
 
 		// .departing,
 		// .days {
-		// 	@include GTEestiMedium;
+		// 	@include UbuntuMedium;
 		// }
 		.days,
 		.price {
 			text-align: center;
 		}
+
 		.only-sp {
 			display: none;
 		}
+
 		.maps-thumb {
 			@include border-radius(100%);
 		}
+
 		.price {
 			.price-old {
 				text-decoration: line-through;
 			}
+
 			.price-news {
 				display: block;
 				@include fz(25);
 				color: #d0021b;
-				@include GTEestiMedium;
+				@include UbuntuMedium;
 			}
 		}
+
 		.end-in {
 			@include fz(18);
 		}
+
 		.time-end-in {
 			color: #d0021b;
 		}
+
 		table {
 			width: 100%;
 			border-collapse: collapse;
+
 			.cl01 {
 				width: 415/1000*100%;
 			}
+
 			.cl02 {
 				width: 140/1000*100%;
 			}
+
 			.cl03 {
 				width: 300/1000*100%;
 				text-align: center;
 			}
+
 			.cl04 {
 				width: 145/1000*100%;
 			}
+
 			th,
 			td {
 				padding: 5px 10px;
-				@include GTEestiRegular;
+				@include UbuntuRegular;
+
 				&:last-child {
 					padding: 5px 2px;
 				}
 			}
+
 			thead {
 				@include fz(22);
 				text-align: left;
+
 				th {
 					padding: 7px;
-					@include GTEestiRegular;
+					@include UbuntuRegular;
 				}
 			}
+
 			tbody {
 				tr {
 					border-top: 2px solid #e5e5e5;
+
 					&:nth-child(2n-1) {
 						background: #f4f4f4;
 					}
 				}
+
 				td {
 					@include fz(20);
 				}
 			}
 		}
+
 		a {
 			display: inline-block;
 			line-height: 1.4;
 			@include GTEestiLight;
 			color: $color-main02;
 			@include transition(all 300ms);
+
 			&:hover {
 				text-decoration: underline;
 			}
@@ -370,6 +443,7 @@
 				overflow: hidden;
 				width: 36%;
 			}
+
 			.item-meta {
 				@include display-flex;
 				@include flex-direction(column);
@@ -378,53 +452,65 @@
 				.item-meta-top {
 					flex-grow: 1;
 				}
+
 				.item-meta-bottom {
 					text-align: right;
 				}
+
 				.meta-01 {
 					@include display-flex;
 					@include flex-direction(row);
 					@include justify-content(flex-start);
 					line-height: 1.1;
 					color: #aab2bd;
+
 					li {
 						padding: 0 15px;
 						border-left: 1px solid #aab2bd;
+
 						&:first-child {
 							padding-left: 0;
 							border-left: none;
 						}
+
 						&:last-child {
 							padding-right: 0;
 						}
 					}
+
 					a {
 						color: $color-main02;
 					}
 				}
+
 				.meta-02 {
 					margin: 5px 0;
-					@include GTEestiMedium;
+					@include UbuntuMedium;
 					@include fz(20);
 					line-height: 1.4;
+
 					a {
 						color: $color-main;
 					}
 				}
+
 				.excerpt {
 					margin-bottom: 5px;
 					@include fz(16);
 					line-height: 1.6;
 					color: #b3b8c1;
 				}
+
 				.read-more {
 					display: inline-block;
-					@include GTEestiMedium;
+					@include UbuntuMedium;
 					color: $color-main02;
 					border-bottom: 1px solid transparent;
+
 					.fa {
 						margin-left: 15px;
 					}
+
 					&:hover {
 						border-bottom-color: $color-main02;
 					}
@@ -433,39 +519,205 @@
 		}
 	}
 
+
 	.list-top-deals {
 		.item {
 			.item-title {
-				@include GTEestiMedium;
+				@include UbuntuMedium;
+
 				a {
-					@include fz(19);
+					@include fz(16);
 				}
 			}
+
 			.item-meta {
 				@include fz(15);
 			}
+
 			.deal-reviews {
 				@include fz(13);
-				@include GTEestiRegular;
+				@include UbuntuRegular;
+			}
+		}
+	}
+
+	.list-on-sale {
+		.item {
+			.item-thumb {
+				width: 34%;
+
+				img {
+					height: 96px;
+				}
+			}
+
+			.item-entry {
+				width: 65% !important;
+
+				.item-entry-top {
+
+					.item-title {
+						@include UbuntuMedium;
+
+						a {
+							@include fz(18);
+						}
+					}
+				}
+			}
+
+
+
+
+			.sale-reviews {
+				margin: 0 !important;
+				color: #9e9e9e;
+				@include fz(15);
+			}
+
+			.item-entry-col {
+				width: 100%;
+
+				.old-price {
+					span {
+						margin-right: 2%;
+						color: #999;
+					}
+				}
+			}
+
+			.item-meta {
+				@include fz(15);
+			}
+
+			.deal-reviews {
+				@include fz(13);
+				@include UbuntuRegular;
+			}
+		}
+	}
+
+	.list-top-tour {
+		.item {
+			margin-bottom: 10px;
+			background: #fff;
+
+			.item-title {
+				@include UbuntuMedium;
+				line-height: 2;
+
+				a {
+					@include fz(16);
+					line-height: 1.5;
+					color: $color-main03;
+				}
+			}
+
+			.item-entry {
+				padding: 5px 10px;
+
+				.item-entry-top {
+					padding-bottom: 10px;
+					border-bottom: 2px dotted #9e9e9e;
+
+					.deal-star {
+						i {
+							@include fz(14);
+						}
+					}
+
+					.deal-reviews {
+						@include GTEestiRegular;
+					}
+				}
+
+				.item-entry-bottom {
+
+					.item-entry-col {
+						padding: 10px 0;
+						border-bottom: 2px dotted #9e9e9e;
+
+						.content-tour {
+							@include fz(16);
+							@include UbuntuRegular;
+							color: $color-main03;
+
+							.title {
+								p {
+									a {
+										@include fz(16);
+										color: $color-main03;
+									}
+								}
+							}
+
+							.price {
+								display: flex;
+
+								.tour-day {
+									width: 70%;
+
+
+									a {
+										@include fz(16);
+										color: $color-main03;
+									}
+								}
+
+								.price-tour {
+									text-align: right;
+									width: 30%;
+									color: #9e9e9e;
+
+									.gia-cu {
+										text-decoration: line-through !important;
+									}
+
+									.gia-moi {
+										color: #c1272d;
+										@include UbuntuMedium
+									}
+
+
+								}
+
+
+							}
+						}
+					}
+				}
+			}
+		}
+
+
+		.item-meta-01 {
+			.deal-star {
+				i {
+					@include fz(14);
+				}
 			}
 		}
 	}
 
 	.form-subscribe {
 		margin-bottom: 10px;
+
 		.form-group {
 			@include display-flex;
 			@include justify-content(center);
+
 			input {
 				width: 40%;
 				min-width: 200px;
 			}
+
 			.form-control {
 				padding: 9px 10px;
 				text-align: center;
 				border: none;
 			}
 		}
+
 		.btn {
 			width: 40px;
 			text-align: center;
@@ -482,6 +734,11 @@
 		}
 
 		.list-links {
+			.title {
+				@include UbuntuBold;
+				padding-left: 0 !important;
+			}
+
 			li {
 				position: relative;
 				padding-left: 10px;
@@ -490,16 +747,18 @@
 				&:last-child {
 					margin-bottom: 0;
 				}
+
 				.fa {
 					position: absolute;
 					top: 4px;
 					left: 0;
-					@include fz(12);
+					@include fz(8);
 				}
+
 				a {
 					display: inline-block;
 					@include fz(16);
-					color: $color-main;
+					color: #333333;
 					border-bottom: 1px solid transparent;
 					@include transition(all 300ms);
 
@@ -523,6 +782,7 @@
 
 		.item {
 			width: 24%;
+
 			a {
 				display: flex;
 				flex-direction: column;
@@ -530,12 +790,15 @@
 				@include fz(17);
 				@include GTEestiLight;
 				color: $color-main03;
+
 				&.active {
 					color: $color-main02;
+
 					.icon {
 						border-color: $color-main02;
 					}
 				}
+
 				.icon {
 					display: inline-block;
 					width: 50px;
@@ -550,11 +813,13 @@
 			}
 		}
 	}
+
 	@media (max-width: 400px) {
 		.table-box {
 			//padding: 0 3%;
 			padding: 0;
 		}
+
 		.list-last-articles {
 			.item {
 				.item-meta {
@@ -564,13 +829,16 @@
 				}
 			}
 		}
+
 		.pannel-top {
 			padding: 15px 0;
 		}
+
 		.list-pannel-top {
 			.item {
 				a {
 					@include fz(14);
+
 					.icon {
 						width: 40px;
 						height: 40px;
@@ -578,8 +846,6 @@
 					}
 				}
 			}
-		}	
+		}
 	}
 }
-
-

@@ -1017,7 +1017,7 @@ textarea {
 	display: inline-block;
 	vertical-align: top;
 	padding: 15px 25px;
-	@include GTEestiBold;
+	@include UbuntuBold;
 	@include fz(16);
 	color: #fff;
 	text-align: center;
@@ -1284,7 +1284,7 @@ figure {
 
 					.meta-tl {
 						@include fz(16);
-						@include GTEestiMedium;
+						@include UbuntuMedium;
 
 						a {
 							color: $color-main03;
@@ -1329,7 +1329,7 @@ figure {
 	.widget-search-ttl {
 		margin-bottom: 15px;
 		@include fz(30);
-		@include GTEestiMedium;
+		@include UbuntuMedium;
 		color: $color-main03;
 		border-bottom: 3px solid $color-main02;
 	}
@@ -1359,7 +1359,7 @@ figure {
 	.widget-hot-deals-ttl {
 		padding: 6px 20px 5px;
 		@include fz(30);
-		@include GTEestiMedium;
+		@include UbuntuMedium;
 		color: #fff;
 		background: $color-main02;
 	}
@@ -1400,7 +1400,7 @@ figure {
 
 				a {
 					@include fz(12);
-					@include GTEestiMedium;
+					@include UbuntuMedium;
 					color: #2c3e50;
 				}
 			}
@@ -1434,7 +1434,7 @@ figure {
 
 					b {
 						@include fz(16);
-						@include GTEestiMedium;
+						@include UbuntuMedium;
 						color: #d0021b;
 					}
 				}
@@ -1449,7 +1449,7 @@ figure {
 		.btn-primary {
 			padding: 7px 12px;
 			@include fz(14);
-			@include GTEestiRegular;
+			@include UbuntuRegular;
 			border-radius: 0;
 		}
 	}
@@ -1545,7 +1545,7 @@ figure {
 
 		b {
 			text-decoration: line-through;
-			@include GTEestiRegular;
+			@include UbuntuRegular;
 			font-weight: normal;
 		}
 
@@ -1561,7 +1561,7 @@ figure {
 
 	.btn-primary {
 		padding: 11px 31px;
-		@include GTEestiRegular;
+		@include UbuntuRegular;
 		@include fz(14);
 	}
 
@@ -1608,7 +1608,7 @@ figure {
 		}
 
 		.form-control {
-			@include GTEestiMedium;
+			@include UbuntuMedium;
 			color: $color-main03;
 			@include border-radius(2px);
 		}
@@ -1662,7 +1662,7 @@ figure {
 					text-align: left;
 
 					label {
-						@include GTEestiMedium;
+						@include UbuntuMedium;
 					}
 				}
 
@@ -1676,7 +1676,7 @@ figure {
 
 	.form-btn {
 		.btn {
-			@include GTEestiMedium;
+			@include UbuntuMedium;
 			color: $color-main03;
 			background: #fff;
 		}

@@ -6,7 +6,7 @@
 				<span>&nbsp;</span>
 				<span>&nbsp;</span>
 			</div>
-			<h1 class="logo"><a href="/"><img src="/halong-cruises/common/images/share/logo.png" alt="ASIA PACKER TRAVEL" width="188" height="58"></a></h1>
+			<h1 class="logo"><a href="/"><img src="/Mekong-delta-tours/common/images/share/logo_sp.png" alt="ASIA PACKER TRAVEL" width="188" height="58"></a></h1>
 			<ul class="header-user-action">
 				<li class="item-drop">
 					<a href="#" class="dropdown user"><i class="fa fa-user-circle"></i></a>
@@ -28,5 +28,5 @@
 			</ul>
 		</div>
 	</div>
-	<?php include $_SERVER['DOCUMENT_ROOT']."/halong-cruises/common/inc/search-mobile.php"; ?>
+	<?php include $_SERVER['DOCUMENT_ROOT']."/Mekong-delta-tours/common/inc/search-mobile.php"; ?>
 </header>

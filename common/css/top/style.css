@@ -85,7 +85,7 @@
     font-size: 2rem;
     line-height: 1.4;
     text-transform: uppercase;
-    color: #1a2b49;
+    color: #337ab7;
     font-family: 'GTEestiProDisplay-Regular'; }
   .top .section-banner-text .text02 {
     font-size: 60px;
@@ -98,7 +98,7 @@
     font-size: 20px;
     font-size: 2rem;
     line-height: 2.4;
-    color: #1a2b49; }
+    color: #337ab7; }
   .top .section-banner-text .text04 {
     margin-bottom: 20px;
     font-size: 50px;
@@ -468,12 +468,12 @@
     background: #ccc; }
     .top .country-box .country-box-all .meta {
       padding: 7.89474%;
-      color: #1a2b49; }
+      color: #337ab7; }
     .top .country-box .country-box-all .country-box-name {
       font-size: 45px;
       font-size: 4.5rem;
       line-height: 1.1;
-      font-family: GT-Eesti-Regular;
+      font-family: GTEestiProDisplay-Regular;
       font-weight: 400; }
     .top .country-box .country-box-all .country-box-description {
       margin-bottom: 30px;
@@ -760,7 +760,7 @@
         font-family: GT-Eesti-Medium;
         font-weight: 500;
         line-height: 1.5;
-        color: #1a2b49;
+        color: #337ab7;
         font-family: 'EncodeSansExpanded-SemiBold'; }
       .top .country-box .country-box-ul .item .deal-star {
         font-size: 12px;
@@ -783,7 +783,7 @@
 .top .table-box {
   padding: 0 15px;
   margin-bottom: 42px;
-  color: #1a2b49;
+  color: #337ab7;
   font-size: 16px;
   font-size: 1.6rem;
   line-height: 1.5;

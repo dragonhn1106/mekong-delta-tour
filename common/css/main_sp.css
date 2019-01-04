@@ -123,44 +123,65 @@ iframe {
     clear: both; }
 
 @font-face {
-  font-family: "GT-Eesti-Light";
-  src: url("/halong-cruises/common/fonts/GTEestiLight/GT-Eesti-Pro-Display-Light.eot");
-  src: url("/halong-cruises/common/fonts/GTEestiLight/GT-Eesti-Pro-Display-Light.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/GTEestiLight/GT-Eesti-Pro-Display-Light.woff") format("woff"), url("/halong-cruises/common/fonts/GTEestiLight/GT-Eesti-Pro-Display-Light.ttf") format("truetype"), url("/halong-cruises/common/fonts/GTEestiLight/GT-Eesti-Pro-Display-Light.svg#GT-Eesti-Light") format("svg");
+  font-family: "Ubuntu-Bold";
+  src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-B.eot");
+  src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-B.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-B.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-B.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-B.svg#Ubuntu-Bold") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: "GT-Eesti-Regular";
-  src: url("/halong-cruises/common/fonts/GTEestiRegular/GT-Eesti-Pro-Display-Regular.eot");
-  src: url("/halong-cruises/common/fonts/GTEestiRegular/GT-Eesti-Pro-Display-Regular.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/GTEestiRegular/GT-Eesti-Pro-Display-Regular.woff") format("woff"), url("/halong-cruises/common/fonts/GTEestiRegular/GT-Eesti-Pro-Display-Regular.ttf") format("truetype"), url("/halong-cruises/common/fonts/GTEestiRegular/GT-Eesti-Pro-Display-Regular.svg#GT-Eesti-Regular") format("svg");
+  font-family: "Ubuntu-Medium";
+  src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-M.eot");
+  src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-M.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-M.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-M.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-M.svg#Ubuntu-Medium") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: "GT-Eesti-Medium";
-  src: url("/halong-cruises/common/fonts/GTEestiMedium/GT-Eesti-Pro-Display-Medium.eot");
-  src: url("/halong-cruises/common/fonts/GTEestiMedium/GT-Eesti-Pro-Display-Medium.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/GTEestiMedium/GT-Eesti-Pro-Display-Medium.woff") format("woff"), url("/halong-cruises/common/fonts/GTEestiMedium/GT-Eesti-Pro-Display-Medium.ttf") format("truetype"), url("/halong-cruises/common/fonts/GTEestiMedium/GT-Eesti-Pro-Display-Medium.svg#GT-Eesti-Medium") format("svg");
+  font-family: "Ubuntu-Light";
+  src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-L.eot");
+  src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-L.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-L.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-L.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-L.svg#Ubuntu-Light") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: "GT-Eesti-Bold";
-  src: url("/halong-cruises/common/fonts/GTEestiBold/GT-Eesti-Pro-Display-Bold.eot");
-  src: url("/halong-cruises/common/fonts/GTEestiBold/GT-Eesti-Pro-Display-Bold.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/GTEestiBold/GT-Eesti-Pro-Display-Bold.woff") format("woff"), url("/halong-cruises/common/fonts/GTEestiBold/GT-Eesti-Pro-Display-Bold.ttf") format("truetype"), url("/halong-cruises/common/fonts/GTEestiBold/GT-Eesti-Pro-Display-Bold.svg#GT-Eesti-Bold") format("svg");
+  font-family: "Ubuntu-Regular";
+  src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-R.eot");
+  src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-R.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-R.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-R.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-R.svg#Ubuntu-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "GTEestiProDisplay-Medium";
+  src: url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Medium.eot");
+  src: url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Medium.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Medium.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Medium.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Medium.svg#GTEestiProDisplay-Medium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "GTEestiProDisplay-Regular";
+  src: url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.eot");
+  src: url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.svg#GTEestiProDisplay-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "GTEestiProDisplay-Bold";
+  src: url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.eot");
+  src: url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.svg#GTEestiProDisplay-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Ubuntu-SemiBold";
+  src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-SemiBold.eot");
+  src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-SemiBold.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-SemiBold.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-SemiBold.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-SemiBold.svg#Ubuntu-SemiBold") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: "FontAwesome";
-  src: url("/halong-cruises/common/fonts/FontAwesome/fontawesome-webfont.eot");
-  src: url("/halong-cruises/common/fonts/FontAwesome/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/FontAwesome/fontawesome-webfont.woff") format("woff"), url("/halong-cruises/common/fonts/FontAwesome/fontawesome-webfont.ttf") format("truetype"), url("/halong-cruises/common/fonts/FontAwesome/fontawesome-webfont.svg#FontAwesome") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: "iz";
-  src: url("/halong-cruises/common/fonts/iz/iz.eot");
-  src: url("/halong-cruises/common/fonts/iz/iz.eot?#iefix") format("embedded-opentype"), url("/halong-cruises/common/fonts/iz/iz.woff") format("woff"), url("/halong-cruises/common/fonts/iz/iz.ttf") format("truetype"), url("/halong-cruises/common/fonts/iz/iz.svg#iz") format("svg");
+  src: url("/Mekong-delta-tours/common/fonts/FontAwesome/fontawesome-webfont.eot");
+  src: url("/Mekong-delta-tours/common/fonts/FontAwesome/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/FontAwesome/fontawesome-webfont.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/FontAwesome/fontawesome-webfont.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/FontAwesome/fontawesome-webfont.svg#FontAwesome") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -212,7 +233,8 @@ header {
     transform: translateY(-100%); }
   header .main-head {
     padding: 10px 0 20px;
-    border-bottom: 1px solid #b7b7b7; }
+    border-bottom: 1px solid #b7b7b7;
+    font-family: 'Encode-SansExpanded-Medium'; }
     header .main-head .wrap {
       position: relative;
       display: -webkit-box;
@@ -330,7 +352,7 @@ header {
           header .main-head .wrap .header-user-action > li:not(:last-child) {
             margin-right: 10px; }
           header .main-head .wrap .header-user-action > li > a {
-            color: #1a2b49; }
+            color: #337ab7; }
             header .main-head .wrap .header-user-action > li > a .fa {
               font-size: 30px;
               font-size: 3rem; }
@@ -346,7 +368,7 @@ header {
                   content: '';
                   width: 100%;
                   height: 4px;
-                  background: #1a2b49;
+                  background: #337ab7;
                   -moz-transform: translateX(-50%);
                   -o-transform: translateX(-50%);
                   -ms-transform: translateX(-50%);
@@ -392,17 +414,16 @@ footer .need-help {
     width: 77.63713%;
     vertical-align: middle; }
     footer .need-help .help-info h2 {
-      color: #42c1c7;
-      font-family: GT-Eesti-Bold;
+      color: #337ab7;
+      font-family: Ubuntu-Bold;
       font-weight: 700;
       font-size: 40px;
       font-size: 4rem;
       line-height: 1.333; }
     footer .need-help .help-info .help-txt .txt {
       display: inline-block;
-      color: #1a2b49;
-      font-size: 16px;
-      font-size: 1.6rem; }
+      color: #333333;
+      font-size: 1.4rem !important; }
       footer .need-help .help-info .help-txt .txt a {
         color: #42c1c7; }
         footer .need-help .help-info .help-txt .txt a:hover {
@@ -422,7 +443,7 @@ footer .need-help {
       font-size: 1.6rem;
       line-height: 48px;
       text-align: center;
-      background: #1a2b49;
+      background: #337ab7;
       -moz-border-radius: 48px;
       -webkit-border-radius: 48px;
       border-radius: 48px;
@@ -446,7 +467,7 @@ footer .user-function {
   margin: 0 auto; }
   footer .user-function .more-text {
     margin-bottom: 10px;
-    color: #1a2b49;
+    color: #337ab7;
     font-size: 28px;
     font-size: 2.8rem; }
   footer .user-function .list-user-function {
@@ -472,7 +493,7 @@ footer .user-function {
         position: relative;
         display: block;
         padding-left: 25px;
-        color: #1a2b49;
+        color: #337ab7;
         font-size: 20px;
         font-size: 2rem;
         -moz-transition: all 0.3s ease-out;
@@ -486,8 +507,8 @@ footer .user-function {
           content: '';
           width: 8px;
           height: 8px;
-          border-top: 2px solid #1a2b49;
-          border-right: 2px solid #1a2b49;
+          border-top: 2px solid #337ab7;
+          border-right: 2px solid #337ab7;
           -moz-transform: rotate(45deg);
           -o-transform: rotate(45deg);
           -ms-transform: rotate(45deg);
@@ -495,27 +516,37 @@ footer .user-function {
           transform: rotate(45deg); }
 
 footer .foot-info {
-  padding: 30px 0 35px;
+  padding: 20px 0 35px;
   text-align: center;
-  background: #1a2b49; }
+  background: #337ab7; }
+  footer .foot-info .sub-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 10px; }
+    footer .foot-info .sub-menu li {
+      margin: auto; }
+      footer .foot-info .sub-menu li a {
+        line-height: 2;
+        font-family: Ubuntu-Bold;
+        font-weight: 700;
+        color: #fff; }
   footer .foot-info .list-social {
     margin-bottom: 45px;
     font-size: 0; }
     footer .foot-info .list-social li {
       display: inline-block;
       width: 53px;
-      margin: 0 1.85654%; }
+      margin: 0 0.92827%; }
       footer .foot-info .list-social li a {
         position: relative;
         display: block;
         height: 53px;
-        color: #42c1c7;
+        color: #fff;
         font-size: 28px;
         font-size: 2.8rem;
-        -moz-border-radius: 50%;
-        -webkit-border-radius: 50%;
-        border-radius: 50%;
-        background: #35434e;
         overflow: hidden;
         -moz-transition: all 0.3s ease-out;
         -o-transition: all 0.3s ease-out;
@@ -532,15 +563,18 @@ footer .foot-info {
           -webkit-transform: translateY(-50%);
           transform: translateY(-50%); }
         footer .foot-info .list-social li a:hover {
-          color: #1a2b49;
+          color: #337ab7;
           background: #42c1c7; }
-  footer .foot-info .flogo a {
-    -moz-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    -webkit-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out; }
-    footer .foot-info .flogo a:hover {
-      opacity: 0.7; }
+  footer .foot-info .flogo {
+    width: 50%;
+    margin: auto; }
+    footer .foot-info .flogo a {
+      -moz-transition: all 0.3s ease-out;
+      -o-transition: all 0.3s ease-out;
+      -webkit-transition: all 0.3s ease-out;
+      transition: all 0.3s ease-out; }
+      footer .foot-info .flogo a:hover {
+        opacity: 0.7; }
   footer .foot-info .copy-txt {
     margin: 25px 0 20px;
     color: #fff;
@@ -610,7 +644,7 @@ footer .foot-info {
           margin: 0 2%;
           padding-top: 6%; }
           .board-menu-sp .main-board .top-main-board .top-nav li a {
-            font-family: GT-Eesti-Regular;
+            font-family: GTEestiProDisplay-Regular;
             font-weight: 400;
             color: #fff;
             font-size: 18px;
@@ -665,7 +699,7 @@ footer .foot-info {
             width: 83.76289%;
             height: 100%;
             padding-left: 7.69231%;
-            color: #1a2b49;
+            color: #337ab7;
             font-size: 18px;
             font-size: 1.8rem;
             border: none;
@@ -688,7 +722,7 @@ footer .foot-info {
             right: 0;
             width: 16.23711%;
             height: 100%;
-            color: #1a2b49;
+            color: #337ab7;
             font-size: 20px;
             font-size: 2rem;
             outline: none; }
@@ -761,7 +795,7 @@ footer .foot-info {
       position: relative;
       display: block;
       padding: 4% 5%;
-      color: #1a2b49;
+      color: #337ab7;
       font-size: 18px;
       font-size: 1.8rem;
       border-bottom: 1px solid #1d1d26; }
@@ -772,8 +806,8 @@ footer .foot-info {
         content: '';
         width: 10px;
         height: 10px;
-        border-top: 2px solid #1a2b49;
-        border-right: 2px solid #1a2b49;
+        border-top: 2px solid #337ab7;
+        border-right: 2px solid #337ab7;
         -moz-transform: translateY(-50%) rotate(45deg);
         -o-transform: translateY(-50%) rotate(45deg);
         -ms-transform: translateY(-50%) rotate(45deg);
@@ -796,7 +830,7 @@ footer .foot-info {
         top: -8px;
         display: inline-block;
         vertical-align: middle;
-        color: #1a2b49;
+        color: #337ab7;
         font-family: GT-Eesti-Medium;
         font-weight: 500;
         font-size: 18px;
@@ -1000,7 +1034,7 @@ footer .foot-info {
             line-height: 1.4; }
             .search-global .wrap .cont-form .suggest ul li span.txt {
               width: 68%;
-              color: #1a2b49; }
+              color: #337ab7; }
             .search-global .wrap .cont-form .suggest ul li span.cat {
               width: 30%;
               color: #b7b7b7;
@@ -1141,7 +1175,7 @@ footer .foot-info {
       background: #00aa71; }
     .modal-datepicker .modal-datepicker-cont .pika-single {
       max-height: 400px;
-      font-family: GT-Eesti-Regular;
+      font-family: GTEestiProDisplay-Regular;
       font-weight: 400;
       color: #2b2b2b; }
 
@@ -1214,9 +1248,9 @@ input.datepicker {
         display: inline-block;
         width: 160px; }
   footer .foot-info .list-social {
-    margin-bottom: 30px; }
+    margin-bottom: 20px; }
     footer .foot-info .list-social li {
-      width: 38px;
+      width: 28px;
       margin: 0 1.3%; }
       footer .foot-info .list-social li a {
         height: 38px;
@@ -1242,6 +1276,69 @@ input.datepicker {
         width: 45px; }
         .search-global .wrap .cont-form .st_search p.p_btn .cmdSearch {
           height: 35px; } }
+
+@font-face {
+  font-family: "Ubuntu-Bold";
+  src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-B.eot");
+  src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-B.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-B.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-B.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-B.svg#Ubuntu-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Ubuntu-Medium";
+  src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-M.eot");
+  src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-M.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-M.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-M.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-M.svg#Ubuntu-Medium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Ubuntu-Light";
+  src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-L.eot");
+  src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-L.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-L.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-L.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-L.svg#Ubuntu-Light") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Ubuntu-Regular";
+  src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-R.eot");
+  src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-R.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-R.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-R.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-R.svg#Ubuntu-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "GTEestiProDisplay-Medium";
+  src: url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Medium.eot");
+  src: url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Medium.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Medium.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Medium.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Medium.svg#GTEestiProDisplay-Medium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "GTEestiProDisplay-Regular";
+  src: url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.eot");
+  src: url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.svg#GTEestiProDisplay-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "GTEestiProDisplay-Bold";
+  src: url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.eot");
+  src: url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.svg#GTEestiProDisplay-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Ubuntu-SemiBold";
+  src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-SemiBold.eot");
+  src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-SemiBold.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-SemiBold.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-SemiBold.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-SemiBold.svg#Ubuntu-SemiBold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "FontAwesome";
+  src: url("/Mekong-delta-tours/common/fonts/FontAwesome/fontawesome-webfont.eot");
+  src: url("/Mekong-delta-tours/common/fonts/FontAwesome/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/FontAwesome/fontawesome-webfont.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/FontAwesome/fontawesome-webfont.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/FontAwesome/fontawesome-webfont.svg#FontAwesome") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 
 button,
 input,
@@ -1288,7 +1385,9 @@ textarea {
     font-size: 20px;
     font-size: 2rem;
     line-height: 1;
-    color: #d0021b; }
+    color: #d0021b;
+    font-family: Ubuntu-Medium;
+    font-weight: 500; }
 
 .list-radio {
   display: -webkit-box;
@@ -1626,6 +1725,9 @@ textarea {
         flex-direction: column;
         text-align: center; }
 
+.top {
+  background: #f1f1f1; }
+
 .section-banner .top-banner {
   position: relative; }
   .section-banner .top-banner .slick-arrow {
@@ -1752,13 +1854,14 @@ textarea {
           line-height: 1.6;
           letter-spacing: -0.5px;
           text-align: left;
-          color: #1a2b49; }
+          color: #337ab7; }
         .section-banner .banner-quality .list-quality .item .meta-text {
           font-size: 12px;
           font-size: 1.2rem;
           color: #999; }
 
-.list-top-deals .item {
+.list-top-deals .item,
+.list-on-sale .item {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -1780,21 +1883,25 @@ textarea {
   -webkit-justify-content: space-between;
   justify-content: space-between;
   padding: 15px;
-  margin-bottom: 20px;
+  margin: 15px 0;
   background: #fff;
   -moz-box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.15);
   -webkit-box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.15);
   box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.15); }
-  .list-top-deals .item .item-thumb {
+  .list-top-deals .item .item-thumb,
+  .list-on-sale .item .item-thumb {
     width: 30%; }
-  .list-top-deals .item .item-title {
+  .list-top-deals .item .item-title,
+  .list-on-sale .item .item-title {
     margin-bottom: 9px; }
-    .list-top-deals .item .item-title a {
+    .list-top-deals .item .item-title a,
+    .list-on-sale .item .item-title a {
       font-size: 16px;
       font-size: 1.6rem;
       line-height: 1.1;
-      color: #1a2b49; }
-  .list-top-deals .item .item-meta {
+      color: #337ab7; }
+  .list-top-deals .item .item-meta,
+  .list-on-sale .item .item-meta {
     position: relative;
     padding-left: 15px;
     margin-bottom: 8px;
@@ -1802,14 +1909,17 @@ textarea {
     font-size: 1.4rem;
     line-height: 1.3;
     color: #999; }
-    .list-top-deals .item .item-meta .fa {
+    .list-top-deals .item .item-meta .fa,
+    .list-on-sale .item .item-meta .fa {
       position: absolute;
       top: 0;
       left: 0;
       color: #777; }
-    .list-top-deals .item .item-meta-01 {
+    .list-top-deals .item .item-meta-01,
+    .list-on-sale .item .item-meta-01 {
       margin-bottom: 5px; }
-  .list-top-deals .item .item-entry {
+  .list-top-deals .item .item-entry,
+  .list-on-sale .item .item-entry {
     width: 67%;
     display: -webkit-box;
     display: -moz-box;
@@ -1826,7 +1936,8 @@ textarea {
     -ms-flex-pack: space-between;
     -webkit-justify-content: space-between;
     justify-content: space-between; }
-  .list-top-deals .item .item-entry-bottom {
+  .list-top-deals .item .item-entry-bottom,
+  .list-on-sale .item .item-entry-bottom {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -1847,7 +1958,8 @@ textarea {
     -ms-flex-align: flex-end;
     -webkit-align-items: flex-end;
     align-items: flex-end; }
-  .list-top-deals .item .deal-seller {
+  .list-top-deals .item .deal-seller,
+  .list-on-sale .item .deal-seller {
     display: inline-block;
     padding: 0 5px;
     font-size: 12px;
@@ -1855,34 +1967,42 @@ textarea {
     line-height: 1.75;
     color: #fff;
     text-transform: uppercase;
-    background: #42c1c7;
+    background: #1070a9;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
     border-radius: 2px; }
-    .list-top-deals .item .deal-seller.deal-feature {
-      background: #ff475e; }
-  .list-top-deals .item .old-price {
+    .list-top-deals .item .deal-seller.deal-feature,
+    .list-on-sale .item .deal-seller.deal-feature {
+      background: #00aeef;
+      padding: 0 20px 0 5px !important; }
+  .list-top-deals .item .old-price,
+  .list-on-sale .item .old-price {
     font-size: 15px;
     font-size: 1.5rem;
     text-align: right;
-    color: #2c3e50; }
-    .list-top-deals .item .old-price span {
+    color: #2c3e50;
+    font-family: Ubuntu-Regular;
+    font-weight: 400; }
+    .list-top-deals .item .old-price span,
+    .list-on-sale .item .old-price span {
       text-decoration: line-through; }
-  .list-top-deals .item .deal-price {
+  .list-top-deals .item .deal-price,
+  .list-on-sale .item .deal-price {
     text-align: right;
     color: #2c3e50; }
-  .list-top-deals .item .deal-reviews {
+  .list-top-deals .item .deal-reviews,
+  .list-on-sale .item .deal-reviews {
     margin-left: 3.65854%; }
 
 .ttl-h2 {
-  margin-bottom: 6%;
+  margin: 2% 0;
   font-size: 30px;
   font-size: 3rem;
   text-align: center;
-  color: #1a2b49; }
+  color: #337ab7 !important; }
   .ttl-h2.sz01 {
-    font-size: 38px;
-    font-size: 3.8rem; }
+    font-size: 30px;
+    font-size: 3rem; }
   .ttl-h2.sz02 {
     font-size: 26px;
     font-size: 2.6rem; }
@@ -1891,7 +2011,7 @@ textarea {
   margin-bottom: 15px;
   font-size: 25px;
   font-size: 2.5rem;
-  color: #1a2b49; }
+  color: #337ab7; }
 
 .btn-primary {
   display: inline-block;
@@ -1903,7 +2023,7 @@ textarea {
   font-size: 1.6rem;
   color: #fff;
   text-align: center;
-  background: #1a2b49;
+  background: #337ab7;
   -moz-border-radius: 48px;
   -webkit-border-radius: 48px;
   border-radius: 48px;
@@ -1922,11 +2042,12 @@ textarea {
     font-size: 1.8rem; }
 
 .btn-green {
-  font-family: GT-Eesti-Bold;
+  font-family: Ubuntu-Bold;
   font-weight: 700;
-  background: #42c1c7; }
+  background: #42c1c7;
+  margin-bottom: 20px; }
   .btn-green:hover {
-    background: #1a2b49; }
+    background: #337ab7; }
 
 .btn-transparent {
   display: inline-block;
@@ -1936,7 +2057,7 @@ textarea {
   font-size: 1.6rem;
   line-height: 1.7;
   overflow: hidden;
-  border: 2px solid #1a2b49;
+  border: 2px solid #337ab7;
   -moz-border-radius: 48px;
   -webkit-border-radius: 48px;
   border-radius: 48px;
@@ -1946,7 +2067,7 @@ textarea {
   transition: all 300ms; }
   .btn-transparent:hover {
     color: #fff;
-    background: #1a2b49; }
+    background: #337ab7; }
   .btn-transparent.green {
     color: #42c1c7;
     border-color: #42c1c7; }
@@ -1960,8 +2081,8 @@ textarea {
   text-align: center;
   font-size: 16px;
   font-size: 1.6rem;
-  color: #1a2b49;
-  border: 1px solid #1a2b49;
+  color: #337ab7;
+  border: 1px solid #337ab7;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   border-radius: 2px; }
@@ -1975,8 +2096,8 @@ textarea {
     color: #fff;
     font-family: GT-Eesti-Medium;
     font-weight: 500;
-    background: #1a2b49;
-    border-color: #1a2b49; }
+    background: #337ab7;
+    border-color: #337ab7; }
 
 .section-breadcrumb {
   padding: 20px 0; }
@@ -2023,7 +2144,7 @@ textarea {
         font-size: 1.6rem;
         color: #42c1c7; }
       .section-breadcrumb .breadcrumb li span {
-        color: #1a2b49; }
+        color: #337ab7; }
 
 .list-share-socials {
   margin: 15px 0 20px;
@@ -2047,7 +2168,7 @@ textarea {
       .list-share-socials li a:hover {
         background-color: #365899; }
       .list-share-socials li a.views-count {
-        background: #1a2b49; }
+        background: #337ab7; }
       .list-share-socials li a.twi {
         background-color: #1b95e0; }
         .list-share-socials li a.twi:hover {
@@ -2077,7 +2198,7 @@ textarea {
     .widget-link .list-item-01 li a {
       font-size: 16px;
       font-size: 1.6rem;
-      color: #1a2b49;
+      color: #337ab7;
       text-decoration: underline; }
 
 .widget-maps {
@@ -2109,7 +2230,7 @@ textarea {
         font-size: 20px;
         font-size: 2rem;
         line-height: 1.5;
-        color: #1a2b49;
+        color: #337ab7;
         border: 1px solid #b7b7b7; }
         .widget-post-tab .post-tab-control li a:hover, .widget-post-tab .post-tab-control li a.active {
           color: #fff;
@@ -2156,7 +2277,7 @@ textarea {
             font-family: GT-Eesti-Medium;
             font-weight: 500; }
             .widget-post-tab .post-tab-content .list-post-tab li .meta .meta-tl a {
-              color: #1a2b49; }
+              color: #337ab7; }
           .widget-post-tab .post-tab-content .list-post-tab li .meta .meta-info {
             display: -webkit-box;
             display: -moz-box;
@@ -2196,7 +2317,7 @@ textarea {
     font-size: 3rem;
     font-family: GT-Eesti-Medium;
     font-weight: 500;
-    color: #1a2b49;
+    color: #337ab7;
     border-bottom: 3px solid #42c1c7; }
   .widget-search .search-group {
     position: relative; }
@@ -2325,7 +2446,7 @@ textarea {
     padding: 7px 12px;
     font-size: 14px;
     font-size: 1.4rem;
-    font-family: GT-Eesti-Regular;
+    font-family: GTEestiProDisplay-Regular;
     font-weight: 400;
     border-radius: 0; }
 
@@ -2342,10 +2463,10 @@ textarea {
     left: 0; }
   .widget-index .list-hd-index li a {
     display: inline-block;
-    color: #1a2b49;
+    color: #337ab7;
     font-size: 16px;
     font-size: 1.6rem;
-    border-bottom: 1px solid #1a2b49; }
+    border-bottom: 1px solid #337ab7; }
     .widget-index .list-hd-index li a:hover {
       color: #42c1c7;
       border-bottom-color: #42c1c7; }
@@ -2376,7 +2497,7 @@ textarea {
       color: #42c1c7;
       text-decoration: underline; }
       .widget-faq .viewmore a:hover {
-        color: #1a2b49; }
+        color: #337ab7; }
 
 .widget-list {
   padding: 10px 15px 9px;
@@ -2390,7 +2511,7 @@ textarea {
     border-bottom: 1px solid #b7b7b7; }
     .widget-detail .pricedetail b {
       text-decoration: line-through;
-      font-family: GT-Eesti-Regular;
+      font-family: GTEestiProDisplay-Regular;
       font-weight: 400;
       font-weight: normal; }
     .widget-detail .pricedetail span {
@@ -2401,7 +2522,7 @@ textarea {
       margin-top: 10px; }
   .widget-detail .btn-primary {
     padding: 11px 31px;
-    font-family: GT-Eesti-Regular;
+    font-family: GTEestiProDisplay-Regular;
     font-weight: 400;
     font-size: 14px;
     font-size: 1.4rem; }
@@ -2433,7 +2554,7 @@ textarea {
   margin: 25px 0 12px;
   padding: 15px;
   color: #fff;
-  background: #1a2b49; }
+  background: #337ab7; }
   .form-booking .form-booking-text01 {
     margin-bottom: 10px;
     font-size: 30px;
@@ -2445,14 +2566,14 @@ textarea {
     .form-booking .form-box .form-control {
       font-family: GT-Eesti-Medium;
       font-weight: 500;
-      color: #1a2b49;
+      color: #337ab7;
       -moz-border-radius: 2px;
       -webkit-border-radius: 2px;
       border-radius: 2px; }
     .form-booking .form-box .select-calendar::before, .form-booking .form-box .select-calendar::after,
     .form-booking .form-box .select-passenger::before,
     .form-booking .form-box .select-passenger::after {
-      color: #1a2b49; }
+      color: #337ab7; }
     .form-booking .form-box .form-group {
       max-width: inherit; }
       .form-booking .form-box .form-group.w-01 {
@@ -2464,7 +2585,7 @@ textarea {
     .form-booking .form-box .input-group .input-dropdown {
       top: 100%;
       width: 100%;
-      color: #1a2b49;
+      color: #337ab7;
       border: 1px solid #b7b7b7;
       border-top: transparent;
       -webkit-box-shadow: none;
@@ -2493,7 +2614,7 @@ textarea {
   .form-booking .form-btn .btn {
     font-family: GT-Eesti-Medium;
     font-weight: 500;
-    color: #1a2b49;
+    color: #337ab7;
     background: #fff; }
 
 .direction-checkout {
@@ -2592,7 +2713,7 @@ textarea {
       position: relative;
       font-size: 25px;
       font-size: 2.5rem;
-      color: #1a2b49; }
+      color: #337ab7; }
       .block-filter-by .box-toggle .toggle-tl:after {
         position: absolute;
         top: 50%;
@@ -2601,8 +2722,8 @@ textarea {
         width: 14px;
         height: 14px;
         margin-top: 2px;
-        border-top: 3px solid #1a2b49;
-        border-right: 3px solid #1a2b49;
+        border-top: 3px solid #337ab7;
+        border-right: 3px solid #337ab7;
         -moz-transform: translateY(-50%) rotate(-45deg);
         -o-transform: translateY(-50%) rotate(-45deg);
         -ms-transform: translateY(-50%) rotate(-45deg);
@@ -2626,7 +2747,7 @@ textarea {
       margin: 30px 0 20px;
       font-size: 25px;
       font-size: 2.5rem;
-      color: #1a2b49; }
+      color: #337ab7; }
     .block-filter-by .box-toggle.duration {
       padding-bottom: 20px; }
   .block-filter-by .list-label {
@@ -2666,7 +2787,7 @@ textarea {
         -webkit-border-radius: 5px;
         border-radius: 5px; }
       .block-filter-by .list-label .item input[type="checkbox"]:checked + .lb-01 {
-        background: #1a2b49; }
+        background: #337ab7; }
   .block-filter-by .accommodation .list-label .item .lb-01,
   .block-filter-by .travel .list-label .item .lb-01 {
     padding: 8px 15px;
@@ -2677,7 +2798,7 @@ textarea {
       margin-right: 10px; }
   .block-filter-by .accommodation .list-label .item input[type="checkbox"]:checked + .lb-01,
   .block-filter-by .travel .list-label .item input[type="checkbox"]:checked + .lb-01 {
-    background: #1a2b49; }
+    background: #337ab7; }
     .block-filter-by .accommodation .list-label .item input[type="checkbox"]:checked + .lb-01 .fa,
     .block-filter-by .travel .list-label .item input[type="checkbox"]:checked + .lb-01 .fa {
       display: inline-block; }
@@ -2687,7 +2808,7 @@ textarea {
       display: inline-block;
       font-size: 15px;
       font-size: 1.5rem;
-      color: #1a2b49;
+      color: #337ab7;
       text-decoration: underline; }
   .block-filter-by .start-end .sr-city {
     position: relative; }
@@ -2859,7 +2980,7 @@ textarea {
     width: 5px;
     height: 5px;
     border-radius: 100%;
-    background: #1a2b49; }
+    background: #337ab7; }
 
 .list-check li {
   position: relative;
@@ -3217,7 +3338,7 @@ textarea {
       .paging-block .list-pagings .item span {
         display: block;
         padding: 10px 16px 8px;
-        color: #1a2b49;
+        color: #337ab7;
         line-height: 1;
         background: #fff;
         border: 1px solid #b7b7b7;
@@ -3262,7 +3383,7 @@ textarea {
     margin-bottom: 3%; }
     .box-section-content .box p a {
       text-decoration: underline;
-      color: #1a2b49; }
+      color: #337ab7; }
 
 .range {
   width: calc(100% - 9px);
@@ -3271,7 +3392,7 @@ textarea {
     position: relative;
     border: none;
     height: 5px;
-    background: #1a2b49;
+    background: #337ab7;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
     border-radius: 0; }
