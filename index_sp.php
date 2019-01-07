@@ -9,19 +9,52 @@
   <meta name="keywords" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="format-detection" content="telephone=no">
-  <link rel="stylesheet" href="common/css/ress.min.css">
-  <link rel="stylesheet" href="common/css/jquery-datepicker-ui.min.css">
+  <link rel="stylesheet" href="././common/css/ress.min.css">
+  <link rel="stylesheet" href="././common/css/jquery-datepicker-ui.min.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
-  <link rel="stylesheet" href="common/css/fontawesome.min.css">
-  <link rel="stylesheet" href="common/css/slick.css">
-  <link rel="stylesheet" href="common/css/main_sp.css">
-  <link rel="stylesheet" href="common/css/top/style_sp.css">
+  <link rel="stylesheet" href="././common/css/fontawesome.min.css">
+  <link rel="stylesheet" href="././common/css/slick.css">
+  <link rel="stylesheet" href="././common/css/main_sp.css">
+  <link rel="stylesheet" href="././common/css/top/style_sp.css">
 </head>
 
 <body>
   <div class="container">
-    <?php include $_SERVER['DOCUMENT_ROOT']."common/inc/header_sp.php"; ?>
-    <?php include $_SERVER['DOCUMENT_ROOT']."common/inc/menu-mobile.php"; ?>
+  <header>
+	<div class="main-head">
+		<div class="wrap">
+			<div class="btn-menu-hamburger">
+				<span>&nbsp;</span>
+				<span>&nbsp;</span>
+				<span>&nbsp;</span>
+			</div>
+			<h1 class="logo"><a href="/"><img src="/Mekong-delta-tours/common/images/share/logo_sp.png" alt="ASIA PACKER TRAVEL" width="188" height="58"></a></h1>
+			<ul class="header-user-action">
+				<li class="item-drop">
+					<a href="#" class="dropdown user"><i class="fa fa-user-circle"></i></a>
+					<ul class="dropdown-menu">
+             <li class="dropdown-item"><a href="#">Log in </a></li>
+             <li class="dropdown-item"><a href="#" id="login-form">Sing up</a></li>
+          </ul>
+				</li>
+				<li class="item-drop">
+					<a href="#" class="dropdown user"><i class="fa fa-user-circle"></i></a>
+					<ul class="dropdown-menu">
+             <li class="dropdown-item"><a href="#" class="profile">View profile</a></li>
+             <li class="dropdown-item"><a href="#">My Bookings</a></li>
+             <li class="dropdown-item"><a href="#">Setting</a></li>
+             <li class="dropdown-item"><a href="#">Sign out</a></li>
+          </ul>
+				</li>
+				<li><a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>
+	</div>
+	<?php include $_SERVER['DOCUMENT_ROOT']."/Mekong-delta-tours/common/inc/search-mobile.php"; ?>
+</header>
+
+    <?php //include $_SERVER['DOCUMENT_ROOT']."././common/inc/header_sp.php"; ?>
+    <?php //include $_SERVER['DOCUMENT_ROOT']."././common/inc/menu-mobile.php"; ?>
 
     <div class="top">
       <section class="section-banner">
@@ -100,7 +133,7 @@
               </figure>
               <div class="item-entry">
                 <div class="item-entry-top">
-                  <h3 class="item-title"><a href="">My Tho – Ben Tre full day (group tour)</a></h3>
+                  <h3 class="item-title"><a href="">Cai Be Floating Market - Tan Phong   island full day</a></h3>
                   <div class="item-meta-01">
                     <span class="deal-star">
                       <i class="fa fa-star"></i>
@@ -348,7 +381,7 @@
                       </div>
                       <div class="price">
                         <p class='tour-day'><a href="">Tour 2 day</a></p>
-                        <p class='price-tour'>Us <span clas='gia-cu'>$112</span> <span class='gia-moi'>$102</span></p>
+                        <p class='price-tour'>Us <span class='gia-cu'>$112</span> <span class='gia-moi'>$102</span></p>
                       </div>
                     </div>
                   </div>
@@ -359,51 +392,7 @@
                       </div>
                       <div class="price">
                         <p class='tour-day'><a href="">Tour 2 day</a></p>
-                        <p class='price-tour'>Us <span clas='gia-cu'>$112</span> <span class='gia-moi'>$102</span></p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="item">
-              <figure class="item-thumb">
-                <img src="common/images/top/img01.jpg" alt="" width="386" height="240">
-              </figure>
-              <div class="item-entry">
-                <div class="item-entry-top">
-                  <h3 class="item-title"><a href="">Group day trips</a></h3>
-                  <div class="item-meta-01">
-                    <span class="deal-star">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star-half-o"></i>
-                      <p class="deal-reviews">281 Reviews</p>
-                    </span>
-                  </div>
-                </div>
-                <div class="item-entry-bottom">
-                  <div class="item-entry-col">
-                    <div class='content-tour'>
-                      <div class="title">
-                        <p><a href="">My Tho – Ben Tre full day (group tour)</a></p>
-                      </div>
-                      <div class="price">
-                        <p class='tour-day'><a href="">Tour 2 day</a></p>
-                        <p class='price-tour'>Us <span clas='gia-cu'>$112</span> <span class='gia-moi'>$102</span></p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="item-entry-col">
-                    <div class='content-tour'>
-                      <div class="title">
-                        <p><a href="">My Tho – Ben Tre full day (group tour)</a></p>
-                      </div>
-                      <div class="price">
-                        <p class='tour-day'><a href="">Tour 2 day</a></p>
-                        <p class='price-tour'>Us <span clas='gia-cu'>$112</span> <span class='gia-moi'>$102</span></p>
+                        <p class='price-tour'>Us <span class='gia-cu'>$112</span> <span class='gia-moi'>$102</span></p>
                       </div>
                     </div>
                   </div>
@@ -436,7 +425,7 @@
                       </div>
                       <div class="price">
                         <p class='tour-day'><a href="">Tour 2 day</a></p>
-                        <p class='price-tour'>Us <span clas='gia-cu'>$112</span> <span class='gia-moi'>$102</span></p>
+                        <p class='price-tour'>Us <span class='gia-cu'>$112</span> <span class='gia-moi'>$102</span></p>
                       </div>
                     </div>
                   </div>
@@ -447,7 +436,51 @@
                       </div>
                       <div class="price">
                         <p class='tour-day'><a href="">Tour 2 day</a></p>
-                        <p class='price-tour'>Us <span clas='gia-cu'>$112</span> <span class='gia-moi'>$102</span></p>
+                        <p class='price-tour'>Us <span class='gia-cu'>$112</span> <span class='gia-moi'>$102</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="item">
+              <figure class="item-thumb">
+                <img src="common/images/top/img01.jpg" alt="" width="386" height="240">
+              </figure>
+              <div class="item-entry">
+                <div class="item-entry-top">
+                  <h3 class="item-title"><a href="">Group day trips</a></h3>
+                  <div class="item-meta-01">
+                    <span class="deal-star">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-half-o"></i>
+                      <p class="deal-reviews">281 Reviews</p>
+                    </span>
+                  </div>
+                </div>
+                <div class="item-entry-bottom">
+                  <div class="item-entry-col">
+                    <div class='content-tour'>
+                      <div class="title">
+                        <p><a href="">My Tho – Ben Tre full day (group tour)</a></p>
+                      </div>
+                      <div class="price">
+                        <p class='tour-day'><a href="">Tour 2 day</a></p>
+                        <p class='price-tour'>Us <span class='gia-cu'>$112</span> <span class='gia-moi'>$102</span></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item-entry-col">
+                    <div class='content-tour'>
+                      <div class="title">
+                        <p><a href="">My Tho – Ben Tre full day (group tour)</a></p>
+                      </div>
+                      <div class="price">
+                        <p class='tour-day'><a href="">Tour 2 day</a></p>
+                        <p class='price-tour'>Us <span class='gia-cu'>$112</span> <span class='gia-moi'>$102</span></p>
                       </div>
                     </div>
                   </div>
@@ -599,11 +632,11 @@
     </section>
   </div>
 
-  <?php include $_SERVER['DOCUMENT_ROOT']."common/inc/footer_sp.php"; ?>
+  <?php include $_SERVER['DOCUMENT_ROOT']."././common/inc/footer_sp.php"; ?>
   </div>
-  <?php include $_SERVER['DOCUMENT_ROOT']."common/inc/common-js-sp.php"; ?>
-  <script src="common/js/vendor/slick.min.js"></script>
-  <script src="common/js/top/index_sp.js"></script>
+  <?php include $_SERVER['DOCUMENT_ROOT']."/Mekong-delta-tour-fix/common/inc/common-js-sp.php"; ?>
+  <script src="././common/js/vendor/slick.min.js"></script>
+  <script src="././common/js/top/index_sp.js"></script>
 </body>
 
 </html>

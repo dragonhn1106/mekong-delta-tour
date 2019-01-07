@@ -9,12 +9,12 @@
   <meta name="keywords" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="format-detection" content="telephone=no">
-  <link rel="stylesheet" href="common/css/ress.min.css">
-  <link rel="stylesheet" href="common/css/jquery-datepicker-ui.min.css">
-  <link rel="stylesheet" href="common/css/fontawesome.min.css">
-  <link rel="stylesheet" href="common/css/slick.css">
-  <link rel="stylesheet" href="common/css/main.css">
-  <link rel="stylesheet" href="common/css/top/style.css">
+  <link rel="stylesheet" href="././common/css/ress.min.css">
+  <link rel="stylesheet" href="././common/css/jquery-datepicker-ui.min.css">
+  <link rel="stylesheet" href="././common/css/fontawesome.min.css">
+  <link rel="stylesheet" href="././common/css/slick.css">
+  <link rel="stylesheet" href="././common/css/main.css">
+  <link rel="stylesheet" href="././common/css/top/style.css">
 </head>
 
 <body>
@@ -59,7 +59,7 @@
         <span>&nbsp;</span>
         <span>&nbsp;</span>
       </div>
-      <h1 class="logo"><a href="/"><img src="common/images/share/flogo.png" alt="ASIA PACKER TRAVEL" width="188" height="58"></a></h1>
+      <h1 class="logo"><a href="/"><img src="././common/images/share/flogo.png" alt="ASIA PACKER TRAVEL" width="188" height="58"></a></h1>
       <ul class="nav">
         <li class="item-drop home">
           <a href="" class="dropdown place ">Home</a>
@@ -111,7 +111,6 @@
     </div>
   </div>
 </header>
-<!-- <?php include $_SERVER['DOCUMENT_ROOT']."/Mekong-delta-tours/common/inc/header.php"; ?> -->
 
 <div class="top home-page">
   <section class="section-banner">
@@ -591,7 +590,7 @@
                       </div>
                       <div class="item-entry-col-content-tour">
                         <div class='title-tour'>
-                          <p> My Tho – Ben Tre full day (group tour)   Tour 2 day </p>
+                          <p> <a href="#">My Tho – Ben Tre full day (group tour)   Tour 2 day</a> </p>
                         </div>
                         <div class="price-buy-tour">
                           <p><span class='giacu'>$112 </span> <span class='giamoi'>$102</span></p>
@@ -599,7 +598,7 @@
                       </div>
                       <div class="item-entry-col-content-tour">
                         <div class='title-tour'>
-                          <p> My Tho – Ben Tre full day (group tour)   Tour 2 day </p>
+                          <p> <a href="#">My Tho – Ben Tre full day (group tour)   Tour 2 day</a> </p>
                         </div>
                         <div class="price-buy-tour">
                           <p><span class='giacu'>$112 </span> <span class='giamoi'>$102</span></p>
@@ -1125,11 +1124,11 @@
 
         </footer>
       </div>
-      <!-- <?php include $_SERVER['DOCUMENT_ROOT']."common/inc/common-js.php"; ?> -->
-      <script src="common/js/vendor/jquery-3.3.1.min.js"></script>
-      <script src="common/js/vendor/jquery-ui.js"></script>
-      <script src="common/js/vendor/slick.min.js"></script>
-      <script src="common/js/top/index.js"></script>
+      <!-- <?php include $_SERVER['DOCUMENT_ROOT']."././common/inc/common-js.php"; ?> -->
+      <script src="././common/js/vendor/jquery-3.3.1.min.js"></script>
+      <script src="././common/js/vendor/jquery-ui.js"></script>
+      <script src="././common/js/vendor/slick.min.js"></script>
+      <script src="././common/js/top/index.js"></script>
     </body>
 
     </html>

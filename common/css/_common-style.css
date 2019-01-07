@@ -1,20 +1,18 @@
-@font-face { font-family: "Ubuntu-Bold"; src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-B.eot"); src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-B.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-B.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-B.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-B.svg#Ubuntu-Bold") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: "FontAwesome"; src: url("../fonts/FontAwesome/fontawesome-webfont.eot"); src: url("../fonts/FontAwesome/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/FontAwesome/fontawesome-webfont.woff") format("woff"), url("../fonts/FontAwesome/fontawesome-webfont.ttf") format("truetype"), url("../fonts/FontAwesome/fontawesome-webfont.svg#FontAwesome") format("svg"); font-weight: normal; font-style: normal; }
 
-@font-face { font-family: "Ubuntu-Medium"; src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-M.eot"); src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-M.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-M.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-M.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-M.svg#Ubuntu-Medium") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: "Ubuntu-Bold"; src: url("../fonts/UbuntuBold/Ubuntu-B.eot"); src: url("../fonts/UbuntuBold/Ubuntu-B.eot?#iefix") format("embedded-opentype"), url("../fonts/UbuntuBold/Ubuntu-B.woff") format("woff"), url("../fonts/UbuntuBold/Ubuntu-B.ttf") format("truetype"), url("../fonts/UbuntuBold/Ubuntu-B.svg#Ubuntu-Bold") format("svg"); font-weight: normal; font-style: normal; }
 
-@font-face { font-family: "Ubuntu-Light"; src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-L.eot"); src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-L.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-L.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-L.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-L.svg#Ubuntu-Light") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: "Ubuntu-Medium"; src: url("../fonts/UbuntuMedium/Ubuntu-M.eot"); src: url("../fonts/UbuntuMedium/Ubuntu-M.eot?#iefix") format("embedded-opentype"), url("../fonts/UbuntuMedium/Ubuntu-M.woff") format("woff"), url("../fonts/UbuntuMedium/Ubuntu-M.ttf") format("truetype"), url("../fonts/UbuntuMedium/Ubuntu-M.svg#Ubuntu-Medium") format("svg"); font-weight: normal; font-style: normal; }
 
-@font-face { font-family: "Ubuntu-Regular"; src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-R.eot"); src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-R.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-R.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-R.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-R.svg#Ubuntu-Regular") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: "Ubuntu-Light"; src: url("../fonts/UbuntuLight/Ubuntu-L.eot"); src: url("../fonts/UbuntuLight/Ubuntu-L.eot?#iefix") format("embedded-opentype"), url("../fonts/UbuntuLight/Ubuntu-L.woff") format("woff"), url("../fonts/UbuntuLight/Ubuntu-L.ttf") format("truetype"), url("../fonts/UbuntuLight/Ubuntu-L.svg#Ubuntu-Light") format("svg"); font-weight: normal; font-style: normal; }
 
-@font-face { font-family: "GTEestiProDisplay-Medium"; src: url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Medium.eot"); src: url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Medium.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Medium.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Medium.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Medium.svg#GTEestiProDisplay-Medium") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: "Ubuntu-Regular"; src: url("../fonts/UbuntuRegular/Ubuntu-R.eot"); src: url("../fonts/UbuntuRegular/Ubuntu-R.eot?#iefix") format("embedded-opentype"), url("../fonts/UbuntuRegular/Ubuntu-R.woff") format("woff"), url("../fonts/UbuntuRegular/Ubuntu-R.ttf") format("truetype"), url("../fonts/UbuntuRegular/Ubuntu-R.svg#Ubuntu-Regular") format("svg"); font-weight: normal; font-style: normal; }
 
-@font-face { font-family: "GTEestiProDisplay-Regular"; src: url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.eot"); src: url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.svg#GTEestiProDisplay-Regular") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: "GTEestiProDisplay-Medium"; src: url("../fonts/GTEestiProDisplay-Medium.eot"); src: url("../fonts/GTEestiProDisplay-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/GTEestiProDisplay-Medium.woff") format("woff"), url("../fonts/GTEestiProDisplay-Medium.ttf") format("truetype"), url("../fonts/GTEestiProDisplay-Medium.svg#GTEestiProDisplay-Medium") format("svg"); font-weight: normal; font-style: normal; }
 
-@font-face { font-family: "GTEestiProDisplay-Bold"; src: url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.eot"); src: url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular.svg#GTEestiProDisplay-Bold") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: "GTEestiProDisplay-Regular"; src: url("../fonts/GTEestiProDisplay-Regular.eot"); src: url("../fonts/GTEestiProDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/GTEestiProDisplay-Regular.woff") format("woff"), url("../fonts/GTEestiProDisplay-Regular.ttf") format("truetype"), url("../fonts/GTEestiProDisplay-Regular.svg#GTEestiProDisplay-Regular") format("svg"); font-weight: normal; font-style: normal; }
 
-@font-face { font-family: "Ubuntu-SemiBold"; src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-SemiBold.eot"); src: url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-SemiBold.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-SemiBold.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-SemiBold.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-SemiBold.svg#Ubuntu-SemiBold") format("svg"); font-weight: normal; font-style: normal; }
-
-@font-face { font-family: "FontAwesome"; src: url("/Mekong-delta-tours/common/fonts/FontAwesome/fontawesome-webfont.eot"); src: url("/Mekong-delta-tours/common/fonts/FontAwesome/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("/Mekong-delta-tours/common/fonts/FontAwesome/fontawesome-webfont.woff") format("woff"), url("/Mekong-delta-tours/common/fonts/FontAwesome/fontawesome-webfont.ttf") format("truetype"), url("/Mekong-delta-tours/common/fonts/FontAwesome/fontawesome-webfont.svg#FontAwesome") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: "GTEestiProDisplay-Bold"; src: url("../fonts/GTEestiProDisplay-Regular.eot"); src: url("../fonts/GTEestiProDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/GTEestiProDisplay-Regular.woff") format("woff"), url("../fonts/GTEestiProDisplay-Regular.ttf") format("truetype"), url("../fonts/GTEestiProDisplay-Regular.svg#GTEestiProDisplay-Bold") format("svg"); font-weight: normal; font-style: normal; }
 
 button, input, select, textarea { outline: none !important; }
 
@@ -58,7 +56,7 @@ button, input, select, textarea { outline: none !important; }
 
 .list-radio .item input[type="radio"]:checked + label::after { opacity: 1; visibility: visible; }
 
-.form-control { display: inline-block; padding: 12px 10px 11px; font-size: 16px; font-size: 1.6rem; color: #666; background: #fff; resize: none; border-radius: 0; border: 1px solid #b7b7b7; width: 210px; margin-left: 22%; }
+.form-control { display: inline-block; padding: 12px 10px 11px; font-size: 16px; font-size: 1.6rem; color: #666; background: #fff; resize: none; border-radius: 0; border: 1px solid #b7b7b7; width: 210px; }
 
 .form-btn .btn { color: #fff; background: #3385d6; -moz-transition: all 300ms; -o-transition: all 300ms; -webkit-transition: all 300ms; transition: all 300ms; }
 
@@ -208,6 +206,12 @@ button, input, select, textarea { outline: none !important; }
 
 .list-top-deals .item .item-thumb { position: relative; }
 
+.list-top-deals .item .item-thumb .item-thumb-sale { position: absolute; z-index: 11111; top: 10%; left: 2%; }
+
+.list-top-deals .item .item-thumb .item-thumb-sale p { padding: 3px 5px; background: #ff0000; color: #fff; border-radius: 5px; position: relative; font-family: Ubuntu-Regular; font-weight: 400; }
+
+.list-top-deals .item .item-thumb .item-thumb-sale p:before { content: ''; width: 0; height: 0; border-style: solid; border-width: 5px 5px 5px 0; border-color: transparent #ff0000 transparent transparent; position: absolute; left: -5px; top: 0; bottom: 0; margin: auto; }
+
 .list-top-deals .item .item-thumb .like-box .arrow_box { position: absolute; background: #3385d6; bottom: 84%; padding: 5px 10px 5px 10px; right: 20%; color: #ffff; width: 128px; text-align: center; display: none; }
 
 .list-top-deals .item .item-thumb .like-box .hide-show { display: inline; }
@@ -252,7 +256,7 @@ button, input, select, textarea { outline: none !important; }
 
 .list-top-deals .item .btn-favorite:hover, .list-top-deals .item .btn-favorite.favorited { background: #fff; color: #0c7abf; }
 
-.list-top-deals .item .item-entry { display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-flex-direction: column; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-between; -moz-box-pack: space-between; -ms-flex-pack: space-between; -webkit-justify-content: space-between; justify-content: space-between; -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; padding: 5px 10px 5px 10px; background-color: #fff; width: 57.62712%; }
+.list-top-deals .item .item-entry { display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-flex-direction: column; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-between; -moz-box-pack: space-between; -ms-flex-pack: space-between; -webkit-justify-content: space-between; justify-content: space-between; -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; padding: 5px 10px 5px 10px; background-color: #fff; max-width: 57.62712%; }
 
 .list-top-deals .item .item-entry .item-entry-top { padding-bottom: 20px; height: 61.69355%; }
 

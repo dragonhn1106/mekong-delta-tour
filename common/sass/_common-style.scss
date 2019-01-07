@@ -878,7 +878,7 @@ textarea {
             flex-grow: 1;
             padding: 5px 10px 5px 10px;
             background-color: #fff;
-            width: 340/590*100%;
+            max-width: 340/590*100%;
 
             .item-entry-top {
                 padding-bottom: 20px;
