@@ -37,7 +37,7 @@
              <li class="dropdown-item"><a href="#" id="login-form">Sing up</a></li>
           </ul>
 				</li>
-				<li class="item-drop">
+				<!-- <li class="item-drop">
 					<a href="#" class="dropdown user"><i class="fa fa-user-circle"></i></a>
 					<ul class="dropdown-menu">
              <li class="dropdown-item"><a href="#" class="profile">View profile</a></li>
@@ -45,7 +45,7 @@
              <li class="dropdown-item"><a href="#">Setting</a></li>
              <li class="dropdown-item"><a href="#">Sign out</a></li>
           </ul>
-				</li>
+				</li> -->
 				<li><a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
 			</ul>
 		</div>
@@ -58,7 +58,7 @@
 
     <div class="top">
       <section class="section-banner">
-        <div class="top-banner">
+        <div cgilass="top-banner">
           <div id="top-banner">
             <div class="item">
               <img src="common/images/top/banner01.jpg" alt="" width="1918" height="500">
