@@ -8,94 +8,94 @@ $color-main04: #1070a9;
 $transform-support-threshold: .1;
 
 @mixin fz($s) {
-  font-size: $s + px;
-  font-size: ($s / 10) + rem;
+    font-size: $s + px;
+    font-size: ($s / 10) + rem;
 }
 
 @mixin fzsp($s) {
-  font-size: $s/1080*100vw;
+    font-size: $s/1080*100vw;
 }
 
 @function calcRem($size) {
-  $remSize: $size / 16px;
-  @return #{$remSize}rem;
+    $remSize: $size / 16px;
+    @return #{$remSize}rem;
 }
 
 @mixin display-flex {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
 }
 
 @mixin align-items($a) {
-  -webkit-box-align: $a;
-  -moz-box-align: $a;
-  -ms-flex-align: $a;
-  -webkit-align-items: $a;
-  align-items: $a;
+    -webkit-box-align: $a;
+    -moz-box-align: $a;
+    -ms-flex-align: $a;
+    -webkit-align-items: $a;
+    align-items: $a;
 }
 
 @mixin flex-direction($val) {
-  -webkit-flex-direction: $val;
-  flex-direction: $val;
+    -webkit-flex-direction: $val;
+    flex-direction: $val;
 }
 
 @mixin flex-wrap($val) {
-  -webkit-flex-wrap: $val;
-  flex-wrap: $val;
+    -webkit-flex-wrap: $val;
+    flex-wrap: $val;
 }
 
 @mixin flex-flow($val) {
-  -webkit-flex-flow: $val;
-  flex-flow: $val;
+    -webkit-flex-flow: $val;
+    flex-flow: $val;
 }
 
 @mixin justify-content($jc) {
-  -webkit-box-pack: $jc;
-  -moz-box-pack: $jc;
-  -ms-flex-pack: $jc;
-  -webkit-justify-content: $jc;
-  justify-content: $jc;
+    -webkit-box-pack: $jc;
+    -moz-box-pack: $jc;
+    -ms-flex-pack: $jc;
+    -webkit-justify-content: $jc;
+    justify-content: $jc;
 }
 
 @mixin border-radius($radius) {
-  -moz-border-radius: $radius;
-  -webkit-border-radius: $radius;
-  border-radius: $radius;
+    -moz-border-radius: $radius;
+    -webkit-border-radius: $radius;
+    border-radius: $radius;
 }
 
 @mixin transform($transforms) {
-  -moz-transform: $transforms;
-  -o-transform: $transforms;
-  -ms-transform: $transforms;
-  -webkit-transform: $transforms;
-  transform: $transforms;
+    -moz-transform: $transforms;
+    -o-transform: $transforms;
+    -ms-transform: $transforms;
+    -webkit-transform: $transforms;
+    transform: $transforms;
 }
 
 @mixin transition($val) {
-  -moz-transition: $val;
-  -o-transition: $val;
-  -webkit-transition: $val;
-  transition: $val;
+    -moz-transition: $val;
+    -o-transition: $val;
+    -webkit-transition: $val;
+    transition: $val;
 }
 
 @mixin transition-delay($val) {
-  -moz-transition-delay: $val;
-  -o-transition-delay: $val;
-  -webkit-transition-delay: $val;
-  transition-delay: $val;
+    -moz-transition-delay: $val;
+    -o-transition-delay: $val;
+    -webkit-transition-delay: $val;
+    transition-delay: $val;
 }
 
 @mixin opacity($opacity) {
-  opacity: $opacity;
+    opacity: $opacity;
 }
 
 @mixin box-shadow($val) {
-  -moz-box-shadow: $val;
-  -webkit-box-shadow: $val;
-  box-shadow: $val;
+    -moz-box-shadow: $val;
+    -webkit-box-shadow: $val;
+    box-shadow: $val;
 }
 
 // ==============================================
@@ -103,64 +103,66 @@ $transform-support-threshold: .1;
 // ==============================================
 
 @mixin font-face($fontname: fontFamilyName, $fontsrc: fontFileSrc) {
-  @font-face {
-    font-family: quote($fontname);
-    src: url('#{unquote($fontsrc)}.eot');
-    src: url('#{unquote($fontsrc)}.eot?#iefix') format('embedded-opentype'),
-    url('#{unquote($fontsrc)}.woff') format('woff'),
-    url('#{unquote($fontsrc)}.ttf') format('truetype'),
-    url('#{unquote($fontsrc)}.svg##{unquote($fontname)}') format('svg');
-    font-weight: normal;
-    font-style: normal;
-  }
+    @font-face {
+        font-family: quote($fontname);
+        src: url('#{unquote($fontsrc)}.eot');
+        src: url('#{unquote($fontsrc)}.eot?#iefix') format('embedded-opentype'),
+        url('#{unquote($fontsrc)}.woff') format('woff'),
+        url('#{unquote($fontsrc)}.ttf') format('truetype'),
+        url('#{unquote($fontsrc)}.svg##{unquote($fontname)}') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
 }
 
-@include font-face('Ubuntu-Bold', '/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-B');
-@include font-face('Ubuntu-Medium', '/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-M');
-@include font-face('Ubuntu-Light', '/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-L');
-@include font-face("Ubuntu-Regular", "/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-R");
-@include font-face("GTEestiProDisplay-Medium", "/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Medium");
-@include font-face("GTEestiProDisplay-Regular", "/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular");
-@include font-face("GTEestiProDisplay-Bold", "/Mekong-delta-tours/common/fonts/GTEestiProDisplay-Regular");
-@include font-face("Ubuntu-SemiBold", "/Mekong-delta-tours/common/fonts/ubuntu-font/Ubuntu-SemiBold");
-@include font-face("FontAwesome", "/Mekong-delta-tours/common/fonts/FontAwesome/fontawesome-webfont");
+//Font Awesome
+@include font-face("FontAwesome", "../fonts/FontAwesome/fontawesome-webfont");
+
+@include font-face('Ubuntu-Bold', '../fonts/UbuntuBold/Ubuntu-B');
+@include font-face('Ubuntu-Medium', '../fonts/UbuntuMedium/Ubuntu-M');
+@include font-face('Ubuntu-Light', '../fonts/UbuntuLight/Ubuntu-L');
+@include font-face("Ubuntu-Regular", "../fonts/UbuntuRegular/Ubuntu-R");
+@include font-face("GTEestiProDisplay-Medium", "../fonts/GTEestiProDisplay-Medium");
+@include font-face("GTEestiProDisplay-Regular", "../fonts/GTEestiProDisplay-Regular");
+@include font-face("GTEestiProDisplay-Bold", "../fonts/GTEestiProDisplay-Regular");
+// @include font-face("Ubuntu-SemiBold", "./common/fonts/ubuntu-font/Ubuntu-SemiBold");
 
 @mixin UbuntuLight {
-  font-family: Ubuntu-Light;
-  font-weight: 300;
+    font-family: Ubuntu-Light;
+    font-weight: 300;
 }
 
 @mixin UbuntuRegular {
-  font-family: Ubuntu-Regular;
-  font-weight: 400;
+    font-family: Ubuntu-Regular;
+    font-weight: 400;
 }
 
 @mixin UbuntuMedium {
-  font-family: Ubuntu-Medium;
-  font-weight: 500;
+    font-family: Ubuntu-Medium;
+    font-weight: 500;
 }
 
 @mixin UbuntuBold {
-  font-family: Ubuntu-Bold;
-  font-weight: 700;
+    font-family: Ubuntu-Bold;
+    font-weight: 700;
 }
 
 @mixin GTEestiLight {
-  font-family: GT-Eesti-Light;
-  font-weight: 300;
+    font-family: GT-Eesti-Light;
+    font-weight: 300;
 }
 
 @mixin GTEestiRegular {
-  font-family: GTEestiProDisplay-Regular;
-  font-weight: 400;
+    font-family: GTEestiProDisplay-Regular;
+    font-weight: 400;
 }
 
 @mixin GTEestiMedium {
-  font-family: GT-Eesti-Medium;
-  font-weight: 500;
+    font-family: GT-Eesti-Medium;
+    font-weight: 500;
 }
 
 @mixin GTEestiBold {
-  font-family: GT-Eesti-Bold;
-  font-weight: 700;
+    font-family: GT-Eesti-Bold;
+    font-weight: 700;
 }

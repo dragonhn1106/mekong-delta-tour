@@ -9,38 +9,38 @@
   <meta name="keywords" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="format-detection" content="telephone=no">
-  <link rel="stylesheet" href="/Mekong-delta-tours/common/css/ress.min.css">
-  <link rel="stylesheet" href="/Mekong-delta-tours/common/css/jquery-datepicker-ui.min.css">
+  <link rel="stylesheet" href="common/css/ress.min.css">
+  <link rel="stylesheet" href="common/css/jquery-datepicker-ui.min.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
-  <link rel="stylesheet" href="/Mekong-delta-tours/common/css/fontawesome.min.css">
-  <link rel="stylesheet" href="/Mekong-delta-tours/common/css/slick.css">
-  <link rel="stylesheet" href="/Mekong-delta-tours/common/css/main_sp.css">
-  <link rel="stylesheet" href="/Mekong-delta-tours/common/css/top/style_sp.css">
+  <link rel="stylesheet" href="common/css/fontawesome.min.css">
+  <link rel="stylesheet" href="common/css/slick.css">
+  <link rel="stylesheet" href="common/css/main_sp.css">
+  <link rel="stylesheet" href="common/css/top/style_sp.css">
 </head>
 
 <body>
   <div class="container">
-    <?php include $_SERVER['DOCUMENT_ROOT']."/Mekong-delta-tours/common/inc/header_sp.php"; ?>
-    <?php include $_SERVER['DOCUMENT_ROOT']."/Mekong-delta-tours/common/inc/menu-mobile.php"; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT']."common/inc/header_sp.php"; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT']."common/inc/menu-mobile.php"; ?>
 
     <div class="top">
       <section class="section-banner">
         <div class="top-banner">
           <div id="top-banner">
             <div class="item">
-              <img src="/Mekong-delta-tours/common/images/top/banner01.jpg" alt="" width="1918" height="500">
+              <img src="common/images/top/banner01.jpg" alt="" width="1918" height="500">
             </div>
             <div class="item">
-              <img src="/Mekong-delta-tours/common/images/top/banner02.jpg" alt="" width="1918" height="500">
+              <img src="common/images/top/banner02.jpg" alt="" width="1918" height="500">
             </div>
             <div class="item">
-              <img src="/Mekong-delta-tours/common/images/top/banner03.jpg" alt="" width="1918" height="500">
+              <img src="common/images/top/banner03.jpg" alt="" width="1918" height="500">
             </div>
             <div class="item">
-              <img src="/Mekong-delta-tours/common/images/top/banner04.jpg" alt="" width="1918" height="500">
+              <img src="common/images/top/banner04.jpg" alt="" width="1918" height="500">
             </div>
             <div class="item">
-              <img src="/Mekong-delta-tours/common/images/top/banner05.jpg" alt="" width="1918" height="500">
+              <img src="common/images/top/banner05.jpg" alt="" width="1918" height="500">
             </div>
           </div>
         </div>
@@ -65,7 +65,7 @@
           <ul class="list-top-deals">
             <li class="item">
               <figure class="item-thumb">
-                <img src="/Mekong-delta-tours/common/images/top/img01.jpg" alt="" width="386" height="240">
+                <img src="common/images/top/img01.jpg" alt="" width="386" height="240">
               </figure>
               <div class="item-entry">
                 <div class="item-entry-top">
@@ -96,7 +96,7 @@
             </li>
             <li class="item">
               <figure class="item-thumb">
-                <img src="/Mekong-delta-tours/common/images/top/img01.jpg" alt="" width="386" height="240">
+                <img src="common/images/top/img01.jpg" alt="" width="386" height="240">
               </figure>
               <div class="item-entry">
                 <div class="item-entry-top">
@@ -127,7 +127,7 @@
             </li>
             <li class="item">
               <figure class="item-thumb">
-                <img src="/Mekong-delta-tours/common/images/top/img01.jpg" alt="" width="386" height="240">
+                <img src="common/images/top/img01.jpg" alt="" width="386" height="240">
               </figure>
               <div class="item-entry">
                 <div class="item-entry-top">
@@ -158,7 +158,7 @@
             </li>
             <li class="item">
               <figure class="item-thumb">
-                <img src="/Mekong-delta-tours/common/images/top/img01.jpg" alt="" width="386" height="240">
+                <img src="common/images/top/img01.jpg" alt="" width="386" height="240">
               </figure>
               <div class="item-entry">
                 <div class="item-entry-top">
@@ -324,7 +324,7 @@
           <ul class="list-top-tour">
             <li class="item">
               <figure class="item-thumb">
-                <img src="/Mekong-delta-tours/common/images/top/img01.jpg" alt="" width="386" height="240">
+                <img src="common/images/top/img01.jpg" alt="" width="386" height="240">
               </figure>
               <div class="item-entry">
                 <div class="item-entry-top">
@@ -368,7 +368,7 @@
             </li>
             <li class="item">
               <figure class="item-thumb">
-                <img src="/Mekong-delta-tours/common/images/top/img01.jpg" alt="" width="386" height="240">
+                <img src="common/images/top/img01.jpg" alt="" width="386" height="240">
               </figure>
               <div class="item-entry">
                 <div class="item-entry-top">
@@ -412,7 +412,7 @@
             </li>
             <li class="item">
               <figure class="item-thumb">
-                <img src="/Mekong-delta-tours/common/images/top/img01.jpg" alt="" width="386" height="240">
+                <img src="common/images/top/img01.jpg" alt="" width="386" height="240">
               </figure>
               <div class="item-entry">
                 <div class="item-entry-top">
@@ -464,7 +464,7 @@
           <ul class="list-on-sale">
             <li class="item">
               <figure class="item-thumb">
-                <img src="/Mekong-delta-tours/common/images/top/img01.jpg" alt="" width="386" height="240">
+                <img src="common/images/top/img01.jpg" alt="" width="386" height="240">
               </figure>
               <div class="item-entry">
                 <div class="item-entry-top">
@@ -490,7 +490,7 @@
             </li>
             <li class="item">
               <figure class="item-thumb">
-                <img src="/Mekong-delta-tours/common/images/top/img01.jpg" alt="" width="386" height="240">
+                <img src="common/images/top/img01.jpg" alt="" width="386" height="240">
               </figure>
               <div class="item-entry">
                 <div class="item-entry-top">
@@ -516,7 +516,7 @@
             </li>
             <li class="item">
               <figure class="item-thumb">
-                <img src="/Mekong-delta-tours/common/images/top/img01.jpg" alt="" width="386" height="240">
+                <img src="common/images/top/img01.jpg" alt="" width="386" height="240">
               </figure>
               <div class="item-entry">
                 <div class="item-entry-top">
@@ -599,11 +599,11 @@
     </section>
   </div>
 
-  <?php include $_SERVER['DOCUMENT_ROOT']."/Mekong-delta-tours/common/inc/footer_sp.php"; ?>
+  <?php include $_SERVER['DOCUMENT_ROOT']."common/inc/footer_sp.php"; ?>
   </div>
-  <?php include $_SERVER['DOCUMENT_ROOT']."/Mekong-delta-tours/common/inc/common-js-sp.php"; ?>
-  <script src="/Mekong-delta-tours/common/js/vendor/slick.min.js"></script>
-  <script src="/Mekong-delta-tours/common/js/top/index_sp.js"></script>
+  <?php include $_SERVER['DOCUMENT_ROOT']."common/inc/common-js-sp.php"; ?>
+  <script src="common/js/vendor/slick.min.js"></script>
+  <script src="common/js/top/index_sp.js"></script>
 </body>
 
 </html>
