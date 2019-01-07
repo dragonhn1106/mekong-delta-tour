@@ -556,7 +556,7 @@ footer .need-help {
     footer .need-help .help-info .help-txt .txt {
       display: inline-block;
       width: calc(100% - 146px);
-      color: #337ab7;
+      color: #333333;
       font-size: 20px;
       font-size: 2rem;
       position: relative;
@@ -2442,8 +2442,7 @@ textarea {
     justify-content: space-between;
     width: 49.83333%;
     max-height: 180px;
-    margin-bottom: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 10px; }
     .list-top-deals .item:hover .item-thumb-meta {
       opacity: 1;
       visibility: visible; }

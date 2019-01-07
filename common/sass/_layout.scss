@@ -532,7 +532,7 @@ footer {
                 .txt {
                     display: inline-block;
                     width: calc(100% - 146px);
-                    color: $color-main03;
+                    color: #333333;
                     @include fz(20);
                     position: relative;
                     font-family: 'Ubuntu-Regular';

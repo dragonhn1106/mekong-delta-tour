@@ -314,12 +314,20 @@
     }
 
     .section-top-tour-destinations {
-        padding: 45px 0;
+        margin: 20px 0 40px 0px;
         text-align: left;
         font-family: 'Encode-SansExpanded-Medium';
 
+        // background: #fff;
+
+        .col-full-width {
+            width: 100%;
+            background: #fff;
+            padding-top: 20px;
+        }
+
         .ttl-h2 {
-            margin-bottom: 25px;
+            margin-bottom: 15px;
         }
 
         .text {

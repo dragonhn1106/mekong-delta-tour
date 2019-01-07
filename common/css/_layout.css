@@ -156,7 +156,7 @@ footer .need-help .help-info { display: inline-block; width: 77.63713%; vertical
 
 footer .need-help .help-info h2 { color: #337ab7; font-family: 'Ubuntu-Bold'; font-size: 59px; font-size: 5.9rem; line-height: 1.333; width: calc(100% - 195px); }
 
-footer .need-help .help-info .help-txt .txt { display: inline-block; width: calc(100% - 146px); color: #337ab7; font-size: 20px; font-size: 2rem; position: relative; font-family: 'Ubuntu-Regular'; }
+footer .need-help .help-info .help-txt .txt { display: inline-block; width: calc(100% - 146px); color: #333333; font-size: 20px; font-size: 2rem; position: relative; font-family: 'Ubuntu-Regular'; }
 
 footer .need-help .help-info .help-txt .txt a { color: #4683bb; }
 

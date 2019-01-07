@@ -200,7 +200,7 @@ button, input, select, textarea { outline: none !important; }
 
 .list-top-deals { display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: space-between; -moz-box-pack: space-between; -ms-flex-pack: space-between; -webkit-justify-content: space-between; justify-content: space-between; }
 
-.list-top-deals .item { display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-flex-direction: column; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: row-reverse; -webkit-box-pack: space-between; -moz-box-pack: space-between; -ms-flex-pack: space-between; -webkit-justify-content: space-between; justify-content: space-between; width: 49.83333%; max-height: 180px; margin-bottom: 20px; margin-bottom: 20px; }
+.list-top-deals .item { display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-flex-direction: column; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: row-reverse; -webkit-box-pack: space-between; -moz-box-pack: space-between; -ms-flex-pack: space-between; -webkit-justify-content: space-between; justify-content: space-between; width: 49.83333%; max-height: 180px; margin-bottom: 10px; }
 
 .list-top-deals .item:hover .item-thumb-meta { opacity: 1; visibility: visible; }
 

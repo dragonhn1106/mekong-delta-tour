@@ -993,9 +993,9 @@
 
 
       <section class="section-top-tour-destinations">
-        <div class="wrap">
-          <h2 class="ttl-h2 text-center ">TOP CATAGORIES</h2>
-          
+      <h2 class="ttl-h2 text-center ">TOP CATAGORIES</h2>
+       <div class='col-full-width'>
+       <div class="wrap">
           <div class="links-wrap">
             <div class="link-cols">
               <ul class="list-links">
@@ -1041,6 +1041,7 @@
             </div>
           </div>
         </div>
+       </div>
       </section>
     </div>
 
