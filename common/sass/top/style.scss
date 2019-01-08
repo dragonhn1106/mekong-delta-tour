@@ -975,14 +975,13 @@
     .table-box {
         padding: 0 15px;
         margin-bottom: 42px;
-        color: $color-main03;
+        // color: $color-main03;
         @include fz(16);
         line-height: 1.5;
-        font-family: 'Encode-SansExpanded-Regular';
 
         .departing,
         .days {
-            @include GTEestiMedium;
+            @include UbuntuRegular;
         }
 
         .days,
@@ -1006,7 +1005,8 @@
             .price-news {
                 @include fz(18);
                 color: #d0021b;
-                @include GTEestiMedium;
+                @include UbuntuMedium;
+                display: block;
             }
         }
 

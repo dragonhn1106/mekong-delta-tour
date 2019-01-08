@@ -781,15 +781,13 @@
 .top .table-box {
   padding: 0 15px;
   margin-bottom: 42px;
-  color: #337ab7;
   font-size: 16px;
   font-size: 1.6rem;
-  line-height: 1.5;
-  font-family: 'Encode-SansExpanded-Regular'; }
+  line-height: 1.5; }
   .top .table-box .departing,
   .top .table-box .days {
-    font-family: GT-Eesti-Medium;
-    font-weight: 500; }
+    font-family: Ubuntu-Regular;
+    font-weight: 400; }
   .top .table-box .days,
   .top .table-box .price {
     text-align: center; }
@@ -805,8 +803,9 @@
     font-size: 18px;
     font-size: 1.8rem;
     color: #d0021b;
-    font-family: GT-Eesti-Medium;
-    font-weight: 500; }
+    font-family: Ubuntu-Medium;
+    font-weight: 500;
+    display: block; }
   .top .table-box table {
     width: 100%;
     border-collapse: collapse; }
