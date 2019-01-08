@@ -384,8 +384,9 @@ hr.line-dot {
 .top .table-box {
   padding: 0 15px;
   margin-bottom: 42px;
-  color: #337ab7;
-  line-height: 1.5; }
+  line-height: 1.5;
+  font-family: Ubuntu-Regular;
+  font-weight: 400; }
   .top .table-box .days,
   .top .table-box .price {
     text-align: center; }
@@ -447,8 +448,8 @@ hr.line-dot {
   .top .table-box a {
     display: inline-block;
     line-height: 1.4;
-    font-family: GT-Eesti-Light;
-    font-weight: 300;
+    font-family: Ubuntu-Regular;
+    font-weight: 400;
     color: #42c1c7;
     -moz-transition: all 300ms;
     -o-transition: all 300ms;

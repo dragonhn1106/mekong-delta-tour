@@ -334,8 +334,9 @@ hr.line-dot {
 	.table-box {
 		padding: 0 15px;
 		margin-bottom: 42px;
-		color: $color-main03;
+		// color: $color-main03;
 		line-height: 1.5;
+		@include UbuntuRegular;
 
 		// .departing,
 		// .days {
@@ -434,7 +435,7 @@ hr.line-dot {
 		a {
 			display: inline-block;
 			line-height: 1.4;
-			@include GTEestiLight;
+			@include UbuntuRegular;
 			color: $color-main02;
 			@include transition(all 300ms);
 
