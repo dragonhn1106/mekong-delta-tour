@@ -98,6 +98,7 @@
           <ul class="list-top-deals">
             <li class="item">
               <figure class="item-thumb">
+              <div class='btn-red'>-3%</div>
                 <img src="common/images/top/img01.jpg" alt="" width="386" height="240">
               </figure>
               <div class="item-entry">
@@ -129,6 +130,7 @@
             </li>
             <li class="item">
               <figure class="item-thumb">
+              <div class='btn-red'>-3%</div>
                 <img src="common/images/top/img01.jpg" alt="" width="386" height="240">
               </figure>
               <div class="item-entry">
@@ -222,6 +224,7 @@
             </li>
           </ul>
         </div>
+        <hr class='line-dot'>
         <!-- end hot-deals -->
         <div class="section section-last-deal">
           <div class="wrap">
@@ -350,7 +353,7 @@
             </div>
           </div>
         </div>
-
+        <hr class='line-dot'>
         <!-- TOP TOUR -->
         <div class='wrap'>
           <h2 class="ttl-h2 sz01">TOP TOUR</h2>
@@ -490,6 +493,7 @@
           </ul>
         </div>
         <!-- end Top Tour -->
+        <hr class='line-dot'>
         <!-- On sale-->
         <div class="section section-on-sale">
         <div class="wrap">

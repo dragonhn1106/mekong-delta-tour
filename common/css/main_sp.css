@@ -1846,6 +1846,23 @@ textarea {
           font-size: 1.2rem;
           color: #999; }
 
+.list-top-deals .item-thumb {
+  position: relative; }
+  .list-top-deals .item-thumb .btn-red {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    background: #ff0000;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+    font-family: Ubuntu-Regular;
+    font-weight: 400; }
+
 .list-top-deals .item,
 .list-on-sale .item {
   display: -webkit-box;

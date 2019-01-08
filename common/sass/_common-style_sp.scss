@@ -497,6 +497,30 @@ textarea {
     }
 }
 
+//list-top-deals
+.list-top-deals {
+    .item-thumb {
+        position: relative;
+
+        .btn-red {
+            width: 24px;
+            height: 24px;
+            line-height: 24px;
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            background: #ff0000;
+            border-radius: 50%;
+            text-align: center;
+            color: #fff;
+            font-size: 10px;
+            @include UbuntuRegular;
+        }
+    }
+
+}
+
+// end list-top-deals
 .list-top-deals,
 .list-on-sale {
     .item {

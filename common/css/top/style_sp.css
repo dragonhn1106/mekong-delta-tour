@@ -54,6 +54,20 @@
   font-weight: normal;
   font-style: normal; }
 
+hr.line-dot {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+  border: 1px dotted #094c86;
+  border-style: none none dotted;
+  color: #fff;
+  background-color: #fff;
+  width: 20%;
+  margin: auto; }
+
 .top .section-top-deal {
   padding: 25px 0 20px;
   background: #f5f9fb; }
@@ -558,7 +572,8 @@
   font-weight: 400; }
 
 .top .list-on-sale .item .item-thumb {
-  width: 34%; }
+  width: 34%;
+  position: relative; }
   .top .list-on-sale .item .item-thumb img {
     height: 96px; }
 

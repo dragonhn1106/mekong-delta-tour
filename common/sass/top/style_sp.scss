@@ -2,6 +2,21 @@
 
 @import "../mixin";
 
+hr.line-dot {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+	border: 1px dotted #094c86;
+	border-style: none none dotted;
+	color: #fff;
+	background-color: #fff;
+	width: 20%;
+	margin: auto;
+}
+
 .top {
 	.section-top-deal {
 		padding: 25px 0 20px;
@@ -523,8 +538,6 @@
 	.list-top-deals {
 		.item {
 			.item-title {
-
-
 				a {
 					@include fz(16);
 					@include UbuntuMedium;
@@ -546,6 +559,7 @@
 		.item {
 			.item-thumb {
 				width: 34%;
+				position: relative;
 
 				img {
 					height: 96px;

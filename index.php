@@ -320,6 +320,7 @@
       <ul class="list-top-deals">
         <li class="item">
           <figure class="item-thumb">
+            
             <div class="item-thumb-sale">
               <p><span>-3%</span></p>
             </div>
